@@ -209,6 +209,44 @@
    ],
    "id": "hextom"
   },
+  "orichi": {
+   "name": "OC Quantity Breaks & Limit (Orichi)",
+   "status": "ok",
+   "developer": {
+    "value": "Orichi",
+    "source": "https://orichi.crisp.help/en/article/malicious-code-served-to-storefronts-through-oc-quantity-breaks-limit-ep2drz/",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "description": {
+    "en": "Quantity discount campaigns for Shopify storefronts.",
+    "uk": "Кампанії кількісних знижок для вітрин Shopify.",
+    "source": "https://orichi.crisp.help/en/article/malicious-code-served-to-storefronts-through-oc-quantity-breaks-limit-ep2drz/",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-09-11",
+     "en": "Vendor: malicious code redirected shoppers to shopfily[.]shop; removed the same day. September incident; any link to the October wave is unverified.",
+     "uk": "Вендор: шкідливий код перенаправляв покупців на shopfily[.]shop; його видалено того ж дня. Вересневий інцидент; зв'язок із жовтневою хвилею не перевірено.",
+     "source": "https://orichi.crisp.help/en/article/malicious-code-served-to-storefronts-through-oc-quantity-breaks-limit-ep2drz/"
+    },
+    {
+     "date": "2026-10-08",
+     "en": "Vendor: app relisted on the Shopify App Store after security requirements were completed.",
+     "uk": "Вендор: застосунок повернуто в Shopify App Store після виконання вимог безпеки.",
+     "source": "https://orichi.crisp.help/en/article/malicious-code-served-to-storefronts-through-oc-quantity-breaks-limit-ep2drz/"
+    }
+   ],
+   "id": "orichi"
+  },
   "boost": {
    "name": "Boost AI Search & Filter",
    "status": "warn",
@@ -366,8 +404,8 @@
    "timeline": [
     {
      "date": "2026-10-20",
-     "en": "A merchant reports code in menu labels and the checkout button (cartassure[.]top). The post does not establish the responsible app (unconfirmed).",
-     "uk": "Мерчант пише про код у назвах меню і на кнопці checkout (cartassure[.]top). Допис не встановлює джерело серед застосунків (не підтверджено).",
+     "en": "A merchant reports code in menu labels and the checkout button (cartassure[.]top); a merchant says Shopify identified 17TRACK (not publicly confirmed).",
+     "uk": "Мерчант пише про код у назвах меню і на кнопці checkout (cartassure[.]top); мерчант пише, що Shopify назвав 17TRACK (публічно не підтверджено).",
      "source": "https://www.reddit.com/r/shopifyDev/comments/1xau8w6/"
     },
     {
