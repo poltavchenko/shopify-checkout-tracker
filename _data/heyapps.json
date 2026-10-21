@@ -1,45 +1,45 @@
 {
   "checked": "2026-10-21",
-  "captured_at": "2026-10-21T12:30:10.642Z",
-  "capture_started_at": "2026-10-21T12:28:49.672Z",
-  "captured_local": "2026-10-21 14:30:10 (Europe/Bratislava, UTC+02:00)",
+  "captured_at": "2026-10-21T15:31:37.968Z",
+  "capture_started_at": "2026-10-21T15:31:08.275Z",
+  "captured_local": "2026-10-21 17:31:37 (Europe/Bratislava, UTC+02:00)",
   "counts": {
-    "delisted": 435,
+    "delisted": 436,
     "recovered": 14,
-    "total": 449
+    "total": 450
   },
   "sources": [
     {
       "url": "https://heyapps.dev/apps/delisted?sort=reviews",
-      "captured_at": "2026-10-21T12:28:49.672Z",
+      "captured_at": "2026-10-21T15:31:08.275Z",
       "view": "delisted",
-      "reported_count": 435,
+      "reported_count": 436,
       "captured_count": 400,
-      "sha256": "af6513d97b09418d996a1159687d36708470da2cdf8932eb5d931082b1d96b69"
+      "sha256": "210ab6a6f144cd44c5c6acaff8f66176351e51243d7eb510ca284e1e0e6ec497"
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=delisted",
-      "captured_at": "2026-10-21T12:29:36.616Z",
+      "captured_at": "2026-10-21T15:31:22.834Z",
       "view": "delisted",
-      "reported_count": 435,
+      "reported_count": 436,
       "captured_count": 400,
-      "sha256": "5bd7fbbc7052cf52e93fd0f91894df47f18a6380ec25e4f76b3e74e6b20de736"
+      "sha256": "0d7b90c1480d263cceb23b94a339ead36b1f44ce7f45664bb4ae29e2333f0682"
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-10-21T12:30:02.336Z",
+      "captured_at": "2026-10-21T15:31:27.342Z",
       "view": "delisted",
-      "reported_count": 435,
+      "reported_count": 436,
       "captured_count": 400,
-      "sha256": "f22d9b9911090267810826d61ef64e246618a48f587e382b38ea82e668b60d12"
+      "sha256": "b6e2ce4d65f97553272fb777f759adcac53ebe419fda8ae92a255e9fd8a6d6bf"
     },
     {
       "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-10-21T12:30:10.642Z",
+      "captured_at": "2026-10-21T15:31:37.968Z",
       "view": "recovered",
       "reported_count": 14,
       "captured_count": 14,
-      "sha256": "bcefd1adb8e8286f63d07209246d01ec4afc2978a74dd001a60f1f3ed48c26dc"
+      "sha256": "6391eadeb75093f17a809bc851bc5828fcebc8caa1f1a2ca6799a15d16184217"
     }
   ],
   "incident_ids": {
@@ -1954,6 +1954,16 @@
       "recovered": null,
       "launched": "2023-05-03",
       "source_url": "https://heyapps.dev/apps/musbu-social-chat-button"
+    },
+    {
+      "slug": "mx-brand-logo-marquee",
+      "name": "Mx Brand Logo Marquee",
+      "developer": "OMNICARTIX LTD",
+      "availability": "delisted",
+      "delisted": "2026-10-21",
+      "recovered": null,
+      "launched": "2026-03-25",
+      "source_url": "https://heyapps.dev/apps/mx-brand-logo-marquee"
     },
     {
       "slug": "mysterydrop",

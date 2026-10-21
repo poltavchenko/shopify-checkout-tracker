@@ -22,8 +22,8 @@ alt: /checklist/
 
 Дві примітки до цього тесту:
 
-- Якщо при кліку на посилання на інший сайт ви бачите діалог «Are you sure you want to leave …?» з кнопками «Go to site» і «Back to …», це саме по собі не ознака атаки. Схоже, це захисне попередження Shopify перед виходом з магазину: «Go to site» відкриває лише те посилання, на яке ви клікнули (не перевірено, офіційного анонсу Shopify поки немає). Тривожні ознаки інші: checkout на домені, який не ваш і не Shopify, особливо домен .top з [трекера]({{ '/uk/tracker/' | relative_url }}), або посилання на checkout з `return_to` на чужий сайт.
-- Перевіряйте у справжньому браузері. Простий запит `curl` або онлайн-сервіс «переглянути сторінку» отримує не весь HTML, який бачить покупець, тож чистий результат там нічого не доводить (не перевірено, за нашими власними спостереженнями).
+- Shopify описує підтвердження «Are you sure you want to leave …?» перед переходом на інший сайт. Саме вікно не доводить злам і не означає, що інший сайт небезпечний. Якщо названо незнайомий сайт або вікно з’являється на «Додати в кошик» чи Checkout, поверніться, перевірте свіжі застосунки й код теми та напишіть у Shopify Support. Зараз його не можна вимкнути чи вибрати сайти-винятки. Початок розгортання, охоплення всіх магазинів і зв’язок з інцидентом не перевірені. [Довідка Shopify](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
+- Перевіряйте у справжньому браузері. Завантаження HTML не виконує JavaScript вітрини і не перевіряє клік на Checkout. Чистий HTML не замінює перевірку роботи checkout.
 
 ## 2. Застосунки (5 хв)
 
@@ -45,7 +45,7 @@ alt: /checklist/
 ## 4. Custom pixels і пікселі застосунків (2 хв)
 
 - [ ] **Settings > Customer events**: перегляньте custom pixels і пікселі застосунків. Ви маєте знати, хто додав кожен піксель і куди він шле дані.
-- [ ] Custom pixels працюють в ізольованій пісочниці і не можуть змінити сторінку вітрини, тому для перенаправлення вони менш ризиковані, але код і згода на обробку даних лишаються вашою відповідальністю. ([Shopify Help Center](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
+- [ ] Кастомні пікселі працюють у Lax sandbox. Перевірте їхній код, налаштування згоди й обмеження sandbox. ([Довідка Shopify](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels), [обмеження sandbox](https://help.shopify.com/en/manual/promoting-marketing/pixels/overview#limitations-of-the-pixels-sandbox))
 
 ## 5. Checkout і доступи (3 хв)
 

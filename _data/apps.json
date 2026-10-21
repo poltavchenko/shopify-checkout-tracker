@@ -129,12 +129,18 @@
      "en": "Vendor paused the app for all merchants as a precaution.",
      "uk": "Вендор поставив застосунок на паузу для всіх мерчантів.",
      "source": "https://www.getswym.com/resources/wishlist-plus-incident-faq"
-     },
-     {
-      "date": "2026-10-21",
-      "en": "Vendor status at 11:30 UTC: initial batch checks passed; preparing to offer re-enablement to all merchants.",
-      "uk": "Статус вендора о 11:30 UTC: початкові перевірки груп пройдено; готують повторне ввімкнення для всіх мерчантів.",
-      "source": "https://status.getswym.com/"
+    },
+    {
+     "date": "2026-10-21",
+     "en": "Vendor status at 11:30 UTC: initial batch checks passed; preparing to offer re-enablement to all merchants.",
+     "uk": "Статус вендора о 11:30 UTC: початкові перевірки груп пройдено; готують повторне ввімкнення для всіх мерчантів.",
+     "source": "https://status.getswym.com/"
+    },
+    {
+     "date": "2026-10-21",
+     "en": "Vendor status at 14:30 UTC: actively monitoring and continuing to restore merchants in batches.",
+     "uk": "Статус вендора о 14:30 UTC: триває моніторинг і відновлення доступу мерчантів групами.",
+     "source": "https://status.getswym.com/"
     }
    ],
    "id": "swym-wishlist-plus"
@@ -225,10 +231,10 @@
     "verified": true
    },
    "email": {
-    "value": null,
-    "source": null,
+    "value": "support@orichi.info",
+    "source": "https://orichi.crisp.help/en/article/how-to-know-all-the-code-is-removed-from-my-theme-when-i-uninstall-your-app-ot9f0q/",
     "checked": "2026-10-21",
-    "verified": null
+    "verified": true
    },
    "description": {
     "en": "Quantity discount campaigns for Shopify storefronts.",
@@ -248,6 +254,12 @@
      "date": "2026-10-08",
      "en": "Vendor: app relisted on the Shopify App Store after security requirements were completed.",
      "uk": "Вендор: застосунок повернуто в Shopify App Store після виконання вимог безпеки.",
+     "source": "https://orichi.crisp.help/en/article/malicious-code-served-to-storefronts-through-oc-quantity-breaks-limit-ep2drz/"
+    },
+    {
+     "date": "2026-10-21",
+     "en": "Source access check: the incident-notice URL returns 404. This entry retains the previously published vendor report dated 8 October.",
+     "uk": "Перевірка доступності джерела: URL звіту про інцидент віддає 404. Запис зберігає раніше опублікований звіт вендора від 8 жовтня.",
      "source": "https://orichi.crisp.help/en/article/malicious-code-served-to-storefronts-through-oc-quantity-breaks-limit-ep2drz/"
     }
    ],
@@ -299,6 +311,12 @@
      "en": "Vendor status page: theme extension switched back on at 18:19 UTC.",
      "uk": "Статус-сторінка вендора: theme extension знову ввімкнено о 18:19 UTC.",
      "source": "https://status.boostcommerce.net"
+    },
+    {
+     "date": "2026-10-19",
+     "en": "Vendor status at 15:53 UTC: storefront search, filters and collections have worked normally since 18 October, 18:48 UTC. This is an operational update, not a security finding.",
+     "uk": "Статус вендора о 15:53 UTC: пошук, фільтри й колекції працюють нормально з 18 жовтня, 18:48 UTC. Це операційне оновлення, а не висновок про безпеку.",
+     "source": "https://status.boostcommerce.net"
     }
    ],
    "id": "boost"
@@ -343,6 +361,12 @@
      "en": "Privy status page: pop-ups and forms not showing; no mention of security.",
      "uk": "Статус-сторінка Privy: поп-апи і форми не показуються; без згадки про безпеку.",
      "source": "https://status.privy.com"
+    },
+    {
+     "date": "2026-10-19",
+     "en": "Vendor status: popups and embedded forms restored at 20:28 UTC (16:28 EDT). No security finding in the notice.",
+     "uk": "Статус вендора: поп-апи та вбудовані форми відновлено о 20:28 UTC (16:28 EDT). Повідомлення не містить висновку про безпеку.",
+     "source": "https://status.privy.com"
     }
    ],
    "id": "privy"
@@ -360,7 +384,7 @@
     "value": "support@consentmo.com",
     "source": "https://www.consentmo.com/legal/privacy-policy",
     "checked": "2026-10-21",
-    "verified": true
+    "verified": false
    },
    "description": {
     "en": "A cookie consent banner and privacy compliance tool, with accessibility and data request features.",
@@ -412,7 +436,7 @@
      "date": "2026-10-20",
      "en": "A merchant reports code in menu labels and the checkout button (cartassure[.]top); a merchant says Shopify identified 17TRACK (not publicly confirmed).",
      "uk": "Мерчант пише про код у назвах меню і на кнопці checkout (cartassure[.]top); мерчант пише, що Shopify назвав 17TRACK (публічно не підтверджено).",
-     "source": "https://www.reddit.com/r/shopifyDev/comments/1xau8w6/"
+     "source": "https://www.reddit.com/r/shopifyDev/comments/1xau8w6/comment/phy8mey/"
     },
     {
      "date": "2026-10-20",
@@ -459,10 +483,10 @@
      "source": "https://heyapps.dev/apps/delisted?sort=reviews"
     },
     {
-     "date": "2026-10-19",
-     "en": "One merchant says the redirect code was inside this app (unconfirmed).",
-     "uk": "Один мерчант пише, що код редиректу був у цьому застосунку (не підтверджено).",
-     "source": "https://www.reddit.com/r/shopify/comments/1x8m5d8/shopify_issues/"
+     "date": "2026-10-18",
+     "en": "At 23:24 UTC a merchant called the app \"swathe king\" and said the redirect code was inside it. The app identity and incident attribution are unconfirmed.",
+     "uk": "О 23:24 UTC мерчант назвав застосунок \"swathe king\" і написав, що код редиректу був у ньому. Ідентичність застосунку та причетність до інциденту не підтверджені.",
+     "source": "https://www.reddit.com/r/shopify/comments/1x8m5d8/comment/phlefr5/"
     }
    ],
    "id": "color-swatch-king"
@@ -494,7 +518,7 @@
      "date": "2026-10-10",
      "en": "One merchant says the app redirected the whole store to a spam site a few weeks earlier (unconfirmed).",
      "uk": "Один мерчант пише, що за кілька тижнів до того застосунок перенаправляв увесь магазин на спам-сайт (не підтверджено).",
-     "source": "https://www.reddit.com/r/shopify/comments/1x2f4kx/"
+     "source": "https://www.reddit.com/r/shopify/comments/1x2f4kx/comment/pf4d079/"
     }
    ],
    "id": "hulk-advanced-wishlist"

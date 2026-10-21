@@ -20,7 +20,7 @@ alt: /faq/
 <details markdown="1">
 <summary>Shopify зламали?</summary>
 
-Ні, за даними незалежних дослідників. Власний checkout Shopify не зламаний. Шкідливий код працював на вітрині, до кнопки Checkout, через сторонні застосунки. Джерела: [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG). Окремої заяви Shopify для мерчантів ми не знайшли.
+Ні, за даними незалежних дослідників. Власний checkout Shopify не зламаний. Шкідливий код працював на вітрині, до кнопки Checkout, через сторонні застосунки. Джерела: [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG). Окремої заяви Shopify для мерчантів про цей інцидент підміни checkout ми не знайшли.
 
 </details>
 
@@ -34,7 +34,7 @@ alt: /faq/
 <details markdown="1">
 <summary>Які застосунки підтвердили інцидент?</summary>
 
-Hulk Product Options, Selleasy і Swym Wishlist Plus. Повний список зі статусами дивіться в [трекері]({{ '/uk/tracker/' | relative_url }}).
+За жовтень 2026: Hulk Product Options, Selleasy і Swym Wishlist Plus. Qikify (липень) та Orichi (вересень) опублікували звіти про окремі попередні інциденти. Повний список зі статусами дивіться в [трекері]({{ '/uk/tracker/' | relative_url }}).
 
 </details>
 
@@ -62,7 +62,7 @@ Hulk Product Options, Selleasy і Swym Wishlist Plus. Повний список 
 <details markdown="1">
 <summary>Видалити застосунок про всяк випадок?</summary>
 
-Спершу подумайте. Swym попереджає, що після видалення можна втратити дані (списки бажань), а Boost просить не видаляти і не перевстановлювати застосунок. Безпечніше тимчасово вимкнути app embed у редакторі теми і написати вендору. Джерела: [зведення заяв Swym](https://romanzipp.com/blog/statements-from-companies-involved-in-shopify-checkout-hijack), [статус Boost](https://status.boostcommerce.net).
+Спершу напишіть вендору. FAQ Swym від 20.10 каже, що пауза доступу не видаляє списки бажань. Статус від 21.10 повідомляє про відновлення групами. Boost просить не видаляти і не перевстановлювати застосунок. На час перевірки тимчасово вимкніть підозрілий app embed у редакторі теми. Джерела: [Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq), [статус Swym](https://status.getswym.com/), [статус Boost](https://status.boostcommerce.net).
 
 </details>
 
@@ -72,6 +72,15 @@ Hulk Product Options, Selleasy і Swym Wishlist Plus. Повний список 
 15.10 випустив перевірку безпеки для розробників застосунків, 20.10 опублікував для них "Securing your app, together" з позначкою Action required. Там також сказано, що Shopify звузить межі коду застосунків на вітрині і підніме вимоги App Store. Джерела: [15.10](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check), [20.10](https://shopify.dev/changelog/blog/securing-your-app-together).
 
 </details>
+<details markdown="1">
+<summary>Магазин питає «Are you sure you want to leave?» при кліку на зовнішнє посилання. Мене зламали?</summary>
+
+Саме по собі ні. Shopify описує це вікно: воно називає інший сайт і не відкривається для власних доменів магазину та їхніх піддоменів, зазначених в адмінці Shopify, checkout, сторінок Shopify і популярних соцмереж. Повідомлення не означає, що інший сайт небезпечний. Зараз його не можна вимкнути чи вибрати сайти-винятки.
+
+Перевірте випадки, коли вікно називає незнайомий сайт або з'являється на кнопці, яка має лишати покупця в магазині, наприклад «Додати в кошик» чи Checkout. Перегляньте нещодавно встановлені або оновлені застосунки та код теми. Напишіть у Shopify Support, додайте сторінку, названий сайт і скриншот. Дата початку розгортання, охоплення всіх магазинів і зв'язок з інцидентом підміни checkout не перевірені. Джерела: [довідка Shopify](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation), [спільнота розробників](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776).
+
+</details>
+
 ## Невідомо
 
 - Як саме код потрапив у кожен застосунок і чи це одна кампанія.
@@ -85,7 +94,7 @@ Hulk Product Options, Selleasy і Swym Wishlist Plus. Повний список 
 2. Збережіть докази: скриншоти, повну адресу сторінки, дату і час, які застосунки і app embeds увімкнені.
 3. Тимчасово вимкніть підозрілі app embeds або закрийте вітрину паролем.
 4. Напишіть у Shopify Support і вендору застосунку. Попросіть письмово вікно інциденту, код, який виконувався, і домени.
-5. Зверніться до платіжного провайдера. Якщо дані покупців могли потрапити до третіх осіб, разом з юристом оцініть обов'язки щодо повідомлення (у ЄС це ст. [33](https://gdpr-info.eu/art-33-gdpr/) і [34](https://gdpr-info.eu/art-34-gdpr/) GDPR).
+5. Зверніться до платіжного провайдера. Якщо дані покупців могли потрапити до третіх осіб, разом з юристом оцініть обов'язки щодо повідомлення (у ЄС це ст. [33](https://eur-lex.europa.eu/eli/reg/2016/679/) і [34](https://eur-lex.europa.eu/eli/reg/2016/679/) GDPR).
 
 ## Покупцям
 

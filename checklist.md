@@ -22,8 +22,8 @@ Limits: a clean test does not prove past shoppers were safe, and it cannot rule 
 
 Two notes for this test:
 
-- If you see a dialog like "Are you sure you want to leave …?" with "Go to site" and "Back to …" buttons when you click a link to another website, that on its own is not a sign of an attack. It appears to be a Shopify safety prompt before leaving the store: "Go to site" opens only the link you clicked (unverified, there is no official Shopify announcement yet). The warning signs are different: a checkout on a domain that is not yours or Shopify's, especially a .top domain from the [tracker]({{ '/tracker/' | relative_url }}), or a checkout link with `return_to` pointing to another site.
-- Test in a real browser. A plain `curl` request or an online "view page" tool does not get the full page HTML that shoppers get, so a clean result there proves nothing (unverified, based on our own observations).
+- Shopify documents the "Are you sure you want to leave …?" confirmation before an external website. The message alone does not establish a hack or mean the destination is unsafe. If it names an unfamiliar site or appears on Add to cart or Checkout, go back, review recent apps and theme code, and contact Shopify Support. It cannot be turned off or given custom exceptions at this time. Rollout timing, all-store coverage and a link to the incident remain unverified. [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
+- Test in a real browser. Fetching HTML does not execute storefront JavaScript or test a click on Checkout. A clean HTML scan is not a runtime checkout test.
 
 ## 2. Apps (5 min)
 
@@ -45,7 +45,7 @@ Two notes for this test:
 ## 4. Custom pixels and app pixels (2 min)
 
 - [ ] **Settings > Customer events**: review custom pixels and app pixels. You should know who added each one and where it sends data.
-- [ ] Custom pixels run in an isolated sandbox and cannot change the storefront page, so they are a lower risk for redirects. The code and consent handling are still your responsibility. ([Shopify Help Center](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
+- [ ] Custom pixels run in a Lax sandbox. Review their code, consent settings and the sandbox limitations. ([Shopify Help Center](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels), [sandbox limitations](https://help.shopify.com/en/manual/promoting-marketing/pixels/overview#limitations-of-the-pixels-sandbox))
 
 ## 5. Checkout and access (3 min)
 

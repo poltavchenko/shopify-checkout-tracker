@@ -20,7 +20,7 @@ Since about 10 Oct 2026, on some Shopify stores, shoppers who clicked Checkout w
 <details markdown="1">
 <summary>Was Shopify hacked?</summary>
 
-No, according to independent researchers. Shopify's own checkout was not broken. The malicious code ran on the storefront, before the Checkout button, through third-party apps. Sources: [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG). We have not found a separate statement from Shopify to merchants.
+No, according to independent researchers. Shopify's own checkout was not broken. The malicious code ran on the storefront, before the Checkout button, through third-party apps. Sources: [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG). We have not found a separate statement from Shopify to merchants about this checkout incident.
 
 </details>
 
@@ -34,7 +34,7 @@ In confirmed cases, through an app's settings: a field like "custom JS" that the
 <details markdown="1">
 <summary>Which apps have confirmed an incident?</summary>
 
-Hulk Product Options, Selleasy and Swym Wishlist Plus. See the [tracker]({{ '/tracker/' | relative_url }}) for the full list and statuses.
+For October 2026: Hulk Product Options, Selleasy and Swym Wishlist Plus. Qikify (July) and Orichi (September) published separate earlier incident reports. See the [tracker]({{ '/tracker/' | relative_url }}) for the full list and statuses.
 
 </details>
 
@@ -62,7 +62,7 @@ A delisting on its own proves nothing. [HeyApps lists {{ site.data.heyapps.count
 <details markdown="1">
 <summary>Should I uninstall the app just in case?</summary>
 
-Think first. Swym warns that uninstalling can lose data (wishlists), and Boost asks merchants not to uninstall and reinstall. A safer first step is to turn off the app embed in the theme editor and contact the vendor. Sources: [Swym statement summary](https://romanzipp.com/blog/statements-from-companies-involved-in-shopify-checkout-hijack), [Boost status](https://status.boostcommerce.net).
+Check with the vendor first. Swym's 20 Oct FAQ says pausing access does not delete wishlist data. Its 21 Oct status reports restoration in batches. Boost asks merchants not to uninstall and reinstall. Temporarily turn off a suspicious app embed in the theme editor while you investigate. Sources: [Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq), [Swym status](https://status.getswym.com/), [Boost status](https://status.boostcommerce.net).
 
 </details>
 
@@ -72,6 +72,15 @@ Think first. Swym warns that uninstalling can lose data (wishlists), and Boost a
 On 15 Oct it released a security check for app developers. On 20 Oct it published "Securing your app, together" for developers, marked Action required. It also says Shopify will tighten the boundaries for storefront app code and raise App Store security requirements. Sources: [15 Oct](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check), [20 Oct](https://shopify.dev/changelog/blog/securing-your-app-together).
 
 </details>
+<details markdown="1">
+<summary>My store asks "Are you sure you want to leave?" on an external link. Was my store hacked?</summary>
+
+Not by itself. Shopify documents this confirmation: it names the other website and does not open for the store's domains and their subdomains listed in Shopify admin, its checkout, Shopify pages or popular social networks. The message does not mean the other website is unsafe. It cannot be turned off, and merchants cannot choose websites that skip it at this time.
+
+Investigate when it names an unfamiliar website or appears on a button that should keep shoppers on your store, such as Add to cart or Checkout. Review recently installed or updated apps and your theme code. Contact Shopify Support with the page, the destination and a screenshot. The rollout start date, all-store coverage and any link to the checkout incident remain unverified. Sources: [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation), [Developer community](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776).
+
+</details>
+
 ## Not known yet
 
 - Exactly how the code got into each app, and whether it is one campaign.
@@ -85,7 +94,7 @@ On 15 Oct it released a security check for app developers. On 20 Oct it publishe
 2. Save evidence: screenshots, the full page address, date and time, which apps and app embeds are on.
 3. Temporarily turn off suspicious app embeds or put the storefront behind a password.
 4. Contact Shopify Support and the app vendor. Ask in writing for the incident window, the code that ran and the domains.
-5. Talk to your payment provider. If customer data may have reached third parties, assess your notification duties with a lawyer (in the EU, GDPR [Art. 33](https://gdpr-info.eu/art-33-gdpr/) and [Art. 34](https://gdpr-info.eu/art-34-gdpr/)).
+5. Talk to your payment provider. If customer data may have reached third parties, assess your notification duties with a lawyer (in the EU, GDPR [Art. 33](https://eur-lex.europa.eu/eli/reg/2016/679/) and [Art. 34](https://eur-lex.europa.eu/eli/reg/2016/679/)).
 
 ## For shoppers
 

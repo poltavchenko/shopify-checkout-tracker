@@ -91,7 +91,7 @@ class CatalogRenderingTests(unittest.TestCase):
                 path = self.destination / language / "apps/index.html"
                 self.assertTrue(path.is_file(), "Localized catalog page is missing")
                 page = CatalogHTML(path.read_text(encoding="utf-8"))
-                self.assertEqual(len(page.rows), 449)
+                self.assertEqual(len(page.rows), 450)
                 row = page.rows["heyapps-scarcity-ai-low-stock-counter"]
                 self.assertIn(self.name, row["cells"][0])
                 self.assertIn(self.developer, row["cells"][0])
@@ -134,7 +134,7 @@ class CatalogRenderingTests(unittest.TestCase):
             with self.subTest(language=language):
                 page = CatalogHTML((self.destination / language / "faq/index.html").read_text(encoding="utf-8"))
                 self.assertIn(sentence, page.text)
-                self.assertIn("2026-10-21 14:30:10", page.text)
+                self.assertIn("2026-10-21 17:31:37", page.text)
                 self.assertNotIn("429", page.text)
 
 
