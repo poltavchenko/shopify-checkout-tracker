@@ -129,6 +129,12 @@
      "en": "Vendor paused the app for all merchants as a precaution.",
      "uk": "Вендор поставив застосунок на паузу для всіх мерчантів.",
      "source": "https://www.getswym.com/resources/wishlist-plus-incident-faq"
+     },
+     {
+      "date": "2026-10-21",
+      "en": "Vendor status at 11:30 UTC: initial batch checks passed; preparing to offer re-enablement to all merchants.",
+      "uk": "Статус вендора о 11:30 UTC: початкові перевірки груп пройдено; готують повторне ввімкнення для всіх мерчантів.",
+      "source": "https://status.getswym.com/"
     }
    ],
    "id": "swym-wishlist-plus"
