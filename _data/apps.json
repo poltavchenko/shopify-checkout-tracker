@@ -170,8 +170,8 @@
     },
     {
      "date": "2026-10-16",
-     "en": "Vendor: not part of the October wave.",
-     "uk": "Вендор: не частина жовтневої хвилі.",
+     "en": "Lauren-Qikify: the July incident was resolved by August and is not part of the October wave. Roman Zipp updated the entry to mark it resolved.",
+     "uk": "Lauren-Qikify: липневий інцидент вирішено до серпня, він не є частиною жовтневої хвилі. Roman Zipp оновив позначку на «вирішено».",
      "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
     }
    ],
@@ -246,8 +246,14 @@
     },
     {
      "date": "2026-10-18",
-     "en": "Delisted from the App Store (per HeyApps); extension switched back on at 18:19 UTC.",
-     "uk": "Знято з App Store (за HeyApps); розширення знову ввімкнено о 18:19 UTC.",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-18",
+     "en": "Vendor status page: theme extension switched back on at 18:19 UTC.",
+     "uk": "Статус-сторінка вендора: theme extension знову ввімкнено о 18:19 UTC.",
      "source": "https://status.boostcommerce.net"
     }
    ],
@@ -360,8 +366,8 @@
    "timeline": [
     {
      "date": "2026-10-20",
-     "en": "A merchant reports code in menu labels and the checkout button (cartassure[.]top) and says Shopify named this app (unconfirmed).",
-     "uk": "Мерчант пише про код у назвах меню і на кнопці checkout (cartassure[.]top) і що Shopify назвав цей застосунок (не підтверджено).",
+     "en": "A merchant reports code in menu labels and the checkout button (cartassure[.]top). The post does not establish the responsible app (unconfirmed).",
+     "uk": "Мерчант пише про код у назвах меню і на кнопці checkout (cartassure[.]top). Допис не встановлює джерело серед застосунків (не підтверджено).",
      "source": "https://www.reddit.com/r/shopifyDev/comments/1xau8w6/"
     },
     {
@@ -372,8 +378,8 @@
     },
     {
      "date": "2026-10-21",
-     "en": "Roman Zipp lists it as \"unconfirmed but de-listed\"; another merchant comment says it \"maybe compromised\" (unconfirmed).",
-     "uk": "Roman Zipp позначає його як \"unconfirmed but de-listed\"; ще один мерчант у коментарі пише \"maybe compromised\" (не підтверджено).",
+     "en": "Roman Zipp lists it as \"unconfirmed but de-listed\". Urban Alcove's comments say it \"maybe compromised\" and name cartassure[.]top. The domain has two public mentions, including the Reddit report; whether they concern different stores is unverified.",
+     "uk": "Roman Zipp позначає його як \"unconfirmed but de-listed\". Urban Alcove у коментарях пише \"maybe compromised\" і називає cartassure[.]top. Домен має дві публічні згадки, включно зі звітом у Reddit; чи це різні магазини, не перевірено.",
      "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
     }
    ],

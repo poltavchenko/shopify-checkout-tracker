@@ -1,45 +1,45 @@
 {
   "checked": "2026-10-21",
-  "captured_at": "2026-10-21T08:27:56.636Z",
-  "capture_started_at": "2026-10-21T08:24:51.219Z",
-  "captured_local": "2026-10-21 10:27:56 (Europe/Bratislava, UTC+02:00)",
+  "captured_at": "2026-10-21T09:39:19.214Z",
+  "capture_started_at": "2026-10-21T09:37:11.479Z",
+  "captured_local": "2026-10-21 11:39:19 (Europe/Bratislava, UTC+02:00)",
   "counts": {
-    "delisted": 430,
+    "delisted": 431,
     "recovered": 14,
-    "total": 444
+    "total": 445
   },
   "sources": [
     {
       "url": "https://heyapps.dev/apps/delisted?sort=reviews",
-      "captured_at": "2026-10-21T08:24:51.219Z",
+      "captured_at": "2026-10-21T09:37:11.479Z",
       "view": "delisted",
-      "reported_count": 430,
+      "reported_count": 431,
       "captured_count": 400,
-      "sha256": "1fa03ae9a274d9ff6cc57aac5bf5780dce3dae97f06243cc719021dc132b429e"
-    },
-    {
-      "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-10-21T08:25:46.172Z",
-      "view": "recovered",
-      "reported_count": 14,
-      "captured_count": 14,
-      "sha256": "122b061aeb18c96cb37e3d415a6ab778f450a3844631c3200777698253456c0a"
+      "sha256": "4731504d7c31a26560a8eab7f8fd2be577a16188bdf8429b6337f186c1adceef"
     },
     {
       "url": "https://heyapps.dev/apps/delisted",
-      "captured_at": "2026-10-21T08:27:17.048Z",
+      "captured_at": "2026-10-21T09:38:43.095Z",
       "view": "delisted",
-      "reported_count": 430,
+      "reported_count": 431,
       "captured_count": 400,
-      "sha256": "74886109854cf328c42ec0527ae1267b7bdf07ee4b3d844dfe6de6eaf42ac3a2"
+      "sha256": "250f24e96cccd63f87996df7f203fcbc14fd2db8fbec955d1ebba5abed5f2fc6"
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-10-21T08:27:56.636Z",
+      "captured_at": "2026-10-21T09:38:57.280Z",
       "view": "delisted",
-      "reported_count": 430,
+      "reported_count": 431,
       "captured_count": 400,
-      "sha256": "cad4c6ecda39e052e86183558676ec744104619ad0782590ba946fcd4d48c352"
+      "sha256": "3f18d916e76deb1ed54207942b725801f0e32a781296ca7b96b6501edf4ad98c"
+    },
+    {
+      "url": "https://heyapps.dev/apps/delisted?view=recovered",
+      "captured_at": "2026-10-21T09:39:19.214Z",
+      "view": "recovered",
+      "reported_count": 14,
+      "captured_count": 14,
+      "sha256": "6f658a294c7b8bd1a7864143504a0ba13919563a324401695fb820d968222c4a"
     }
   ],
   "incident_ids": {
@@ -2384,6 +2384,16 @@
       "recovered": null,
       "launched": "2026-05-15",
       "source_url": "https://heyapps.dev/apps/postrise-seo-blog-automation"
+    },
+    {
+      "slug": "praxis",
+      "name": "Praxis",
+      "developer": "Css Providers",
+      "availability": "delisted",
+      "delisted": "2026-10-21",
+      "recovered": null,
+      "launched": "2026-01-15",
+      "source_url": "https://heyapps.dev/apps/praxis"
     },
     {
       "slug": "price-engine",
