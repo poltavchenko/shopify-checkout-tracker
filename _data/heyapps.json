@@ -1,45 +1,45 @@
 {
   "checked": "2026-10-21",
-  "captured_at": "2026-10-21T09:39:19.214Z",
-  "capture_started_at": "2026-10-21T09:37:11.479Z",
-  "captured_local": "2026-10-21 11:39:19 (Europe/Bratislava, UTC+02:00)",
+  "captured_at": "2026-10-21T12:30:10.642Z",
+  "capture_started_at": "2026-10-21T12:28:49.672Z",
+  "captured_local": "2026-10-21 14:30:10 (Europe/Bratislava, UTC+02:00)",
   "counts": {
-    "delisted": 431,
+    "delisted": 435,
     "recovered": 14,
-    "total": 445
+    "total": 449
   },
   "sources": [
     {
       "url": "https://heyapps.dev/apps/delisted?sort=reviews",
-      "captured_at": "2026-10-21T09:37:11.479Z",
+      "captured_at": "2026-10-21T12:28:49.672Z",
       "view": "delisted",
-      "reported_count": 431,
+      "reported_count": 435,
       "captured_count": 400,
-      "sha256": "4731504d7c31a26560a8eab7f8fd2be577a16188bdf8429b6337f186c1adceef"
+      "sha256": "af6513d97b09418d996a1159687d36708470da2cdf8932eb5d931082b1d96b69"
     },
     {
-      "url": "https://heyapps.dev/apps/delisted",
-      "captured_at": "2026-10-21T09:38:43.095Z",
+      "url": "https://heyapps.dev/apps/delisted?sort=delisted",
+      "captured_at": "2026-10-21T12:29:36.616Z",
       "view": "delisted",
-      "reported_count": 431,
+      "reported_count": 435,
       "captured_count": 400,
-      "sha256": "250f24e96cccd63f87996df7f203fcbc14fd2db8fbec955d1ebba5abed5f2fc6"
+      "sha256": "5bd7fbbc7052cf52e93fd0f91894df47f18a6380ec25e4f76b3e74e6b20de736"
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-10-21T09:38:57.280Z",
+      "captured_at": "2026-10-21T12:30:02.336Z",
       "view": "delisted",
-      "reported_count": 431,
+      "reported_count": 435,
       "captured_count": 400,
-      "sha256": "3f18d916e76deb1ed54207942b725801f0e32a781296ca7b96b6501edf4ad98c"
+      "sha256": "f22d9b9911090267810826d61ef64e246618a48f587e382b38ea82e668b60d12"
     },
     {
       "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-10-21T09:39:19.214Z",
+      "captured_at": "2026-10-21T12:30:10.642Z",
       "view": "recovered",
       "reported_count": 14,
       "captured_count": 14,
-      "sha256": "6f658a294c7b8bd1a7864143504a0ba13919563a324401695fb820d968222c4a"
+      "sha256": "bcefd1adb8e8286f63d07209246d01ec4afc2978a74dd001a60f1f3ed48c26dc"
     }
   ],
   "incident_ids": {
@@ -804,6 +804,16 @@
       "recovered": null,
       "launched": "2026-09-16",
       "source_url": "https://heyapps.dev/apps/bundleforge-6"
+    },
+    {
+      "slug": "bundlemax-bundles-upsells",
+      "name": "BundleMax: Bundles & Upsells",
+      "developer": "The Meno Lab",
+      "availability": "delisted",
+      "delisted": "2026-10-21",
+      "recovered": null,
+      "launched": "2026-05-01",
+      "source_url": "https://heyapps.dev/apps/bundlemax-bundles-upsells"
     },
     {
       "slug": "bundlify-3",
@@ -2776,6 +2786,16 @@
       "source_url": "https://heyapps.dev/apps/restockping"
     },
     {
+      "slug": "stockpilot-12",
+      "name": "Restockr",
+      "developer": "Mert Cetin",
+      "availability": "delisted",
+      "delisted": "2026-10-21",
+      "recovered": null,
+      "launched": "2026-07-10",
+      "source_url": "https://heyapps.dev/apps/stockpilot-12"
+    },
+    {
       "slug": "retouching-photo-infotecsourz",
       "name": "Retouching Photo :Infotecsourz",
       "developer": "Infotecsourz",
@@ -3516,6 +3536,16 @@
       "source_url": "https://heyapps.dev/apps/migrate-any-platform-data"
     },
     {
+      "slug": "tabs-description-reviews",
+      "name": "Tabs Description & Reviews",
+      "developer": "BrandCrock GmbH",
+      "availability": "delisted",
+      "delisted": "2026-10-21",
+      "recovered": null,
+      "launched": "2026-02-26",
+      "source_url": "https://heyapps.dev/apps/tabs-description-reviews"
+    },
+    {
       "slug": "taffi-fashion-style-genie",
       "name": "Taffi StyleGenie",
       "developer": "Taffi Inc.",
@@ -3584,6 +3614,16 @@
       "recovered": null,
       "launched": "2026-06-18",
       "source_url": "https://heyapps.dev/apps/qwick"
+    },
+    {
+      "slug": "tododo",
+      "name": "ToDoDo",
+      "developer": "mkuriata",
+      "availability": "delisted",
+      "delisted": "2026-10-21",
+      "recovered": null,
+      "launched": "2026-05-19",
+      "source_url": "https://heyapps.dev/apps/tododo"
     },
     {
       "slug": "ri-quick-commerce-enablement",
