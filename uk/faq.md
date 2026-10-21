@@ -55,7 +55,7 @@ Hulk Product Options, Selleasy і Swym Wishlist Plus. Повний список 
 <details markdown="1">
 <summary>Застосунок, який я використовую, зняли з App Store. Мене зламали?</summary>
 
-Саме по собі зняття нічого не доводить. На 21.10 HeyApps рахує 429 знятих застосунків, серед них навіть застосунок самого Shopify. Зняття також не видаляє застосунок з вашого магазину. Пройдіть чекліст і напишіть вендору. Джерела: [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG).
+Саме по собі зняття нічого не доводить. [HeyApps показує {{ site.data.heyapps.counts.delisted }} знятих застосунків у знімку каталогу]({{ '/uk/apps/' | relative_url }}) від {{ site.data.heyapps.captured_local }}, серед них навіть застосунок самого Shopify. Зняття також не видаляє застосунок з вашого магазину. Пройдіть чекліст і напишіть вендору. Джерела: [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG).
 
 </details>
 

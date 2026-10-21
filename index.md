@@ -10,6 +10,8 @@ alt: /uk/
 
 <div class="cards-grid"><a class="card" href="{{ '/tracker/' | relative_url }}"><h3>Tracker</h3><p>Apps and episodes with one of three statuses, each with a date and a source.</p></a><a class="card" href="{{ '/faq/' | relative_url }}"><h3>FAQ</h3><p>What happened, what Shopify has done, what to do if you find something.</p></a><a class="card" href="{{ '/checklist/' | relative_url }}"><h3>Self-check</h3><p>A 15-20 minute checklist for your own store. Safe actions only.</p></a></div>
 
+[HeyApps catalog]({{ '/apps/' | relative_url }}): {{ site.data.heyapps.counts.delisted }} delisted and {{ site.data.heyapps.counts.recovered }} listed-again apps in a dated snapshot. Availability and incident evidence are separate.
+
 ## Statuses
 
 - <span class="badge badge-ok">confirmed by vendor</span> the app developer has publicly acknowledged an incident.

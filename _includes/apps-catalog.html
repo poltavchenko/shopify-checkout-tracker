@@ -1,0 +1,51 @@
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+{%- assign catalog = site.data.heyapps -%}
+{%- if page.lang == 'uk' -%}{%- assign tracker_path = '/uk/tracker/' -%}{%- else -%}{%- assign tracker_path = '/tracker/' -%}{%- endif -%}
+<h2 id="catalog-snapshot">{{ t.catalog_snapshot }}</h2>
+<p><strong>{{ catalog.counts.delisted }} {{ t.catalog_delisted }} · {{ catalog.counts.recovered }} {{ t.catalog_recovered }}</strong><br>
+{{ t.catalog_captured }}: <time datetime="{{ catalog.captured_at | escape }}">{{ catalog.captured_local | escape }}</time>.</p>
+<p><strong>{{ t.catalog_caveat }}</strong></p>
+<p>{{ t.catalog_scope }} <a href="{{ tracker_path | relative_url }}">{{ t.tracker }}</a>.</p>
+<details>
+  <summary>{{ t.catalog_provenance }}</summary>
+  <p>{{ t.catalog_method }}</p>
+  <p>{{ t.catalog_capture_range }}: <time datetime="{{ catalog.capture_started_at | escape }}">{{ catalog.capture_started_at | escape }}</time> / <time datetime="{{ catalog.captured_at | escape }}">{{ catalog.captured_at | escape }}</time>.</p>
+  <ul>
+  {%- for source in catalog.sources -%}
+    {%- assign availability_key = 'catalog_' | append: source.view -%}
+    <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">HeyApps: {{ t[availability_key] }}</a> · {{ source.captured_count }} / {{ source.reported_count }} {{ t.catalog_source_records }} · <time datetime="{{ source.captured_at | escape }}">{{ source.captured_at | escape }}</time><br>SHA-256: <code>{{ source.sha256 | escape }}</code></li>
+  {%- endfor -%}
+  </ul>
+</details>
+
+<h2 id="catalog-table-title">{{ t.catalog_apps }}</h2>
+<div class="search" id="app-search" role="search" hidden>
+  <label for="q" class="sr-only">{{ t.catalog_search_label }}</label>
+  <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="{{ t.catalog_search_placeholder }}">
+  <button type="button" class="search-clear" aria-label="{{ t.catalog_search_clear }}" hidden>&times;</button>
+  <kbd class="search-kbd" aria-hidden="true">/</kbd>
+</div>
+<p class="search-count" id="search-count" aria-live="polite"></p>
+<div class="search-empty" id="search-empty" hidden>
+  <p><strong>{{ t.catalog_search_empty }}</strong></p>
+  <p>{{ t.catalog_search_scope }}</p>
+</div>
+
+<table id="apps-table" aria-labelledby="catalog-table-title">
+  <thead><tr><th scope="col">{{ t.catalog_app }}</th><th scope="col">{{ t.catalog_availability }}</th><th scope="col">{{ t.catalog_delisted_date }}</th><th scope="col">{{ t.catalog_recovered_date }}</th><th scope="col">{{ t.catalog_incident }}</th></tr></thead>
+  <tbody>
+  {%- for app in catalog.apps -%}
+    {%- assign incident_id = catalog.incident_ids[app.slug] -%}
+    {%- assign incident = site.data.apps.apps[incident_id] -%}
+    {%- assign availability_key = 'catalog_' | append: app.availability -%}
+    <tr id="heyapps-{{ app.slug | escape }}">
+      <td><a href="{{ app.source_url | escape }}" rel="noopener noreferrer">{{ app.name | escape }}</a>{% if app.developer %}<br> <small class="muted">{{ app.developer | escape }}</small>{% endif %}</td>
+      <td><span class="tag tag-none">{{ t[availability_key] }}</span></td>
+      <td><time datetime="{{ app.delisted | escape }}">{{ app.delisted | escape }}</time></td>
+      <td>{% if app.recovered %}<time datetime="{{ app.recovered | escape }}">{{ app.recovered | escape }}</time>{% else %}-{% endif %}</td>
+      <td>{% if incident %}{% assign status_key = 's_' | append: incident.status %}<span class="badge badge-{{ incident.status | escape }}">{{ t[status_key] }}</span><br><button type="button" class="app-open" data-app="{{ incident_id | escape }}" aria-label="{{ t.m_details }}: {{ incident.name | escape }}">{{ t.m_details }}</button>{% else %}<span class="muted">{{ t.catalog_not_assessed }}</span>{% endif %}</td>
+    </tr>
+  {%- endfor -%}
+  </tbody>
+</table>

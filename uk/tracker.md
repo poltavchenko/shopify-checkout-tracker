@@ -50,8 +50,9 @@ alt: /tracker/
 | <button type="button" class="app-open" data-app="unknown-checkout-guard">Невідомий застосунок, три магазини одного власника</button> | <span class="badge badge-warn">не підтверджено</span> | 19.10.2026 | Редирект на checkout-guard[.]top, джерело не знайдено | [Shopify Community 700903](https://community.shopify.com/t/customers-redirected-to-cloned-checkout-that-captures-card-details-anyone-else-affected/700903) (19.10) |
 | <button type="button" class="app-open" data-app="rebuy">Rebuy Personalization Engine</button> | <span class="badge badge-off">знято без звіту</span> | 18.10.2026 | Знято з App Store. Taylor Page пише, що скрипти Rebuy чисті на магазинах його клієнтів | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21.10); [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) (20.10) |
 | <button type="button" class="app-open" data-app="shopify-product-network">Shopify Product Network (застосунок самого Shopify)</button> | <span class="badge badge-off">знято без звіту</span> | 15.10.2026 | Знято з App Store | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21.10) |
-| Інші зняті застосунки | <span class="badge badge-off">знято без звіту</span> | 14-21.10.2026 | HeyApps на 21.10 показує 429 знятих і 14 повернених застосунків, усі зняті між 14 і 21.10. Причини не названо | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21.10) |
 {: #apps-table}
+
+Окремий [каталог HeyApps]({{ '/uk/apps/' | relative_url }}) містить {{ site.data.heyapps.counts.delisted }} знятих і {{ site.data.heyapps.counts.recovered }} повернених застосунків у знімку від {{ site.data.heyapps.captured_local }}. Доступність сама по собі не є доказом зламу чи безпеки.
 
 ## Відомі фішингові домени (не відкривайте їх)
 

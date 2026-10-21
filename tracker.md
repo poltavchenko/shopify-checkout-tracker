@@ -50,8 +50,9 @@ A delisting does not mean an app was compromised, and it does not remove the app
 | <button type="button" class="app-open" data-app="unknown-checkout-guard">Unknown app, three stores of one owner</button> | <span class="badge badge-warn">unconfirmed</span> | 19 Oct 2026 | Redirect to checkout-guard[.]top, source not found | [Shopify Community 700903](https://community.shopify.com/t/customers-redirected-to-cloned-checkout-that-captures-card-details-anyone-else-affected/700903) (19 Oct) |
 | <button type="button" class="app-open" data-app="rebuy">Rebuy Personalization Engine</button> | <span class="badge badge-off">removed without report</span> | 18 Oct 2026 | Delisted. Taylor Page says Rebuy's scripts came back clean on his client stores | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21 Oct); [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) (20 Oct) |
 | <button type="button" class="app-open" data-app="shopify-product-network">Shopify Product Network (Shopify's own app)</button> | <span class="badge badge-off">removed without report</span> | 15 Oct 2026 | Delisted | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21 Oct) |
-| Other delisted apps | <span class="badge badge-off">removed without report</span> | 14-21 Oct 2026 | HeyApps lists 429 delisted and 14 recovered apps as of 21 Oct, all delisted between 14 and 21 Oct. No reasons given | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21 Oct) |
 {: #apps-table}
+
+The separate [HeyApps catalog]({{ '/apps/' | relative_url }}) contains {{ site.data.heyapps.counts.delisted }} delisted and {{ site.data.heyapps.counts.recovered }} listed-again apps in the snapshot captured at {{ site.data.heyapps.captured_local }}. Availability alone does not establish a compromise or safety.
 
 ## Known phishing domains (do not visit)
 

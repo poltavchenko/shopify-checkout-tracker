@@ -9,6 +9,7 @@
 <meta name="description" content="{{ page.lede | default: site.description | strip_html | escape }}">
 <meta name="color-scheme" content="light dark">
 <meta name="referrer" content="no-referrer">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml" sizes="any">
 <link rel="alternate" hreflang="{% if page.lang == 'uk' %}en{% else %}uk{% endif %}" href="{{ page.alt | relative_url }}">
 <script>
 (function(){try{var q=new URLSearchParams(location.search).get('theme');var s=q||localStorage.getItem('theme');if(s==='dark'||s==='light'){document.documentElement.setAttribute('data-theme',s);}}catch(e){}})();
@@ -37,6 +38,7 @@
       <a href="{{ base | append: 'tracker/' | relative_url }}"{% if page.slug == 'tracker' %} aria-current="page"{% endif %}>{{ t.tracker }}</a>
       <a href="{{ base | append: 'faq/' | relative_url }}"{% if page.slug == 'faq' %} aria-current="page"{% endif %}>{{ t.faq }}</a>
       <a href="{{ base | append: 'checklist/' | relative_url }}"{% if page.slug == 'checklist' %} aria-current="page"{% endif %}>{{ t.checklist }}</a>
+      <a href="{{ base | append: 'apps/' | relative_url }}"{% if page.slug == 'apps' %} aria-current="page"{% endif %}>{{ t.catalog }}</a>
     </nav>
   </div>
 </header>
@@ -47,7 +49,7 @@
     {%- if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif -%}
     <p class="disclaimer"><strong>{{ t.disclaimer_title }}</strong> {{ t.disclaimer }}</p>
   </section>
-  <article class="content{% if page.slug %} page-{{ page.slug }}{% endif %}">
+  <article class="content{% if page.slug %} page-{{ page.slug }}{% endif %}{% if page.slug == 'apps' %} page-tracker{% endif %}">
 {{ content }}
   </article>
   <section class="report" aria-labelledby="report-title">
@@ -62,7 +64,7 @@
     <p class="muted">{{ t.no_tracking }}</p>
   </div>
 </footer>
-{%- if page.slug == "tracker" %}
+{%- if page.slug == "tracker" or page.slug == "apps" %}
 <dialog class="modal" id="app-modal" aria-labelledby="modal-title">
   <div class="modal-inner">
     <header class="modal-head">

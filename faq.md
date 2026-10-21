@@ -55,7 +55,7 @@ Not necessarily. After the fake page, shoppers were sent back to the real checko
 <details markdown="1">
 <summary>An app I use was delisted. Was I hacked?</summary>
 
-A delisting on its own proves nothing. As of 21 Oct, HeyApps counts 429 delisted apps, including one of Shopify's own. Delisting also does not remove the app from your store. Run the checklist and ask the vendor. Sources: [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG).
+A delisting on its own proves nothing. [HeyApps lists {{ site.data.heyapps.counts.delisted }} delisted apps in the catalog snapshot]({{ '/apps/' | relative_url }}) captured at {{ site.data.heyapps.captured_local }}, including one of Shopify's own. Delisting also does not remove the app from your store. Run the checklist and ask the vendor. Sources: [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG).
 
 </details>
 
