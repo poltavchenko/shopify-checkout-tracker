@@ -1,0 +1,555 @@
+{
+ "checked": "2026-10-21",
+ "apps": {
+  "hulk-product-options": {
+   "name": "Hulk Product Options",
+   "status": "ok",
+   "developer": {
+    "value": "HulkApps",
+    "source": "https://web.archive.org/web/20261004013013/https://apps.shopify.com/product-options-by-hulkapps-1",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "help-support@shopcircle.co",
+    "source": "https://www.hulkapps.com/pages/contact",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "Adds extra product options to product pages, such as swatches, dropdowns, file uploads and custom text, with optional add-on pricing.",
+    "uk": "Додає на сторінки товарів додаткові опції: свотчі, списки, завантаження файлів і власний текст, з можливою доплатою за опцію.",
+    "source": "https://web.archive.org/web/20261004013013/https://apps.shopify.com/product-options-by-hulkapps-1",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-10",
+     "en": "Vendor: unauthorized configurations in the theme extension redirected some checkouts.",
+     "uk": "Вендор: несанкціоновані налаштування в theme extension перенаправляли частину переходів на checkout.",
+     "source": "https://romanzipp.com/blog/statements-from-companies-involved-in-shopify-checkout-hijack"
+    },
+    {
+     "date": "2026-10-15",
+     "en": "HulkApps statement: only this extension was involved; Shopify temporarily disabled it, then restored it.",
+     "uk": "Заява HulkApps: причетне лише це розширення; Shopify тимчасово вимикав його, потім повернув.",
+     "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    },
+    {
+     "date": "2026-10-15",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    }
+   ],
+   "id": "hulk-product-options"
+  },
+  "selleasy": {
+   "name": "Upsell & Cross Sell (Selleasy)",
+   "status": "ok",
+   "developer": {
+    "value": "Logbase",
+    "source": "https://www.logbase.io/selleasy/updates/incident-20261013",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "communication@logbase.io",
+    "source": "https://www.logbase.io/selleasy/updates/incident-20261013",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "An upsell and cross-sell app: it suggests extra products to shoppers on the store.",
+    "uk": "Застосунок для upsell і cross-sell: пропонує покупцям додаткові товари в магазині.",
+    "source": "https://www.logbase.io/selleasy/updates/incident-20261013",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-13",
+     "en": "07:47-15:00 UTC: an unauthorized party used an internal tool to add a script to some stores' settings.",
+     "uk": "07:47-15:00 UTC: сторонній через внутрішній інструмент додав скрипт у налаштування частини магазинів.",
+     "source": "https://romanzipp.com/blog/statements-from-companies-involved-in-shopify-checkout-hijack"
+    },
+    {
+     "date": "2026-10-15",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-16",
+     "en": "Vendor incident page updated: Selleasy is safe to use, audit pending.",
+     "uk": "Вендор оновив сторінку інциденту: Selleasy безпечний, аудит триває.",
+     "source": "https://www.logbase.io/selleasy/updates/incident-20261013"
+    }
+   ],
+   "id": "selleasy"
+  },
+  "swym-wishlist-plus": {
+   "name": "Swym Wishlist Plus",
+   "status": "ok",
+   "developer": {
+    "value": "Swym Corporation",
+    "source": "https://web.archive.org/web/20260930053144/https://apps.shopify.com/swym-relay",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@getswym.com",
+    "source": "https://www.getswym.com/resources/wishlist-plus-incident-faq",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "A wishlist app: shoppers save products to come back to later, with reminder and back-in-stock alerts.",
+    "uk": "Застосунок списків бажань: покупці зберігають товари, щоб повернутися до них, є нагадування і сповіщення про наявність.",
+    "source": "https://web.archive.org/web/20260930053144/https://apps.shopify.com/swym-relay",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-14",
+     "en": "~10:06-11:56 UTC unauthorized configuration change; fixes fully deployed by 16:32 UTC.",
+     "uk": "~10:06-11:56 UTC несанкціонована зміна конфігурації; виправлення завершено до 16:32 UTC.",
+     "source": "https://www.getswym.com/resources/security-response"
+    },
+    {
+     "date": "2026-10-15",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-20",
+     "en": "Vendor paused the app for all merchants as a precaution.",
+     "uk": "Вендор поставив застосунок на паузу для всіх мерчантів.",
+     "source": "https://www.getswym.com/resources/wishlist-plus-incident-faq"
+    }
+   ],
+   "id": "swym-wishlist-plus"
+  },
+  "qikify": {
+   "name": "Qikify (Sticky Add to Cart, Mega Menu & Navigation)",
+   "status": "ok",
+   "developer": {
+    "value": "Qikify",
+    "source": "https://qikify.com/pages/security-incident-notice",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@qikify.com",
+    "source": "https://qikify.com/pages/security-incident-notice",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "Two storefront apps: a sticky add-to-cart bar and a mega menu for store navigation.",
+    "uk": "Два застосунки для вітрини: липка панель «додати в кошик» і мегаменю для навігації.",
+    "source": "https://qikify.com/pages/security-incident-notice",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-07-22",
+     "en": "Malicious code in two HTML settings fields redirected some shoppers; fixed the same day.",
+     "uk": "Шкідливий код у двох HTML-полях налаштувань перенаправляв частину покупців; виправлено того ж дня.",
+     "source": "https://qikify.com/pages/security-incident-notice"
+    },
+    {
+     "date": "2026-08-21",
+     "en": "Both apps listed again on the App Store after a security review.",
+     "uk": "Обидва застосунки повернулися в App Store після перевірки безпеки.",
+     "source": "https://qikify.com/pages/security-incident-notice"
+    },
+    {
+     "date": "2026-10-16",
+     "en": "Vendor: not part of the October wave.",
+     "uk": "Вендор: не частина жовтневої хвилі.",
+     "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    }
+   ],
+   "id": "qikify"
+  },
+  "hextom": {
+   "name": "Hextom",
+   "status": "warn",
+   "developer": {
+    "value": "Hextom",
+    "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "help@hextom.com",
+    "source": "https://hextom-knowledgebase.myshopify.com/pages/email-collection-bar-by-hextom-faq",
+    "checked": "2026-10-21",
+    "verified": false
+   },
+   "description": {
+    "en": null,
+    "uk": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "timeline": [
+    {
+     "date": "2026-08",
+     "en": "Zipp and Taylor Page mention a similar incident, resolved in August.",
+     "uk": "Zipp і Taylor Page згадують схожий інцидент, вирішений у серпні.",
+     "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    }
+   ],
+   "id": "hextom"
+  },
+  "boost": {
+   "name": "Boost AI Search & Filter",
+   "status": "warn",
+   "developer": {
+    "value": "Boost Commerce",
+    "source": "https://web.archive.org/web/20261013082646/https://apps.shopify.com/product-filter-search",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@boostcommerce.net",
+    "source": "https://boostcommerce.net/company/gdpr",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "Replaces the store's search and collection filters with its own search, filters and product recommendations.",
+    "uk": "Замінює пошук і фільтри колекцій магазину власним пошуком, фільтрами і рекомендаціями товарів.",
+    "source": "https://web.archive.org/web/20261013082646/https://apps.shopify.com/product-filter-search",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-17",
+     "en": "Merchants report a checkout redirect linked to Boost (unconfirmed).",
+     "uk": "Мерчанти повідомляють про редирект, пов'язаний з Boost (не підтверджено).",
+     "source": "https://community.shopify.com/t/urgent-checkout-phishing-redirect-anyone-else-affected/698208"
+    },
+    {
+     "date": "2026-10-17",
+     "en": "Vendor status page: incident, theme extension switched off for all stores (no mention of security).",
+     "uk": "Статус-сторінка вендора: інцидент, theme extension вимкнено для всіх (без згадки про безпеку).",
+     "source": "https://status.boostcommerce.net"
+    },
+    {
+     "date": "2026-10-18",
+     "en": "Delisted from the App Store (per HeyApps); extension switched back on at 18:19 UTC.",
+     "uk": "Знято з App Store (за HeyApps); розширення знову ввімкнено о 18:19 UTC.",
+     "source": "https://status.boostcommerce.net"
+    }
+   ],
+   "id": "boost"
+  },
+  "privy": {
+   "name": "Privy",
+   "status": "warn",
+   "developer": {
+    "value": "Privy Operations",
+    "source": "https://web.archive.org/web/20260712062059/https://apps.shopify.com/privy",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@privy.com",
+    "source": "https://status.privy.com",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "Email, SMS and pop-up marketing: grows a contact list with pop-ups and sends campaigns and automations.",
+    "uk": "Маркетинг через email, SMS і поп-апи: збирає контакти через поп-апи і надсилає розсилки та автоматизації.",
+    "source": "https://web.archive.org/web/20260712062059/https://apps.shopify.com/privy",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-17",
+     "en": "One merchant reports a redirect linked to Privy (unconfirmed).",
+     "uk": "Один мерчант пише про редирект, пов'язаний з Privy (не підтверджено).",
+     "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    },
+    {
+     "date": "2026-10-18",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-19",
+     "en": "Privy status page: pop-ups and forms not showing; no mention of security.",
+     "uk": "Статус-сторінка Privy: поп-апи і форми не показуються; без згадки про безпеку.",
+     "source": "https://status.privy.com"
+    }
+   ],
+   "id": "privy"
+  },
+  "consentmo": {
+   "name": "Consentmo GDPR Compliance",
+   "status": "warn",
+   "developer": {
+    "value": "Consentmo",
+    "source": "https://web.archive.org/web/20261003065012/https://apps.shopify.com/gdpr-backpack",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@consentmo.com",
+    "source": "https://www.consentmo.com/legal/privacy-policy",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "A cookie consent banner and privacy compliance tool, with accessibility and data request features.",
+    "uk": "Банер згоди на cookies та інструмент відповідності правилам приватності, з функціями доступності і запитів на дані.",
+    "source": "https://web.archive.org/web/20261003065012/https://apps.shopify.com/gdpr-backpack",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "en": "Zipp lists Consentmo as unconfirmed (confidential source); one merchant comment.",
+     "uk": "Zipp зазначає Consentmo як не підтверджений (конфіденційне джерело); один коментар мерчанта.",
+     "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    },
+    {
+     "date": "2026-10-20",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    }
+   ],
+   "id": "consentmo"
+  },
+  "17track": {
+   "name": "17TRACK Order Tracking",
+   "status": "warn",
+   "developer": {
+    "value": "17TRACK",
+    "source": "https://web.archive.org/web/20261002000821/https://apps.shopify.com/17track",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "info@17track.net",
+    "source": "https://apps.shopify.com/17track?locale=tr",
+    "checked": "2026-10-21",
+    "verified": false
+   },
+   "description": {
+    "en": "Order tracking: a branded tracking page and shipping notifications for customers.",
+    "uk": "Відстеження замовлень: брендована сторінка трекінгу і сповіщення покупцям про доставку.",
+    "source": "https://web.archive.org/web/20261002000821/https://apps.shopify.com/17track",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "en": "A merchant reports code in menu labels and the checkout button (cartassure[.]top) and says Shopify named this app (unconfirmed).",
+     "uk": "Мерчант пише про код у назвах меню і на кнопці checkout (cartassure[.]top) і що Shopify назвав цей застосунок (не підтверджено).",
+     "source": "https://www.reddit.com/r/shopifyDev/comments/1xau8w6/"
+    },
+    {
+     "date": "2026-10-20",
+     "en": "Delisted from the App Store (per HeyApps; listing shows not available).",
+     "uk": "Знято з App Store (за HeyApps; сторінка недоступна).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-21",
+     "en": "Roman Zipp lists it as \"unconfirmed but de-listed\"; another merchant comment says it \"maybe compromised\" (unconfirmed).",
+     "uk": "Roman Zipp позначає його як \"unconfirmed but de-listed\"; ще один мерчант у коментарі пише \"maybe compromised\" (не підтверджено).",
+     "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    }
+   ],
+   "id": "17track"
+  },
+  "color-swatch-king": {
+   "name": "Color Swatch King: Variants",
+   "status": "warn",
+   "developer": {
+    "value": "StarApps Studio",
+    "source": "https://help.starapps.io/en/articles/11852641-starapps-studio",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@starapps.studio",
+    "source": "https://starapps.io/contact-us",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "Changes how product options look on product and collection pages, for example as color or image swatches instead of a dropdown.",
+    "uk": "Змінює вигляд опцій товару на сторінках товару і колекцій, наприклад свотчі кольору чи зображення замість списку.",
+    "source": "https://help.starapps.io/en/articles/11852641-starapps-studio",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-18",
+     "en": "Delisted from the App Store (per HeyApps).",
+     "uk": "Знято з App Store (за HeyApps).",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-19",
+     "en": "One merchant says the redirect code was inside this app (unconfirmed).",
+     "uk": "Один мерчант пише, що код редиректу був у цьому застосунку (не підтверджено).",
+     "source": "https://www.reddit.com/r/shopify/comments/1x8m5d8/shopify_issues/"
+    }
+   ],
+   "id": "color-swatch-king"
+  },
+  "hulk-advanced-wishlist": {
+   "name": "Hulk Advanced Wishlist",
+   "status": "warn",
+   "developer": {
+    "value": "HulkApps",
+    "source": "https://www.reddit.com/r/shopify/comments/1x2f4kx/",
+    "checked": "2026-10-21",
+    "verified": false
+   },
+   "email": {
+    "value": "help-support@shopcircle.co",
+    "source": "https://www.hulkapps.com/pages/contact",
+    "checked": "2026-10-21",
+    "verified": false
+   },
+   "description": {
+    "en": null,
+    "uk": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "timeline": [
+    {
+     "date": "2026-10-10",
+     "en": "One merchant says the app redirected the whole store to a spam site a few weeks earlier (unconfirmed).",
+     "uk": "Один мерчант пише, що за кілька тижнів до того застосунок перенаправляв увесь магазин на спам-сайт (не підтверджено).",
+     "source": "https://www.reddit.com/r/shopify/comments/1x2f4kx/"
+    }
+   ],
+   "id": "hulk-advanced-wishlist"
+  },
+  "unknown-checkout-guard": {
+   "name": "Unknown app (checkout-guard[.]top)",
+   "status": "warn",
+   "developer": {
+    "value": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "email": {
+    "value": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "description": {
+    "en": null,
+    "uk": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "timeline": [
+    {
+     "date": "2026-10-19",
+     "en": "Three stores of one owner redirect to checkout-guard[.]top; source not found.",
+     "uk": "Три магазини одного власника перенаправляють на checkout-guard[.]top; джерело не знайдено.",
+     "source": "https://community.shopify.com/t/customers-redirected-to-cloned-checkout-that-captures-card-details-anyone-else-affected/700903"
+    }
+   ],
+   "id": "unknown-checkout-guard"
+  },
+  "rebuy": {
+   "name": "Rebuy Personalization Engine",
+   "status": "off",
+   "developer": {
+    "value": "Rebuy",
+    "source": "https://web.archive.org/web/20261009173206/https://apps.shopify.com/rebuy",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": "support@rebuyengine.com",
+    "source": "https://www.rebuyengine.com/support-policy",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "description": {
+    "en": "Personalized product recommendations, upsells and a slide-out cart, including in checkout and after purchase.",
+    "uk": "Персоналізовані рекомендації товарів, upsell і бічний кошик, також на checkout і після покупки.",
+    "source": "https://web.archive.org/web/20261009173206/https://apps.shopify.com/rebuy",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-18",
+     "en": "Delisted from the App Store (per HeyApps). No incident report.",
+     "uk": "Знято з App Store (за HeyApps). Звіту про інцидент немає.",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-20",
+     "en": "Taylor Page: Rebuy scripts came back clean on his client stores.",
+     "uk": "Taylor Page: скрипти Rebuy чисті на магазинах його клієнтів.",
+     "source": "https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG"
+    }
+   ],
+   "id": "rebuy"
+  },
+  "shopify-product-network": {
+   "name": "Shopify Product Network",
+   "status": "off",
+   "developer": {
+    "value": "Shopify",
+    "source": "https://web.archive.org/web/20260910175858/https://apps.shopify.com/product-network",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "email": {
+    "value": null,
+    "source": null,
+    "checked": "2026-10-21",
+    "verified": null
+   },
+   "description": {
+    "en": "Shows products from other brands on the store and pays the merchant a commission when shoppers buy them.",
+    "uk": "Показує в магазині товари інших брендів і платить мерчанту комісію, коли покупці їх купують.",
+    "source": "https://web.archive.org/web/20260910175858/https://apps.shopify.com/product-network",
+    "checked": "2026-10-21",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-15",
+     "en": "Delisted from the App Store (per HeyApps). No incident report.",
+     "uk": "Знято з App Store (за HeyApps). Звіту про інцидент немає.",
+     "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    }
+   ],
+   "id": "shopify-product-network"
+  }
+ }
+}
