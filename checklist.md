@@ -22,7 +22,7 @@ Limits: a clean test does not prove past shoppers were safe, and it cannot rule 
 
 Two notes for this test:
 
-- Shopify documents the "Are you sure you want to leave …?" confirmation before an external website. The message alone does not establish a hack or mean the destination is unsafe. If it names an unfamiliar site or appears on Add to cart or Checkout, go back, review recent apps and theme code, and contact Shopify Support. It cannot be turned off or given custom exceptions at this time. Rollout timing, all-store coverage and a link to the incident remain unverified. [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
+- Shopify announced the "Are you sure you want to leave …?" confirmation on 20 Oct 2026. The message alone does not establish a hack or mean the destination is unsafe. If it names an unfamiliar site or appears on Add to cart or Checkout, go back, review recent apps and theme code, and contact Shopify Support. As checked on 22 Oct, it cannot be turned off or given custom exceptions. All-store coverage and a link to the incident remain unverified. [Shopify changelog](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects), [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
 - Test in a real browser. Fetching HTML does not execute storefront JavaScript or test a click on Checkout. A clean HTML scan is not a runtime checkout test.
 
 ## 2. Apps (5 min)

@@ -75,9 +75,9 @@ On 15 Oct it released a security check for app developers. On 20 Oct it publishe
 <details markdown="1">
 <summary>My store asks "Are you sure you want to leave?" on an external link. Was my store hacked?</summary>
 
-Not by itself. Shopify documents this confirmation: it names the other website and does not open for the store's domains and their subdomains listed in Shopify admin, its checkout, Shopify pages or popular social networks. The message does not mean the other website is unsafe. It cannot be turned off, and merchants cannot choose websites that skip it at this time.
+Not by itself. Shopify announced this confirmation on 20 Oct 2026. It names the other website and does not open for the store's domains and their subdomains listed in Shopify admin, its checkout, Shopify pages or popular social networks. The message does not mean the other website is unsafe. As checked on 22 Oct, it cannot be turned off, and merchants cannot choose websites that skip it.
 
-Investigate when it names an unfamiliar website or appears on a button that should keep shoppers on your store, such as Add to cart or Checkout. Review recently installed or updated apps and your theme code. Contact Shopify Support with the page, the destination and a screenshot. The rollout start date, all-store coverage and any link to the checkout incident remain unverified. Sources: [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation), [Developer community](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776).
+Investigate when it names an unfamiliar website or appears on a button that should keep shoppers on your store, such as Add to cart or Checkout. Review recently installed or updated apps and your theme code. Contact Shopify Support with the page, the destination and a screenshot. All-store coverage and any link to the checkout incident remain unverified. The changelog does not mention the incident. Sources: [Shopify changelog, 20 Oct](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects), [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation), [Developer community](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776).
 
 </details>
 

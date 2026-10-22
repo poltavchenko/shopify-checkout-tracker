@@ -55,7 +55,7 @@ alt: /tracker/
 | <button type="button" class="app-open" data-app="shopify-product-network">Shopify Product Network (застосунок самого Shopify)</button> | <span class="badge badge-off">знято без звіту</span> | 15.10.2026 | Знято з App Store | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21.10) |
 {: #apps-table}
 
-Окремий [каталог HeyApps]({{ '/uk/apps/' | relative_url }}) містить {{ site.data.heyapps.counts.delisted }} знятих і {{ site.data.heyapps.counts.recovered }} повернених застосунків у знімку від {{ site.data.heyapps.captured_local }}. Доступність сама по собі не є доказом зламу чи безпеки.
+Окремий [каталог HeyApps]({{ '/uk/apps/' | relative_url }}) містить {{ site.data.heyapps.counts.delisted }} знятих і {{ site.data.heyapps.counts.recovered }} повернених застосунків у знімку від {{ site.data.heyapps.captured_local }}. Саме по собі зняття не означає, що застосунок зламано. Повернення не є доказом безпеки. Межі висновків за зняттям також пояснює [Roman Zipp в оновленні від 22.10](https://romanzipp.com/blog/shopify-hit-with-phishing-attack).
 
 Усі застосунки у цьому знімку зняті між 14 і 21.10.2026. [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) не наводить причин окремих зняттів.
 
@@ -63,7 +63,7 @@ alt: /tracker/
 
 | Зміна платформи | Статус джерела | Перевірено | Що відомо | Джерело |
 |---|---|---|---|---|
-| Вітрини: підтвердження виходу | описано в довідці Shopify; деталі розгортання не перевірено | 21.10.2026 (перевірено; дата запуску невідома) | При кліку на інший сайт може відкриватися вікно «Are you sure you want to leave [назва магазину]?». Довідка Shopify описує захист від коду, що веде на підроблений checkout або фішинговий сайт. Зараз мерчанти не можуть вимкнути вікно чи вибрати сайти-винятки. Мерчанти повідомляють про перемикачі між магазинами, headless-редиректи й партнерські посилання. Дата початку, охоплення всіх магазинів і зв'язок з інцидентом підміни checkout: не перевірено | [Довідка Shopify](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation); [Спільнота розробників 38776](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776); [r/shopify](https://www.reddit.com/r/shopify/comments/1xbncwn/) |
+| Вітрини: підтвердження виходу | оголошено Shopify; охоплення всіх магазинів не перевірено | 20.10.2026 (оголошення в changelog; перевірено 22.10) | При кліку на інший сайт може відкриватися вікно «Are you sure you want to leave [назва магазину]?». Довідка Shopify описує захист від коду, що веде на підроблений checkout або фішинговий сайт. Зараз мерчанти не можуть вимкнути вікно чи вибрати сайти-винятки. Мерчанти повідомляють про перемикачі між магазинами, headless-редиректи й партнерські посилання. Охоплення всіх магазинів і зв'язок з інцидентом підміни checkout: не перевірено | [Shopify changelog, 20.10](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects); [Довідка Shopify](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation); [Спільнота розробників 38776](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776); [r/shopify](https://www.reddit.com/r/shopify/comments/1xbncwn/) |
 
 ## Відомі фішингові домени (не відкривайте їх)
 
@@ -79,5 +79,5 @@ alt: /tracker/
 
 - 15.10.2026: перевірка безпеки `shopify app security check` для розробників застосунків. [Shopify changelog](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check)
 - 20.10.2026: "Securing your app, together", Action required для всіх розробників застосунків. Інциденту і застосунків не називає. [Shopify changelog](https://shopify.dev/changelog/blog/securing-your-app-together)
-- Перевірено 21.10.2026: Shopify описує [підтвердження виходу з магазину](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation). Дати публікації немає. Початок розгортання, охоплення всіх магазинів і зв’язок з інцидентом не перевірено.
+- 20.10.2026: Shopify оголосив [підтвердження виходу з магазину](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects). [Довідка](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation) описує кнопки та винятки. Перевірено 22.10: вікно не можна вимкнути чи вибрати власні сайти-винятки. Охоплення всіх магазинів і зв’язок з інцидентом не перевірено; changelog інциденту не згадує.
 - Окремого звернення до мерчантів про інцидент підміни checkout станом на 21.10.2026 ми не знайшли.

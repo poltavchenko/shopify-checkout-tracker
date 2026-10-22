@@ -55,7 +55,7 @@ A delisting does not mean an app was compromised, and it does not remove the app
 | <button type="button" class="app-open" data-app="shopify-product-network">Shopify Product Network (Shopify's own app)</button> | <span class="badge badge-off">removed without report</span> | 15 Oct 2026 | Delisted | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21 Oct) |
 {: #apps-table}
 
-The separate [HeyApps catalog]({{ '/apps/' | relative_url }}) contains {{ site.data.heyapps.counts.delisted }} delisted and {{ site.data.heyapps.counts.recovered }} listed-again apps in the snapshot captured at {{ site.data.heyapps.captured_local }}. Availability alone does not establish a compromise or safety.
+The separate [HeyApps catalog]({{ '/apps/' | relative_url }}) contains {{ site.data.heyapps.counts.delisted }} delisted and {{ site.data.heyapps.counts.recovered }} listed-again apps in the snapshot captured at {{ site.data.heyapps.captured_local }}. Being delisted does not by itself mean an app was compromised. Being listed again does not establish safety. See [Roman Zipp's 22 Oct update](https://romanzipp.com/blog/shopify-hit-with-phishing-attack) on the limits of delisting evidence.
 
 All apps in this snapshot were delisted between 14 and 21 Oct 2026. [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) gives no reasons for the individual delistings.
 
@@ -63,7 +63,7 @@ All apps in this snapshot were delisted between 14 and 21 Oct 2026. [HeyApps](ht
 
 | Platform change | Source status | Checked | What is known | Source |
 |---|---|---|---|---|
-| Storefronts: leave-store confirmation | documented by Shopify; rollout details not verified | 21 Oct 2026 (checked; launch date unknown) | An "Are you sure you want to leave [store name]?" confirmation can open when shoppers click links to other websites. Shopify documents it as protection against code that sends shoppers to a fake checkout or phishing site. Merchants cannot turn it off or choose websites that skip it at this time. Merchants report store switchers, headless redirects and partner links are affected. Start date, coverage of all stores and any link to the checkout redirect incident: not verified | [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation); [Developer community 38776](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776); [r/shopify](https://www.reddit.com/r/shopify/comments/1xbncwn/) |
+| Storefronts: leave-store confirmation | announced by Shopify; all-store coverage not verified | 20 Oct 2026 (changelog announcement; checked 22 Oct) | An "Are you sure you want to leave [store name]?" confirmation can open when shoppers click links to other websites. Shopify documents it as protection against code that sends shoppers to a fake checkout or phishing site. Merchants cannot turn it off or choose websites that skip it at this time. Merchants report store switchers, headless redirects and partner links are affected. Coverage of all stores and any link to the checkout redirect incident: not verified | [Shopify changelog, 20 Oct](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects); [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation); [Developer community 38776](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776); [r/shopify](https://www.reddit.com/r/shopify/comments/1xbncwn/) |
 
 ## Known phishing domains (do not visit)
 
@@ -79,5 +79,5 @@ All apps in this snapshot were delisted between 14 and 21 Oct 2026. [HeyApps](ht
 
 - 15 Oct 2026: `shopify app security check` for app developers. [Shopify changelog](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check)
 - 20 Oct 2026: "Securing your app, together", Action required for all app developers. It does not name the incident or any app. [Shopify changelog](https://shopify.dev/changelog/blog/securing-your-app-together)
-- Checked 21 Oct 2026: Shopify documents its [leave-store confirmation](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation). The page has no publication date. Rollout timing, all-store coverage and a link to the checkout incident are unverified.
+- 20 Oct 2026: Shopify announced its [leave-store confirmation](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects). Its [Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation) describes the controls and exceptions. Checked 22 Oct: the message cannot be turned off or given custom exceptions. All-store coverage and a link to the checkout incident are unverified; the changelog does not mention the incident.
 - As of 21 Oct 2026 we have not found a separate merchant notice about the checkout incident.
