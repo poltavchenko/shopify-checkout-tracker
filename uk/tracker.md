@@ -58,7 +58,7 @@ alt: /tracker/
 
 Окремий [каталог HeyApps]({{ '/uk/apps/' | relative_url }}) містить {{ site.data.heyapps.counts.delisted }} знятих і {{ site.data.heyapps.counts.recovered }} повернених застосунків у знімку від {{ site.data.heyapps.captured_local }}. Саме по собі зняття не означає, що застосунок зламано. Повернення не є доказом безпеки. Межі висновків за зняттям також пояснює [Roman Zipp в оновленні від 22.10](https://romanzipp.com/blog/shopify-hit-with-phishing-attack).
 
-Усі застосунки у цьому знімку зняті між 14 і 21.10.2026. [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) не наводить причин окремих зняттів.
+Усі застосунки у цьому знімку зняті між 14 і 23.10.2026. [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) не наводить причин окремих зняттів.
 
 ## Спостереження за платформою
 
