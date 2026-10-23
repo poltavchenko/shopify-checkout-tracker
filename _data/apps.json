@@ -141,6 +141,12 @@
      "en": "Vendor status at 16:47 UTC: actively monitoring and continuing to restore merchants in batches.",
      "uk": "Статус вендора о 16:47 UTC: триває моніторинг і відновлення доступу мерчантів групами.",
      "source": "https://status.getswym.com/"
+    },
+    {
+     "date": "2026-10-23",
+     "en": "Vendor status at 05:55 UTC: merchants are being re-enabled; patching is holding for degraded services and service upgrades are in progress.",
+     "uk": "Статус вендора о 05:55 UTC: застосунок знову вмикають мерчантам; виправлення для сервісів зі збоями працюють, оновлення сервісів тривають.",
+     "source": "https://status.getswym.com/"
     }
    ],
    "id": "swym-wishlist-plus"
@@ -624,6 +630,38 @@
     }
    ],
    "id": "shopify-product-network"
+  },
+  "aftersell": {
+   "name": "Aftersell (Rokt)",
+   "status": "ok",
+   "developer": {
+    "value": "Aftersell (Rokt)",
+    "source": "https://www.aftersell.com/blog/incident-disclosure-protecting-our-merchants-and-their-customers",
+    "checked": "2026-10-23",
+    "verified": true
+   },
+   "email": {
+    "value": null,
+    "source": null,
+    "checked": "2026-10-23",
+    "verified": null
+   },
+   "description": {
+    "en": "A post-purchase upsell app.",
+    "uk": "Застосунок апсейлу після покупки.",
+    "source": "https://www.aftersell.com/blog/incident-disclosure-protecting-our-merchants-and-their-customers",
+    "checked": "2026-10-23",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "en": "Aftersell (part of Rokt) reports unauthorized access to some merchant upsell configurations, staff email addresses and discount codes. The vendor says no shopper personal data was compromised, no malware or phishing was involved, and this incident is separate from the phishing attacks elsewhere in the Shopify ecosystem. It says the vulnerability was patched; its app remains functional for existing merchants but is temporarily unavailable on the Shopify App Store during a security review with Shopify. Vendor statement, not an independent audit.",
+     "uk": "Aftersell (входить до Rokt) повідомляє про несанкціонований доступ до частини налаштувань апсейлу, email співробітників і кодів знижок мерчантів. За заявою вендора, персональні дані покупців не зачеплено, malware і фішингу не було, а цей інцидент окремий від фішингових атак в екосистемі Shopify. Вендор повідомляє, що вразливість виправлено; застосунок працює для наявних мерчантів, але тимчасово недоступний у Shopify App Store на час перевірки безпеки разом із Shopify. Це заява вендора, не незалежний аудит.",
+     "source": "https://www.aftersell.com/blog/incident-disclosure-protecting-our-merchants-and-their-customers"
+    }
+   ],
+   "id": "aftersell"
   }
  }
 }
