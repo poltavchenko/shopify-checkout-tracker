@@ -13,7 +13,7 @@
   <ul>
   {%- for source in catalog.sources -%}
     {%- assign availability_key = 'catalog_' | append: source.view -%}
-    <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">HeyApps: {{ t[availability_key] }}</a> · {{ source.captured_count }} / {{ source.reported_count }} {{ t.catalog_source_records }} · <time datetime="{{ source.captured_at | escape }}">{{ source.captured_at | escape }}</time><br>SHA-256: <code>{{ source.sha256 | escape }}</code></li>
+    <li><a href="{{ source.url | escape }}" rel="noopener noreferrer">HeyApps: {{ t[availability_key] }}</a> · {% if source.kind == 'detail' %}{{ t.catalog_detail_source }}{% else %}{{ source.captured_count }} / {{ source.reported_count }} {{ t.catalog_source_records }}{% endif %} · <time datetime="{{ source.captured_at | escape }}">{{ source.captured_at | escape }}</time><br>SHA-256: <code>{{ source.sha256 | escape }}</code></li>
   {%- endfor -%}
   </ul>
 </details>

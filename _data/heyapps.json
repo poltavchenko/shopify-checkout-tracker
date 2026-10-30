@@ -1,45 +1,85 @@
 {
-  "checked": "2026-10-23",
-  "captured_at": "2026-10-23T08:12:05.063Z",
-  "capture_started_at": "2026-10-23T08:11:49.534Z",
-  "captured_local": "2026-10-23 10:12:05 (Europe/Bratislava, UTC+02:00)",
+  "checked": "2026-10-30",
+  "captured_at": "2026-10-30T10:17:25.062Z",
+  "capture_started_at": "2026-10-30T10:13:37.596Z",
+  "captured_local": "2026-10-30 11:17:25 (Europe/Bratislava, UTC+01:00)",
   "counts": {
-    "delisted": 488,
-    "recovered": 29,
-    "total": 517
+    "delisted": 577,
+    "recovered": 157,
+    "total": 734
   },
   "sources": [
     {
       "url": "https://heyapps.dev/apps/delisted",
-      "captured_at": "2026-10-23T08:11:49.534Z",
+      "captured_at": "2026-10-30T10:13:37.596Z",
       "view": "delisted",
-      "reported_count": 488,
       "captured_count": 400,
-      "sha256": "7dea3de1d2db1db2882f08260d940e7eceafb790d4db032b17c54b86ccf40793"
+      "sha256": "fd2c747d31958fb5ca8882f2afbb1f1727a3d854c0af3530f5d4dd361658f19c",
+      "reported_count": 577
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=delisted",
-      "captured_at": "2026-10-23T08:11:54.466Z",
+      "captured_at": "2026-10-30T10:13:53.972Z",
       "view": "delisted",
-      "reported_count": 488,
       "captured_count": 400,
-      "sha256": "7a0ccc6a41ff3db7191e35d28520e4834fd198b0f7ad977df89086c2a7bfea0d"
+      "sha256": "1034be1d47062f67c20dc638198de064540a54d227c94b0b1af32b420759c1fa",
+      "reported_count": 577
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-10-23T08:11:58.546Z",
+      "captured_at": "2026-10-30T10:14:05.211Z",
       "view": "delisted",
-      "reported_count": 488,
       "captured_count": 400,
-      "sha256": "c9d4bab16d828d7a34fba8c6aebdc1d5379a84932d28c5c25e8311ae8a5f7101"
+      "sha256": "6ce523bfb5e3a568589d37d20fadb4ab3cf228d93f4a80ba84aadb2fe1490ecc",
+      "reported_count": 577
+    },
+    {
+      "url": "https://heyapps.dev/apps/delisted?sort=launched_asc",
+      "captured_at": "2026-10-30T10:14:20.356Z",
+      "view": "delisted",
+      "captured_count": 400,
+      "sha256": "50a5886164c6fff8b7769a0efd29428aec89dcfac1ed496e96bfd4a9d7c74e7b",
+      "reported_count": 577
     },
     {
       "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-10-23T08:12:05.063Z",
+      "captured_at": "2026-10-30T10:15:05.969Z",
       "view": "recovered",
-      "reported_count": 29,
-      "captured_count": 29,
-      "sha256": "c50c0d657bd2d4362d986647b26c369b5e1af68d133c3ac41065ff1d5fac5e33"
+      "captured_count": 157,
+      "sha256": "77486802b6ee17ec66f8b9671f398682daf3c577caf46d3949236a1b1fae90b0",
+      "reported_count": 157
+    },
+    {
+      "url": "https://heyapps.dev/apps/bind-1",
+      "captured_at": "2026-10-30T10:17:24.021Z",
+      "view": "delisted",
+      "captured_count": 1,
+      "sha256": "ff03b1bbf140e4ff4a43c26694d9d625295b60699c5c76a9113fd98cbbd79f63",
+      "kind": "detail"
+    },
+    {
+      "url": "https://heyapps.dev/apps/decode-products-organizer",
+      "captured_at": "2026-10-30T10:17:24.446Z",
+      "view": "delisted",
+      "captured_count": 1,
+      "sha256": "37b25dc0d9922a4d466eb686ce02577586c98e725a35e20139b247d53cd2fdcc",
+      "kind": "detail"
+    },
+    {
+      "url": "https://heyapps.dev/apps/reviewsjet",
+      "captured_at": "2026-10-30T10:17:24.711Z",
+      "view": "delisted",
+      "captured_count": 1,
+      "sha256": "c50506e34cc0f55ab0c0f9849687b9624913e9920cd553ac1272afa1de2f3d91",
+      "kind": "detail"
+    },
+    {
+      "url": "https://heyapps.dev/apps/top-trust-badge",
+      "captured_at": "2026-10-30T10:17:25.062Z",
+      "view": "delisted",
+      "captured_count": 1,
+      "sha256": "696a6aa3cefe53992044a20a65c1710ceed853b61dbaff91058d2278715c0959",
+      "kind": "detail"
     }
   ],
   "incident_ids": {
@@ -66,26 +106,6 @@
       "source_url": "https://heyapps.dev/apps/14-ai"
     },
     {
-      "slug": "1688-ai-importer",
-      "name": "1688 AI Importer",
-      "developer": "深圳通晓网络科技有限公司",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-06-05",
-      "source_url": "https://heyapps.dev/apps/1688-ai-importer"
-    },
-    {
-      "slug": "17track",
-      "name": "17TRACK Order Tracking",
-      "developer": "17TRACK",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": null,
-      "source_url": "https://heyapps.dev/apps/17track"
-    },
-    {
       "slug": "onetree",
       "name": "1:Tree ‑ Carbon Offset App",
       "developer": "TreeEra",
@@ -94,6 +114,16 @@
       "recovered": null,
       "launched": "2021-01-27",
       "source_url": "https://heyapps.dev/apps/onetree"
+    },
+    {
+      "slug": "simple-xml-product-feed",
+      "name": "1‑Click Shopping Feed",
+      "developer": "Elevate Europe ApS",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2023-07-04",
+      "source_url": "https://heyapps.dev/apps/simple-xml-product-feed"
     },
     {
       "slug": "5p-ai-chatbot-assistant",
@@ -156,46 +186,6 @@
       "source_url": "https://heyapps.dev/apps/5pro-stock-notification"
     },
     {
-      "slug": "affiliate",
-      "name": "AAA Affiliate Marketing App",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2018-02-12",
-      "source_url": "https://heyapps.dev/apps/affiliate"
-    },
-    {
-      "slug": "image-gallery",
-      "name": "AAA Image + Video Gallery",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2017-05-24",
-      "source_url": "https://heyapps.dev/apps/image-gallery"
-    },
-    {
-      "slug": "popup-box",
-      "name": "AAA Product Options + Forms",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2017-07-05",
-      "source_url": "https://heyapps.dev/apps/popup-box"
-    },
-    {
-      "slug": "quick-view-product",
-      "name": "AAA Quick View & Color Swatch",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2017-07-11",
-      "source_url": "https://heyapps.dev/apps/quick-view-product"
-    },
-    {
       "slug": "social-share-discount",
       "name": "AAA Social Share Marketing",
       "developer": "AAAeCommerce Inc",
@@ -204,46 +194,6 @@
       "recovered": null,
       "launched": "2016-11-08",
       "source_url": "https://heyapps.dev/apps/social-share-discount"
-    },
-    {
-      "slug": "wishlist-product",
-      "name": "AAA Wishlist App",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2017-04-25",
-      "source_url": "https://heyapps.dev/apps/wishlist-product"
-    },
-    {
-      "slug": "form-builder",
-      "name": "AAA ‑ Custom Form Builder",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2017-02-28",
-      "source_url": "https://heyapps.dev/apps/form-builder"
-    },
-    {
-      "slug": "referral-loyalty",
-      "name": "AAA ‑ Loyalty Rewards Program",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2017-06-14",
-      "source_url": "https://heyapps.dev/apps/referral-loyalty"
-    },
-    {
-      "slug": "advance-gift-registry",
-      "name": "AAA‑ Advance Gift Registry App",
-      "developer": "AAAeCommerce Inc",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2017-09-11",
-      "source_url": "https://heyapps.dev/apps/advance-gift-registry"
     },
     {
       "slug": "ablefix",
@@ -256,14 +206,24 @@
       "source_url": "https://heyapps.dev/apps/ablefix"
     },
     {
-      "slug": "adbreakers-reporting-connecto",
-      "name": "AdBreakers Reporting",
-      "developer": "AdBreakers",
+      "slug": "aclone",
+      "name": "AClone: Backup & Duplicate",
+      "developer": "ArenaCommerce",
       "availability": "delisted",
-      "delisted": "2026-10-18",
+      "delisted": "2026-10-29",
       "recovered": null,
-      "launched": "2026-07-03",
-      "source_url": "https://heyapps.dev/apps/adbreakers-reporting-connecto"
+      "launched": "2022-11-22",
+      "source_url": "https://heyapps.dev/apps/aclone"
+    },
+    {
+      "slug": "adaptly",
+      "name": "Adaptly: AI Ad Personalization",
+      "developer": "Adaptly",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2025-09-12",
+      "source_url": "https://heyapps.dev/apps/adaptly"
     },
     {
       "slug": "adbridge",
@@ -306,16 +266,6 @@
       "source_url": "https://heyapps.dev/apps/affiliate-platform-integration"
     },
     {
-      "slug": "aftersell",
-      "name": "Aftersell Post Purchase Upsell",
-      "developer": "Rokt",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2019-12-31",
-      "source_url": "https://heyapps.dev/apps/aftersell"
-    },
-    {
       "slug": "agentcart",
       "name": "AgentCart",
       "developer": "AgentCart",
@@ -336,6 +286,16 @@
       "source_url": "https://heyapps.dev/apps/agentic-readiness-report-1-1"
     },
     {
+      "slug": "agentrank-3",
+      "name": "AgentRank",
+      "developer": "Wirtel",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-27",
+      "source_url": "https://heyapps.dev/apps/agentrank-3"
+    },
+    {
       "slug": "agora-amazon-affiliate-tool",
       "name": "Agora Amazon Listing Importer",
       "developer": "Nuvo Software Pty Ltd",
@@ -344,6 +304,16 @@
       "recovered": null,
       "launched": "2021-12-17",
       "source_url": "https://heyapps.dev/apps/agora-amazon-affiliate-tool"
+    },
+    {
+      "slug": "ai-catalog-optimizer-2",
+      "name": "AI Catalog Optimizer",
+      "developer": "tothemoon",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-20",
+      "source_url": "https://heyapps.dev/apps/ai-catalog-optimizer-2"
     },
     {
       "slug": "ai-description-generator",
@@ -406,6 +376,16 @@
       "source_url": "https://heyapps.dev/apps/ai-seo-blog-writer"
     },
     {
+      "slug": "listing-optimizer",
+      "name": "AI SEO Product Description",
+      "developer": "Orange Peel Studio",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-16",
+      "source_url": "https://heyapps.dev/apps/listing-optimizer"
+    },
+    {
       "slug": "aiva-ai-inbox-assistant",
       "name": "Aiva: AI Inbox Assistant",
       "developer": "AivaIO",
@@ -424,6 +404,16 @@
       "recovered": null,
       "launched": "2026-05-19",
       "source_url": "https://heyapps.dev/apps/aka-variant-gallery"
+    },
+    {
+      "slug": "all-in-one-courier",
+      "name": "All In One Courier",
+      "developer": "Wovrex",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2026-08-28",
+      "source_url": "https://heyapps.dev/apps/all-in-one-courier"
     },
     {
       "slug": "alphabake-tryon",
@@ -446,16 +436,6 @@
       "source_url": "https://heyapps.dev/apps/image-optimizer-3"
     },
     {
-      "slug": "althemax-marketplace",
-      "name": "AlthemaxAI Marketplace",
-      "developer": "Althemax International Limited",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-06-01",
-      "source_url": "https://heyapps.dev/apps/althemax-marketplace"
-    },
-    {
       "slug": "pre-order",
       "name": "Amai PreOrder Manager + Notify",
       "developer": "Amai",
@@ -464,6 +444,16 @@
       "recovered": null,
       "launched": "2015-07-23",
       "source_url": "https://heyapps.dev/apps/pre-order"
+    },
+    {
+      "slug": "amazone-dropshipper",
+      "name": "AmaZone DropShipper + Walmart",
+      "developer": "PLI Negocios",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2018-04-12",
+      "source_url": "https://heyapps.dev/apps/amazone-dropshipper"
     },
     {
       "slug": "address-contact-editor",
@@ -586,6 +576,16 @@
       "source_url": "https://heyapps.dev/apps/askify"
     },
     {
+      "slug": "sunbeam-widget",
+      "name": "Asklet: Smart Feedback Widgets",
+      "developer": "Sunbeam",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-01-15",
+      "source_url": "https://heyapps.dev/apps/sunbeam-widget"
+    },
+    {
       "slug": "ai-support-sales-agent",
       "name": "Assistora ‑ AI Sales Agent",
       "developer": "Assistora",
@@ -614,6 +614,16 @@
       "recovered": null,
       "launched": "2025-12-12",
       "source_url": "https://heyapps.dev/apps/audience"
+    },
+    {
+      "slug": "autoinvoice",
+      "name": "AutoInvoice",
+      "developer": "Christopher Johnston Consulting",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-07",
+      "source_url": "https://heyapps.dev/apps/autoinvoice"
     },
     {
       "slug": "avelero",
@@ -706,6 +716,16 @@
       "source_url": "https://heyapps.dev/apps/bb-upsell-bundle-purchase"
     },
     {
+      "slug": "beaconai",
+      "name": "BeaconAI",
+      "developer": "API Dynamics",
+      "availability": "delisted",
+      "delisted": "2026-10-25",
+      "recovered": null,
+      "launched": "2026-04-28",
+      "source_url": "https://heyapps.dev/apps/beaconai"
+    },
+    {
       "slug": "beegodrop-dropshipping",
       "name": "Beegodrop Dropshipping",
       "developer": "Shanghai BingoBuy E-commerce Co., Ltd.",
@@ -736,34 +756,14 @@
       "source_url": "https://heyapps.dev/apps/better-that-marketplace"
     },
     {
-      "slug": "auto-product-by-bigblue",
-      "name": "Bigblue Automatic Free Gifts",
-      "developer": "Bigblue",
+      "slug": "betty-ai",
+      "name": "Betty AI Phone Receptionist",
+      "developer": "Betty AI",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-23",
       "recovered": null,
-      "launched": "2021-04-21",
-      "source_url": "https://heyapps.dev/apps/auto-product-by-bigblue"
-    },
-    {
-      "slug": "bigblue",
-      "name": "Bigblue ‑ All in one logistics",
-      "developer": "Bigblue",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2020-02-19",
-      "source_url": "https://heyapps.dev/apps/bigblue"
-    },
-    {
-      "slug": "bigbuy-synchronization-app",
-      "name": "BigBuy ‑ Dropshipping carriers",
-      "developer": "BigBuy",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2021-01-15",
-      "source_url": "https://heyapps.dev/apps/bigbuy-synchronization-app"
+      "launched": "2024-08-08",
+      "source_url": "https://heyapps.dev/apps/betty-ai"
     },
     {
       "slug": "bind-1",
@@ -774,16 +774,6 @@
       "recovered": null,
       "launched": null,
       "source_url": "https://heyapps.dev/apps/bind-1"
-    },
-    {
-      "slug": "birds-ai-marketing",
-      "name": "BirdseyePost – Direct Mail",
-      "developer": "Birdseye Global",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2022-06-15",
-      "source_url": "https://heyapps.dev/apps/birds-ai-marketing"
     },
     {
       "slug": "bitkoop",
@@ -916,6 +906,16 @@
       "source_url": "https://heyapps.dev/apps/script-test-app"
     },
     {
+      "slug": "booster-apps-seo-optimizer",
+      "name": "BOOSTER AI SEO + AEO OPTIMIZER",
+      "developer": "Booster SEO",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2016-03-28",
+      "source_url": "https://heyapps.dev/apps/booster-apps-seo-optimizer"
+    },
+    {
       "slug": "pushowl",
       "name": "Brevo PushOwl: Email,Push,SMS",
       "developer": "Brevo PushOwl",
@@ -936,6 +936,16 @@
       "source_url": "https://heyapps.dev/apps/bulk-price-editor-5"
     },
     {
+      "slug": "bundle-builder-8",
+      "name": "Bundle Builder",
+      "developer": "Devmont Digital",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-05-01",
+      "source_url": "https://heyapps.dev/apps/bundle-builder-8"
+    },
+    {
       "slug": "bundle-pilot",
       "name": "Bundle Pilot",
       "developer": "Ferrum Apps",
@@ -946,6 +956,16 @@
       "source_url": "https://heyapps.dev/apps/bundle-pilot"
     },
     {
+      "slug": "bundle-stock-sync",
+      "name": "Bundle Stock Sync by mnurksr",
+      "developer": "mnurksr",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-06-10",
+      "source_url": "https://heyapps.dev/apps/bundle-stock-sync"
+    },
+    {
       "slug": "bundleblitz",
       "name": "BundleBlitz: AI Product Bundle",
       "developer": "Moneyed28 LLC",
@@ -954,6 +974,16 @@
       "recovered": null,
       "launched": "2026-03-30",
       "source_url": "https://heyapps.dev/apps/bundleblitz"
+    },
+    {
+      "slug": "bundle-builder-13",
+      "name": "BundleCraft",
+      "developer": "MerSell",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-09-22",
+      "source_url": "https://heyapps.dev/apps/bundle-builder-13"
     },
     {
       "slug": "bundleforge-6",
@@ -986,6 +1016,16 @@
       "source_url": "https://heyapps.dev/apps/busybuddy"
     },
     {
+      "slug": "canva-add-pages",
+      "name": "CanvSync AI Landing Pages",
+      "developer": "Autopilot",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2025-04-16",
+      "source_url": "https://heyapps.dev/apps/canva-add-pages"
+    },
+    {
       "slug": "cartoptimizer",
       "name": "CartOptimizer: AI SEO & Tags",
       "developer": "CartOptimizer",
@@ -1004,6 +1044,16 @@
       "recovered": null,
       "launched": "2026-08-11",
       "source_url": "https://heyapps.dev/apps/bundlepilot-dev"
+    },
+    {
+      "slug": "carttime-countdown",
+      "name": "Carttime Countdown",
+      "developer": "Apper",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2024-05-01",
+      "source_url": "https://heyapps.dev/apps/carttime-countdown"
     },
     {
       "slug": "cartviral",
@@ -1026,6 +1076,66 @@
       "source_url": "https://heyapps.dev/apps/cash-back-rewards"
     },
     {
+      "slug": "catalogace",
+      "name": "Catalog PDF Maker ‑ AceCatalog",
+      "developer": "PH Group Limited",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2023-08-17",
+      "source_url": "https://heyapps.dev/apps/catalogace"
+    },
+    {
+      "slug": "mca-optimizer",
+      "name": "CatalogIQ",
+      "developer": "Charles Fox",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-01",
+      "source_url": "https://heyapps.dev/apps/mca-optimizer"
+    },
+    {
+      "slug": "chatgpt-ads-pixel-tracker",
+      "name": "ChatGPT Ads & Pixel Tracker",
+      "developer": "wRanks",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-06-10",
+      "source_url": "https://heyapps.dev/apps/chatgpt-ads-pixel-tracker"
+    },
+    {
+      "slug": "chatgpt-ai-description",
+      "name": "ChatGPT AI Description ‑ Bulk",
+      "developer": "Outright Solutions Pvt Ltd",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2025-09-15",
+      "source_url": "https://heyapps.dev/apps/chatgpt-ai-description"
+    },
+    {
+      "slug": "chatgpt-description-generator",
+      "name": "ChatGPT Description Generator",
+      "developer": "Resaa",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2024-03-15",
+      "source_url": "https://heyapps.dev/apps/chatgpt-description-generator"
+    },
+    {
+      "slug": "ai-sales-associate",
+      "name": "ChatGPT Plus for Customer Care",
+      "developer": "FineAI Commerce",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2024-01-18",
+      "source_url": "https://heyapps.dev/apps/ai-sales-associate"
+    },
+    {
       "slug": "chatin",
       "name": "ChatIn: AI Chatbot Support",
       "developer": "ChatIn",
@@ -1034,6 +1144,16 @@
       "recovered": null,
       "launched": "2025-04-11",
       "source_url": "https://heyapps.dev/apps/chatin"
+    },
+    {
+      "slug": "chatkpi",
+      "name": "ChatKPI ‑ AI Analyst Sidekick",
+      "developer": "FlipLabs, LLC",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2023-11-24",
+      "source_url": "https://heyapps.dev/apps/chatkpi"
     },
     {
       "slug": "checkboost-checkbox-upsells",
@@ -1046,14 +1166,24 @@
       "source_url": "https://heyapps.dev/apps/checkboost-checkbox-upsells"
     },
     {
-      "slug": "checkout-flow",
-      "name": "Checkout | CF",
-      "developer": "Nordic Apps",
+      "slug": "checkout-maxx",
+      "name": "Checkout Functions",
+      "developer": "Functions GPT",
       "availability": "delisted",
-      "delisted": "2026-10-20",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2023-04-28",
-      "source_url": "https://heyapps.dev/apps/checkout-flow"
+      "launched": "2024-11-27",
+      "source_url": "https://heyapps.dev/apps/checkout-maxx"
+    },
+    {
+      "slug": "checkoutguard-bot-filter",
+      "name": "CheckoutGuard Bot Filter",
+      "developer": "Zoe Capital LLC",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-05-19",
+      "source_url": "https://heyapps.dev/apps/checkoutguard-bot-filter"
     },
     {
       "slug": "pawsome-passport",
@@ -1096,16 +1226,6 @@
       "source_url": "https://heyapps.dev/apps/clearpath-accessibility"
     },
     {
-      "slug": "cloth-ai",
-      "name": "Cloth AI: Metafields & Titles",
-      "developer": "Lonca",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2025-06-26",
-      "source_url": "https://heyapps.dev/apps/cloth-ai"
-    },
-    {
       "slug": "cmgalaxy-1",
       "name": "CMGalaxy – AI Ad Intelligence",
       "developer": "cmgalaxy.com",
@@ -1114,6 +1234,16 @@
       "recovered": null,
       "launched": "2026-05-21",
       "source_url": "https://heyapps.dev/apps/cmgalaxy-1"
+    },
+    {
+      "slug": "cash-on-delivery-cod-order-confirmation",
+      "name": "COD King‑COD Form|Part COD OTP",
+      "developer": "Notifik Technologies LLP - COD King",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/cash-on-delivery-cod-order-confirmation"
     },
     {
       "slug": "codfee-set-codfee",
@@ -1136,6 +1266,36 @@
       "source_url": "https://heyapps.dev/apps/variant-swatch-king"
     },
     {
+      "slug": "collection-swatch-pug",
+      "name": "Color Swatch Pug",
+      "developer": "Bitfrills solutions inc.",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2017-11-09",
+      "source_url": "https://heyapps.dev/apps/collection-swatch-pug"
+    },
+    {
+      "slug": "smart-combo-generator",
+      "name": "Combo Wise | Bundle & discount",
+      "developer": "Charanpahariapp",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/smart-combo-generator"
+    },
+    {
+      "slug": "gift-options-backhand",
+      "name": "Complete gift options",
+      "developer": "Backhand",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2026-07-22",
+      "source_url": "https://heyapps.dev/apps/gift-options-backhand"
+    },
+    {
       "slug": "complete-order-protection",
       "name": "Complete Order Protection",
       "developer": "Ten32 Media LLC",
@@ -1146,14 +1306,24 @@
       "source_url": "https://heyapps.dev/apps/complete-order-protection"
     },
     {
-      "slug": "gdpr-backpack",
-      "name": "Consentmo GDPR Compliance",
-      "developer": "Consentmo",
+      "slug": "complyguard-ai",
+      "name": "ComplyGuard AI",
+      "developer": "Microters LLC",
       "availability": "delisted",
-      "delisted": "2026-10-20",
+      "delisted": "2026-10-29",
       "recovered": null,
-      "launched": null,
-      "source_url": "https://heyapps.dev/apps/gdpr-backpack"
+      "launched": "2026-07-21",
+      "source_url": "https://heyapps.dev/apps/complyguard-ai"
+    },
+    {
+      "slug": "content-genius-ai",
+      "name": "Content Genius AI",
+      "developer": "Build app",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-05",
+      "source_url": "https://heyapps.dev/apps/content-genius-ai"
     },
     {
       "slug": "cookie-first",
@@ -1296,16 +1466,6 @@
       "source_url": "https://heyapps.dev/apps/customerplus"
     },
     {
-      "slug": "multi-seasonal-effects",
-      "name": "Dakaas AI 3D Seasonal Effects",
-      "developer": "Dakaas",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2021-05-14",
-      "source_url": "https://heyapps.dev/apps/multi-seasonal-effects"
-    },
-    {
       "slug": "dash-drop-delivery",
       "name": "Dash Drop Delivery",
       "developer": "rajatweb.com",
@@ -1356,14 +1516,14 @@
       "source_url": "https://heyapps.dev/apps/descriptai-1"
     },
     {
-      "slug": "diginius-shopping",
-      "name": "Diginius: Microsoft Shopping",
-      "developer": "Diginius",
+      "slug": "dhl-india-rate-quote",
+      "name": "DHL INDIA RATE QUOTE",
+      "developer": "Marmeto",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-27",
       "recovered": null,
-      "launched": "2023-07-13",
-      "source_url": "https://heyapps.dev/apps/diginius-shopping"
+      "launched": "2022-03-09",
+      "source_url": "https://heyapps.dev/apps/dhl-india-rate-quote"
     },
     {
       "slug": "discountduck",
@@ -1376,14 +1536,14 @@
       "source_url": "https://heyapps.dev/apps/discountduck"
     },
     {
-      "slug": "custom-tiered-discount",
-      "name": "Discountly‑POS & Tier discount",
-      "developer": "Anncode Solutions",
+      "slug": "dital-ai-app",
+      "name": "DITAL AI APP",
+      "developer": "DITAL AI APP",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-29",
       "recovered": null,
-      "launched": "2021-04-08",
-      "source_url": "https://heyapps.dev/apps/custom-tiered-discount"
+      "launched": "2026-06-12",
+      "source_url": "https://heyapps.dev/apps/dital-ai-app"
     },
     {
       "slug": "drape-virtual-try-on",
@@ -1476,6 +1636,16 @@
       "source_url": "https://heyapps.dev/apps/duro_test"
     },
     {
+      "slug": "easy-announce",
+      "name": "Easy Announcement Bar",
+      "developer": "SketchApps",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2023-08-25",
+      "source_url": "https://heyapps.dev/apps/easy-announce"
+    },
+    {
       "slug": "easy-bol-com",
       "name": "Easy bol.com",
       "developer": "Not Final",
@@ -1494,6 +1664,26 @@
       "recovered": null,
       "launched": "2026-07-30",
       "source_url": "https://heyapps.dev/apps/easycookiebar"
+    },
+    {
+      "slug": "google-merchant-widget",
+      "name": "Easy Google Merchant Widget",
+      "developer": "Alan Labs",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-03-04",
+      "source_url": "https://heyapps.dev/apps/google-merchant-widget"
+    },
+    {
+      "slug": "terms-checkbox-app",
+      "name": "Easy Terms Checkbox",
+      "developer": "kentralpark",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2026-10-12",
+      "source_url": "https://heyapps.dev/apps/terms-checkbox-app"
     },
     {
       "slug": "advance-customer-redirects",
@@ -1516,6 +1706,26 @@
       "source_url": "https://heyapps.dev/apps/product-tag-image"
     },
     {
+      "slug": "unstack",
+      "name": "Elastic Path Studio",
+      "developer": "Elastic Path",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2021-11-03",
+      "source_url": "https://heyapps.dev/apps/unstack"
+    },
+    {
+      "slug": "geo-blocking-russia",
+      "name": "Elevate SEO‑Safe GEO Blocking",
+      "developer": "Elevate Europe ApS",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2023-02-08",
+      "source_url": "https://heyapps.dev/apps/geo-blocking-russia"
+    },
+    {
       "slug": "sms-europe",
       "name": "Elevate SMS Marketing Europe",
       "developer": "Elevate Europe ApS",
@@ -1536,6 +1746,16 @@
       "source_url": "https://heyapps.dev/apps/elevatestore-price-scheduler-1"
     },
     {
+      "slug": "evm-lookbook",
+      "name": "EM Lookbook Gallery",
+      "developer": "Expert Village Media Technologies",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2016-12-15",
+      "source_url": "https://heyapps.dev/apps/evm-lookbook"
+    },
+    {
       "slug": "emailgater",
       "name": "EmailGater",
       "developer": "Create Type",
@@ -1544,6 +1764,36 @@
       "recovered": null,
       "launched": "2026-05-08",
       "source_url": "https://heyapps.dev/apps/emailgater"
+    },
+    {
+      "slug": "eshipz-shipping-in-india",
+      "name": "eShipz || Shipping Software",
+      "developer": "eShipz.com (LogIQ Labs Private Ltd)",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2022-03-17",
+      "source_url": "https://heyapps.dev/apps/eshipz-shipping-in-india"
+    },
+    {
+      "slug": "eu-compliance-suite",
+      "name": "EU Compliance Suite",
+      "developer": "EU Eco-Label Manager",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-09-15",
+      "source_url": "https://heyapps.dev/apps/eu-compliance-suite"
+    },
+    {
+      "slug": "evereye-fraud-protection",
+      "name": "Evereye | Fraud Protection",
+      "developer": "Evereye Inc.",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2022-02-16",
+      "source_url": "https://heyapps.dev/apps/evereye-fraud-protection"
     },
     {
       "slug": "expandly-1",
@@ -1556,6 +1806,16 @@
       "source_url": "https://heyapps.dev/apps/expandly-1"
     },
     {
+      "slug": "exquisite-sitemap",
+      "name": "Exquisite Sitemap",
+      "developer": "Whitewood Media",
+      "availability": "delisted",
+      "delisted": "2026-10-23",
+      "recovered": null,
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/exquisite-sitemap"
+    },
+    {
       "slug": "raven",
       "name": "EZ Callback Request",
       "developer": "HMS Commerce",
@@ -1566,34 +1826,14 @@
       "source_url": "https://heyapps.dev/apps/raven"
     },
     {
-      "slug": "turkiye-eticaret-sozlesmeleri",
-      "name": "E‑Ticaret Sözleşmeleri & Onay",
-      "developer": "Shopiexpert LLC",
+      "slug": "new-customer-purchases",
+      "name": "Facebook New Customer Tracking",
+      "developer": "DATAPLANET LTD",
       "availability": "delisted",
-      "delisted": "2026-10-22",
+      "delisted": "2026-10-27",
       "recovered": null,
-      "launched": "2025-11-14",
-      "source_url": "https://heyapps.dev/apps/turkiye-eticaret-sozlesmeleri"
-    },
-    {
-      "slug": "product-review-photo-review",
-      "name": "Fab Product Reviews & UGC",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2023-02-06",
-      "source_url": "https://heyapps.dev/apps/product-review-photo-review"
-    },
-    {
-      "slug": "fab-shoppable-insta-feed",
-      "name": "FAB Shoppable Insta Feed",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2023-05-05",
-      "source_url": "https://heyapps.dev/apps/fab-shoppable-insta-feed"
+      "launched": "2025-07-02",
+      "source_url": "https://heyapps.dev/apps/new-customer-purchases"
     },
     {
       "slug": "faq-ai-assist",
@@ -1616,6 +1856,26 @@
       "source_url": "https://heyapps.dev/apps/faqprime-lite"
     },
     {
+      "slug": "easyreplenish-inventoryplanner",
+      "name": "Fashion Inventory Management",
+      "developer": "Easy Replenish",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-01-26",
+      "source_url": "https://heyapps.dev/apps/easyreplenish-inventoryplanner"
+    },
+    {
+      "slug": "fastreal-public",
+      "name": "Fastreal",
+      "developer": "杭州潜渊之心科技有限公司",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2026-07-31",
+      "source_url": "https://heyapps.dev/apps/fastreal-public"
+    },
+    {
       "slug": "tabify-title-bar-animation",
       "name": "FaviCart Favicon Tab Animation",
       "developer": "Care Cart",
@@ -1626,14 +1886,14 @@
       "source_url": "https://heyapps.dev/apps/tabify-title-bar-animation"
     },
     {
-      "slug": "feedops",
-      "name": "FeedOps Shopping Feed Services",
-      "developer": "FeedOps",
+      "slug": "gmc-feed-fixer",
+      "name": "FeedFix",
+      "developer": "MCSITlab",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-27",
       "recovered": null,
-      "launched": "2021-10-14",
-      "source_url": "https://heyapps.dev/apps/feedops"
+      "launched": "2026-07-24",
+      "source_url": "https://heyapps.dev/apps/gmc-feed-fixer"
     },
     {
       "slug": "figpii",
@@ -1656,6 +1916,16 @@
       "source_url": "https://heyapps.dev/apps/fillshelves"
     },
     {
+      "slug": "findable-1",
+      "name": "Findable",
+      "developer": "Hewnpath",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-17",
+      "source_url": "https://heyapps.dev/apps/findable-1"
+    },
+    {
       "slug": "finiship",
       "name": "FINISHIP",
       "developer": "FINISHIP",
@@ -1664,6 +1934,26 @@
       "recovered": null,
       "launched": "2024-10-08",
       "source_url": "https://heyapps.dev/apps/finiship"
+    },
+    {
+      "slug": "fixio",
+      "name": "Fixio Services & repairs (POS)",
+      "developer": "Radikal",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2025-08-14",
+      "source_url": "https://heyapps.dev/apps/fixio"
+    },
+    {
+      "slug": "flashyapp-marketing-automation",
+      "name": "Flashy: Email Marketing & SMS",
+      "developer": "Flashy",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2019-02-04",
+      "source_url": "https://heyapps.dev/apps/flashyapp-marketing-automation"
     },
     {
       "slug": "flexi-delivery-pickup-date",
@@ -1706,6 +1996,16 @@
       "source_url": "https://heyapps.dev/apps/fomogen"
     },
     {
+      "slug": "forecastify-1",
+      "name": "Forecastify",
+      "developer": "SwiftSync",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2024-10-09",
+      "source_url": "https://heyapps.dev/apps/forecastify-1"
+    },
+    {
       "slug": "forma-research",
       "name": "Forma | Surveys that Convert",
       "developer": "Forma",
@@ -1734,6 +2034,16 @@
       "recovered": null,
       "launched": "2026-04-24",
       "source_url": "https://heyapps.dev/apps/frontify"
+    },
+    {
+      "slug": "gallabox",
+      "name": "Gallabox WhatsApp Automation",
+      "developer": "Gallabox",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2022-11-04",
+      "source_url": "https://heyapps.dev/apps/gallabox"
     },
     {
       "slug": "gateflow",
@@ -1806,6 +2116,86 @@
       "source_url": "https://heyapps.dev/apps/gom-tools"
     },
     {
+      "slug": "magic-google-ads-tracking-1",
+      "name": "Google Enhanced Conversion",
+      "developer": "Smart Ecom Tech",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2021-09-09",
+      "source_url": "https://heyapps.dev/apps/magic-google-ads-tracking-1"
+    },
+    {
+      "slug": "google-reviews-9",
+      "name": "Google Reviews by Nexprix",
+      "developer": "Ubicuo Libres Pensadores SL",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-02",
+      "source_url": "https://heyapps.dev/apps/google-reviews-9"
+    },
+    {
+      "slug": "google-reviews-pro",
+      "name": "Google Reviews Pro",
+      "developer": "Prestasafe",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-06-24",
+      "source_url": "https://heyapps.dev/apps/google-reviews-pro"
+    },
+    {
+      "slug": "atom-tag-manager-mate",
+      "name": "Google Tag Manager Mate",
+      "developer": "atomdot",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2022-08-15",
+      "source_url": "https://heyapps.dev/apps/atom-tag-manager-mate"
+    },
+    {
+      "slug": "gpsr-omnibus-compliance",
+      "name": "GPSR & Omnibus Compliance",
+      "developer": "oMedia doo",
+      "availability": "delisted",
+      "delisted": "2026-10-23",
+      "recovered": null,
+      "launched": "2026-08-19",
+      "source_url": "https://heyapps.dev/apps/gpsr-omnibus-compliance"
+    },
+    {
+      "slug": "gpsr-suite-1",
+      "name": "GPSR Suite: EU Safety Info",
+      "developer": "DigitalGrove",
+      "availability": "delisted",
+      "delisted": "2026-10-24",
+      "recovered": null,
+      "launched": "2026-09-11",
+      "source_url": "https://heyapps.dev/apps/gpsr-suite-1"
+    },
+    {
+      "slug": "green-feeback-suvery-form",
+      "name": "Green Survey & Feedback Form",
+      "developer": "AxifyStudio",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2025-07-02",
+      "source_url": "https://heyapps.dev/apps/green-feeback-suvery-form"
+    },
+    {
+      "slug": "avis-garantis",
+      "name": "Guaranteed Reviews Company",
+      "developer": "Société des Avis Garantis",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2021-11-08",
+      "source_url": "https://heyapps.dev/apps/avis-garantis"
+    },
+    {
       "slug": "gyftr-1",
       "name": "GyFTR",
       "developer": "Vouchagram India Pvt Ltd",
@@ -1866,14 +2256,24 @@
       "source_url": "https://heyapps.dev/apps/hintello"
     },
     {
-      "slug": "product-options-by-hulkapps-1",
-      "name": "Hulk Product Options",
-      "developer": "HulkApps",
+      "slug": "handlerbund-rechtstexte-1",
+      "name": "Händlerbund Rechtstexte",
+      "developer": "Händlerbund Legal Tech GmbH",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2018-03-01",
-      "source_url": "https://heyapps.dev/apps/product-options-by-hulkapps-1"
+      "launched": "2021-12-17",
+      "source_url": "https://heyapps.dev/apps/handlerbund-rechtstexte-1"
+    },
+    {
+      "slug": "ibuy",
+      "name": "iBuy: Add to Cart & Bundles",
+      "developer": "JB.er",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2026-06-02",
+      "source_url": "https://heyapps.dev/apps/ibuy"
     },
     {
       "slug": "customer-motivator",
@@ -1886,6 +2286,16 @@
       "source_url": "https://heyapps.dev/apps/customer-motivator"
     },
     {
+      "slug": "influence-io",
+      "name": "Influence: Loyalty & Referral",
+      "developer": "Reviews.io",
+      "availability": "delisted",
+      "delisted": "2026-10-24",
+      "recovered": null,
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/influence-io"
+    },
+    {
       "slug": "info-buttons",
       "name": "Info Buttons: External Links",
       "developer": "Sky Design Media Srl",
@@ -1894,6 +2304,26 @@
       "recovered": null,
       "launched": "2026-05-11",
       "source_url": "https://heyapps.dev/apps/info-buttons"
+    },
+    {
+      "slug": "inscend",
+      "name": "Inscend",
+      "developer": "Data Fellows Inc",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2026-05-19",
+      "source_url": "https://heyapps.dev/apps/inscend"
+    },
+    {
+      "slug": "instagram-feed-ninja",
+      "name": "Instagram Feed Ninja",
+      "developer": "WebNinjaz Technologies Pvt Ltd",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2020-03-11",
+      "source_url": "https://heyapps.dev/apps/instagram-feed-ninja"
     },
     {
       "slug": "invoicepro-au",
@@ -1936,16 +2366,6 @@
       "source_url": "https://heyapps.dev/apps/isbndb-book-database-connector"
     },
     {
-      "slug": "prosubfy-product-subscriptions",
-      "name": "iSubfy Product Subscriptions",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2024-09-26",
-      "source_url": "https://heyapps.dev/apps/prosubfy-product-subscriptions"
-    },
-    {
       "slug": "tablepress",
       "name": "iTable Compare & Pricing Table",
       "developer": "iTable by Identixweb",
@@ -1976,14 +2396,24 @@
       "source_url": "https://heyapps.dev/apps/jdac-logistics"
     },
     {
-      "slug": "diamond-filter-ring-builder",
-      "name": "Keyideas RingBuilder ‑ Jewelry",
-      "developer": "Keyideas Infotech Private Limited",
+      "slug": "jericommerce-admin",
+      "name": "JeriCommerce Loyalty Program",
+      "developer": "JeriCommerce",
       "availability": "delisted",
-      "delisted": "2026-10-14",
+      "delisted": "2026-10-27",
       "recovered": null,
-      "launched": "2024-01-09",
-      "source_url": "https://heyapps.dev/apps/diamond-filter-ring-builder"
+      "launched": "2024-07-08",
+      "source_url": "https://heyapps.dev/apps/jericommerce-admin"
+    },
+    {
+      "slug": "customersupport",
+      "name": "Kim‑Managed AI Native Support",
+      "developer": "KIMCC INC",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2024-10-23",
+      "source_url": "https://heyapps.dev/apps/customersupport"
     },
     {
       "slug": "tds-geo",
@@ -2026,6 +2456,16 @@
       "source_url": "https://heyapps.dev/apps/krafted-ai"
     },
     {
+      "slug": "laseroo",
+      "name": "Laseroo ‑ Laser on Demand",
+      "developer": "Precision Laser Art LLC",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2022-04-06",
+      "source_url": "https://heyapps.dev/apps/laseroo"
+    },
+    {
       "slug": "launchforge",
       "name": "Launch Forge: Smart Copy & SEO",
       "developer": "RMMS.Cloud",
@@ -2036,14 +2476,14 @@
       "source_url": "https://heyapps.dev/apps/launchforge"
     },
     {
-      "slug": "leat-loyalty-rewards",
-      "name": "Leat: Loyalty & Marketing",
-      "developer": "Leat",
+      "slug": "layout-hub",
+      "name": "LayoutHub ‑ Easy Page Builder",
+      "developer": "LayoutHub",
       "availability": "delisted",
-      "delisted": "2026-10-21",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2024-04-26",
-      "source_url": "https://heyapps.dev/apps/leat-loyalty-rewards"
+      "launched": "2019-12-12",
+      "source_url": "https://heyapps.dev/apps/layout-hub"
     },
     {
       "slug": "lexaconsent",
@@ -2076,6 +2516,16 @@
       "source_url": "https://heyapps.dev/apps/llm-wizz-1"
     },
     {
+      "slug": "locale-to",
+      "name": "Locale",
+      "developer": "Locale",
+      "availability": "delisted",
+      "delisted": "2026-10-25",
+      "recovered": null,
+      "launched": "2022-09-06",
+      "source_url": "https://heyapps.dev/apps/locale-to"
+    },
+    {
       "slug": "lolozem-webar",
       "name": "Lolozem Web AR",
       "developer": "Lolozem Inc.",
@@ -2094,16 +2544,6 @@
       "recovered": null,
       "launched": "2024-01-19",
       "source_url": "https://heyapps.dev/apps/profit-x"
-    },
-    {
-      "slug": "bigblue-pickup-points",
-      "name": "Maple ‑ Pickup Points Selector",
-      "developer": "Bigblue",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2024-01-29",
-      "source_url": "https://heyapps.dev/apps/bigblue-pickup-points"
     },
     {
       "slug": "marginguard-1",
@@ -2156,16 +2596,6 @@
       "source_url": "https://heyapps.dev/apps/mergeon-seller"
     },
     {
-      "slug": "customizable-dynamic-fields",
-      "name": "Metaflow ‑ Dynamic Metafields",
-      "developer": "NAVEGaid",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-01-13",
-      "source_url": "https://heyapps.dev/apps/customizable-dynamic-fields"
-    },
-    {
       "slug": "metricxpert",
       "name": "MetricXpert",
       "developer": "XpertSolvers",
@@ -2174,6 +2604,16 @@
       "recovered": null,
       "launched": "2024-05-17",
       "source_url": "https://heyapps.dev/apps/metricxpert"
+    },
+    {
+      "slug": "mglobe-checkout-booster-1",
+      "name": "MGlobe Checkout Booster",
+      "developer": "Mangalam Globe",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-05-06",
+      "source_url": "https://heyapps.dev/apps/mglobe-checkout-booster-1"
     },
     {
       "slug": "mi-terms-conditions",
@@ -2214,6 +2654,16 @@
       "recovered": null,
       "launched": "2019-08-15",
       "source_url": "https://heyapps.dev/apps/advanced-reports"
+    },
+    {
+      "slug": "moengage-1",
+      "name": "MoEngage",
+      "developer": "Moengage",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2023-11-30",
+      "source_url": "https://heyapps.dev/apps/moengage-1"
     },
     {
       "slug": "monster-upsells",
@@ -2264,16 +2714,6 @@
       "recovered": null,
       "launched": "2014-10-30",
       "source_url": "https://heyapps.dev/apps/now-in-stock-3"
-    },
-    {
-      "slug": "i-wishlist",
-      "name": "Mst: Wishlist Prime",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
-      "availability": "delisted",
-      "delisted": "2026-10-23",
-      "recovered": null,
-      "launched": "2014-08-05",
-      "source_url": "https://heyapps.dev/apps/i-wishlist"
     },
     {
       "slug": "ms-wishlist-app",
@@ -2336,6 +2776,36 @@
       "source_url": "https://heyapps.dev/apps/nativy"
     },
     {
+      "slug": "netgsm-sms",
+      "name": "Netgsm SMS",
+      "developer": "Netgsm",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2023-08-23",
+      "source_url": "https://heyapps.dev/apps/netgsm-sms"
+    },
+    {
+      "slug": "zoku-connector",
+      "name": "NetSuite Omnichannel Connector",
+      "developer": "Zoku Pte. Ltd.",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2024-02-14",
+      "source_url": "https://heyapps.dev/apps/zoku-connector"
+    },
+    {
+      "slug": "pandaflow",
+      "name": "NetSuite Smart Sync",
+      "developer": "pandaflow",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2020-05-15",
+      "source_url": "https://heyapps.dev/apps/pandaflow"
+    },
+    {
       "slug": "nextlevel-wishlist",
       "name": "Next Level Wishlist",
       "developer": "Genie",
@@ -2396,6 +2866,16 @@
       "source_url": "https://heyapps.dev/apps/imageseo"
     },
     {
+      "slug": "noticify",
+      "name": "Noticify",
+      "developer": "Spark Studio",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2026-05-28",
+      "source_url": "https://heyapps.dev/apps/noticify"
+    },
+    {
       "slug": "odyssey",
       "name": "Odyssey ‑ 3D Virtual Stores",
       "developer": "Exarta",
@@ -2404,6 +2884,26 @@
       "recovered": null,
       "launched": "2023-08-28",
       "source_url": "https://heyapps.dev/apps/odyssey"
+    },
+    {
+      "slug": "whatsapp-official-apis",
+      "name": "Official WhatsApp APIs",
+      "developer": "NetSofters LLP",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-08-21",
+      "source_url": "https://heyapps.dev/apps/whatsapp-official-apis"
+    },
+    {
+      "slug": "omakase-ai",
+      "name": "Omakase.ai | Voice AI Agent",
+      "developer": "Omakase.ai",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2025-04-22",
+      "source_url": "https://heyapps.dev/apps/omakase-ai"
     },
     {
       "slug": "sales-orders-1",
@@ -2436,6 +2936,16 @@
       "source_url": "https://heyapps.dev/apps/open-roas"
     },
     {
+      "slug": "shopgenie",
+      "name": "Operational Genie",
+      "developer": "yardenos",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2025-03-12",
+      "source_url": "https://heyapps.dev/apps/shopgenie"
+    },
+    {
       "slug": "operix",
       "name": "Operix",
       "developer": "Operix",
@@ -2446,14 +2956,14 @@
       "source_url": "https://heyapps.dev/apps/operix"
     },
     {
-      "slug": "seo-meta-tag",
-      "name": "OptizenAI ‑ SEO & AI Tools",
-      "developer": "Optizenapp",
+      "slug": "product-options-8",
+      "name": "Option Guard: Product Options",
+      "developer": "Apitide",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2018-09-26",
-      "source_url": "https://heyapps.dev/apps/seo-meta-tag"
+      "launched": "2026-08-27",
+      "source_url": "https://heyapps.dev/apps/product-options-8"
     },
     {
       "slug": "orden-pilot",
@@ -2464,6 +2974,26 @@
       "recovered": null,
       "launched": "2026-05-13",
       "source_url": "https://heyapps.dev/apps/orden-pilot"
+    },
+    {
+      "slug": "orderbridge-for-etsy",
+      "name": "OrderBridge",
+      "developer": "RTML Designs",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/orderbridge-for-etsy"
+    },
+    {
+      "slug": "orderbump",
+      "name": "OrderBump ‑ Checkout Upsells",
+      "developer": "OrderBump 💸",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2020-10-16",
+      "source_url": "https://heyapps.dev/apps/orderbump"
     },
     {
       "slug": "order-editing-plus",
@@ -2484,6 +3014,16 @@
       "recovered": null,
       "launched": "2026-08-19",
       "source_url": "https://heyapps.dev/apps/orderquorum"
+    },
+    {
+      "slug": "ordersignal-1",
+      "name": "OrderSignal ‑ Fraud Detection",
+      "developer": "Compliance Forge",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-06-05",
+      "source_url": "https://heyapps.dev/apps/ordersignal-1"
     },
     {
       "slug": "order-document-studio",
@@ -2566,14 +3106,24 @@
       "source_url": "https://heyapps.dev/apps/parcellab-engage"
     },
     {
-      "slug": "payfn-hide-payment-methods",
-      "name": "payFn: Payment Method Rules",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "slug": "pasilobus-turbo",
+      "name": "Pasilobus Turbo",
+      "developer": "Pasilobus",
       "availability": "delisted",
-      "delisted": "2026-10-22",
+      "delisted": "2026-10-23",
       "recovered": null,
-      "launched": "2023-04-05",
-      "source_url": "https://heyapps.dev/apps/payfn-hide-payment-methods"
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/pasilobus-turbo"
+    },
+    {
+      "slug": "pavo-volume-discount",
+      "name": "Pavo",
+      "developer": "soyAkil",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-28",
+      "source_url": "https://heyapps.dev/apps/pavo-volume-discount"
     },
     {
       "slug": "pdf-uploader",
@@ -2614,6 +3164,26 @@
       "recovered": null,
       "launched": "2019-03-20",
       "source_url": "https://heyapps.dev/apps/replay"
+    },
+    {
+      "slug": "bundle-app-2",
+      "name": "Picky | Variant Picker",
+      "developer": "AED Logistics LLC",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2025-09-19",
+      "source_url": "https://heyapps.dev/apps/bundle-app-2"
+    },
+    {
+      "slug": "pinterest-pixel-helper",
+      "name": "Pinterest Pixel Tag ‑ PinTag",
+      "developer": "We Do The Stuff",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2021-03-18",
+      "source_url": "https://heyapps.dev/apps/pinterest-pixel-helper"
     },
     {
       "slug": "pivot-keyword-master",
@@ -2676,6 +3246,16 @@
       "source_url": "https://heyapps.dev/apps/shelfops"
     },
     {
+      "slug": "platinumconsent",
+      "name": "PlatinumConsent",
+      "developer": "PlatinumConsent",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-06-01",
+      "source_url": "https://heyapps.dev/apps/platinumconsent"
+    },
+    {
       "slug": "platter-plus",
       "name": "Platter+ Checkout Optimization",
       "developer": "Platter",
@@ -2726,6 +3306,16 @@
       "source_url": "https://heyapps.dev/apps/protectmyorder"
     },
     {
+      "slug": "po-box-blocker-1",
+      "name": "PO Box Blocker by mnurksr",
+      "developer": "mnurksr",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-11",
+      "source_url": "https://heyapps.dev/apps/po-box-blocker-1"
+    },
+    {
       "slug": "podopals-collection-manager",
       "name": "Podo Pals Collection Manager",
       "developer": "Podo Pals",
@@ -2766,6 +3356,16 @@
       "source_url": "https://heyapps.dev/apps/praxis"
     },
     {
+      "slug": "prestashop-to-shopify-migration",
+      "name": "Prestify: Prestashop Migration",
+      "developer": "Anglerfox 🏆",
+      "availability": "delisted",
+      "delisted": "2026-10-23",
+      "recovered": null,
+      "launched": "2022-02-02",
+      "source_url": "https://heyapps.dev/apps/prestashop-to-shopify-migration"
+    },
+    {
       "slug": "pretty-sales-popup",
       "name": "Pretty Sales Popup ‑ pop up",
       "developer": "WizeSaaS",
@@ -2774,6 +3374,16 @@
       "recovered": null,
       "launched": null,
       "source_url": "https://heyapps.dev/apps/pretty-sales-popup"
+    },
+    {
+      "slug": "bulk-products-order",
+      "name": "Prezen Wholesale Order",
+      "developer": "Prezen Apps",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2018-09-26",
+      "source_url": "https://heyapps.dev/apps/bulk-products-order"
     },
     {
       "slug": "price-engine",
@@ -2786,14 +3396,24 @@
       "source_url": "https://heyapps.dev/apps/price-engine"
     },
     {
-      "slug": "printops",
-      "name": "PrintOps: Print on Demand",
-      "developer": "PrintOps, LLC",
+      "slug": "pricepilot-5",
+      "name": "PricePilot",
+      "developer": "SSV Dev",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2021-02-05",
-      "source_url": "https://heyapps.dev/apps/printops"
+      "launched": "2026-08-14",
+      "source_url": "https://heyapps.dev/apps/pricepilot-5"
+    },
+    {
+      "slug": "printq-thermal-printer-pro",
+      "name": "PrintQ: Thermal Printer Pro",
+      "developer": "SwiftLogic",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-05-26",
+      "source_url": "https://heyapps.dev/apps/printq-thermal-printer-pro"
     },
     {
       "slug": "privy",
@@ -2866,16 +3486,6 @@
       "source_url": "https://heyapps.dev/apps/product-variants"
     },
     {
-      "slug": "prodspin",
-      "name": "ProductSpin AI – 360º Showcase",
-      "developer": "NAVEGaid",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-05-22",
-      "source_url": "https://heyapps.dev/apps/prodspin"
-    },
-    {
       "slug": "profit-panel",
       "name": "Profit Panel: Profit Analytics",
       "developer": "Profit Panel",
@@ -2916,6 +3526,16 @@
       "source_url": "https://heyapps.dev/apps/profitops"
     },
     {
+      "slug": "profit-tracker-2",
+      "name": "ProfitPulse",
+      "developer": "Danyil Service LLC",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-31",
+      "source_url": "https://heyapps.dev/apps/profit-tracker-2"
+    },
+    {
       "slug": "prombundle",
       "name": "promBundle ‑ Bundle Discounts",
       "developer": "SajOpt",
@@ -2926,14 +3546,24 @@
       "source_url": "https://heyapps.dev/apps/prombundle"
     },
     {
-      "slug": "ryve",
-      "name": "Pulse: AI SEO & LLM Visibility",
-      "developer": "Khadin Akbar Ventures",
+      "slug": "proseotracker",
+      "name": "ProSEOTracker AI SEO Audit",
+      "developer": "ProSEOTracker",
       "availability": "delisted",
-      "delisted": "2026-10-20",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2026-07-15",
-      "source_url": "https://heyapps.dev/apps/ryve"
+      "launched": "2018-09-26",
+      "source_url": "https://heyapps.dev/apps/proseotracker"
+    },
+    {
+      "slug": "proven-social-master",
+      "name": "Proven.Social",
+      "developer": "Proven.Social",
+      "availability": "delisted",
+      "delisted": "2026-10-24",
+      "recovered": null,
+      "launched": "2020-02-28",
+      "source_url": "https://heyapps.dev/apps/proven-social-master"
     },
     {
       "slug": "pulse-16",
@@ -2986,6 +3616,26 @@
       "source_url": "https://heyapps.dev/apps/qservus-lite"
     },
     {
+      "slug": "quiztoaction",
+      "name": "QTA Quiz: Segment & Recommend",
+      "developer": "Rapid Rise Product Labs Inc.",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2020-11-19",
+      "source_url": "https://heyapps.dev/apps/quiztoaction"
+    },
+    {
+      "slug": "quickcart-sticky-bar",
+      "name": "QuickCart Sticky Bar",
+      "developer": "Md Shahinur Sarder",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2026-06-08",
+      "source_url": "https://heyapps.dev/apps/quickcart-sticky-bar"
+    },
+    {
       "slug": "quoteapp-3",
       "name": "Quilt B2B Wholesale Pricing",
       "developer": "Dealify Nordahl",
@@ -2994,6 +3644,16 @@
       "recovered": null,
       "launched": "2026-05-01",
       "source_url": "https://heyapps.dev/apps/quoteapp-3"
+    },
+    {
+      "slug": "quoteharbor",
+      "name": "QuoteHarbor",
+      "developer": "MB ML Consulting",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-08-13",
+      "source_url": "https://heyapps.dev/apps/quoteharbor"
     },
     {
       "slug": "quote-builder-2",
@@ -3076,14 +3736,14 @@
       "source_url": "https://heyapps.dev/apps/reclaim-app"
     },
     {
-      "slug": "reconvert-upsell-cross-sell",
-      "name": "ReConvert Post Purchase Upsell",
-      "developer": "Upsell.com ex ReConvert",
+      "slug": "email-sync",
+      "name": "Recover Abandoned Cart",
+      "developer": "Xperience living Inc",
       "availability": "delisted",
-      "delisted": "2026-10-22",
+      "delisted": "2026-10-24",
       "recovered": null,
-      "launched": null,
-      "source_url": "https://heyapps.dev/apps/reconvert-upsell-cross-sell"
+      "launched": "2026-10-16",
+      "source_url": "https://heyapps.dev/apps/email-sync"
     },
     {
       "slug": "recovery-pro",
@@ -3114,6 +3774,16 @@
       "recovered": null,
       "launched": "2026-01-12",
       "source_url": "https://heyapps.dev/apps/related-products-by-taa"
+    },
+    {
+      "slug": "reorderly-app",
+      "name": "Reorderly",
+      "developer": "EL ANSARI KONSULT",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-09-11",
+      "source_url": "https://heyapps.dev/apps/reorderly-app"
     },
     {
       "slug": "reply-pilot",
@@ -3156,6 +3826,46 @@
       "source_url": "https://heyapps.dev/apps/restock-pilot"
     },
     {
+      "slug": "restock-radar-2",
+      "name": "Restock Radar",
+      "developer": "Subaru",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-14",
+      "source_url": "https://heyapps.dev/apps/restock-radar-2"
+    },
+    {
+      "slug": "restock-radar-4",
+      "name": "Restock Radar",
+      "developer": "Vctors Lab",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-08-03",
+      "source_url": "https://heyapps.dev/apps/restock-radar-4"
+    },
+    {
+      "slug": "restock-radar-7",
+      "name": "Restock Radar",
+      "developer": "Restock Radar",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-09-11",
+      "source_url": "https://heyapps.dev/apps/restock-radar-7"
+    },
+    {
+      "slug": "restockly-5",
+      "name": "Restockly",
+      "developer": "Advira Consulting AS",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-13",
+      "source_url": "https://heyapps.dev/apps/restockly-5"
+    },
+    {
       "slug": "restockping",
       "name": "RestockPing",
       "developer": "Christopher Johnston Consulting",
@@ -3176,6 +3886,16 @@
       "source_url": "https://heyapps.dev/apps/stockpilot-12"
     },
     {
+      "slug": "restocky-1",
+      "name": "Restocky",
+      "developer": "Sora Intelligence Vietnam",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-05-19",
+      "source_url": "https://heyapps.dev/apps/restocky-1"
+    },
+    {
       "slug": "retouching-photo-infotecsourz",
       "name": "Retouching Photo :Infotecsourz",
       "developer": "Infotecsourz",
@@ -3184,6 +3904,16 @@
       "recovered": null,
       "launched": "2024-01-04",
       "source_url": "https://heyapps.dev/apps/retouching-photo-infotecsourz"
+    },
+    {
+      "slug": "returnguardai",
+      "name": "ReturnGuard AI",
+      "developer": "ReturnGuard AIReturnGuard AI",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-12",
+      "source_url": "https://heyapps.dev/apps/returnguardai"
     },
     {
       "slug": "revenue-watchdog",
@@ -3234,6 +3964,16 @@
       "recovered": null,
       "launched": "2021-11-18",
       "source_url": "https://heyapps.dev/apps/myalice-live"
+    },
+    {
+      "slug": "revremind",
+      "name": "RevRemind",
+      "developer": "RevRemind",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2026-06-23",
+      "source_url": "https://heyapps.dev/apps/revremind"
     },
     {
       "slug": "rizer-app",
@@ -3356,6 +4096,26 @@
       "source_url": "https://heyapps.dev/apps/saleboost"
     },
     {
+      "slug": "salesync",
+      "name": "SaleSync — Sale Scheduler",
+      "developer": "Zaroh",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2026-06-12",
+      "source_url": "https://heyapps.dev/apps/salesync"
+    },
+    {
+      "slug": "instareels",
+      "name": "Samy Reels",
+      "developer": "Samy Ecommerce",
+      "availability": "delisted",
+      "delisted": "2026-10-25",
+      "recovered": null,
+      "launched": "2026-05-19",
+      "source_url": "https://heyapps.dev/apps/instareels"
+    },
+    {
       "slug": "sauja-chat",
       "name": "Sauja AI Chat & Product Search",
       "developer": "MB Verslo optimizavimas",
@@ -3406,6 +4166,16 @@
       "source_url": "https://heyapps.dev/apps/search-image"
     },
     {
+      "slug": "securetag",
+      "name": "SecureTag‑ Fight Fakes & Fraud",
+      "developer": "Better Age Solutions Pte Ltd",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2022-03-11",
+      "source_url": "https://heyapps.dev/apps/securetag"
+    },
+    {
       "slug": "semly",
       "name": "Semly: AI Visibility & GEO",
       "developer": "Droplo",
@@ -3414,6 +4184,16 @@
       "recovered": null,
       "launched": "2026-05-11",
       "source_url": "https://heyapps.dev/apps/semly"
+    },
+    {
+      "slug": "sensespace-integration",
+      "name": "SenseSpace Integration",
+      "developer": "Verisense Network Inc",
+      "availability": "delisted",
+      "delisted": "2026-10-24",
+      "recovered": null,
+      "launched": "2026-03-16",
+      "source_url": "https://heyapps.dev/apps/sensespace-integration"
     },
     {
       "slug": "seo-booster-light",
@@ -3436,24 +4216,14 @@
       "source_url": "https://heyapps.dev/apps/seolab"
     },
     {
-      "slug": "sg-shoppable-lookbook-gallery-1",
-      "name": "SG: Shoppable Lookbook Gallery",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "slug": "seo-optimizer-pro-1",
+      "name": "SEO‑Optimizer Pro: AI Audit",
+      "developer": "Zurita AI Labs",
       "availability": "delisted",
-      "delisted": "2026-10-23",
+      "delisted": "2026-10-29",
       "recovered": null,
-      "launched": "2023-05-03",
-      "source_url": "https://heyapps.dev/apps/sg-shoppable-lookbook-gallery-1"
-    },
-    {
-      "slug": "sharepack",
-      "name": "SharePack: Product Packs",
-      "developer": "深圳通晓网络科技有限公司",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-06-15",
-      "source_url": "https://heyapps.dev/apps/sharepack"
+      "launched": "2026-05-19",
+      "source_url": "https://heyapps.dev/apps/seo-optimizer-pro-1"
     },
     {
       "slug": "ship4quarters",
@@ -3466,16 +4236,6 @@
       "source_url": "https://heyapps.dev/apps/ship4quarters"
     },
     {
-      "slug": "shipfn-hide-shipping-method",
-      "name": "Shipfn: Hide shipping method",
-      "developer": "Mascot Software Technologies Pvt. Ltd",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2023-05-24",
-      "source_url": "https://heyapps.dev/apps/shipfn-hide-shipping-method"
-    },
-    {
       "slug": "shipgrow",
       "name": "ShipGrow",
       "developer": "610 Web Lab",
@@ -3486,6 +4246,26 @@
       "source_url": "https://heyapps.dev/apps/shipgrow"
     },
     {
+      "slug": "shipguard-2",
+      "name": "ShipGuard",
+      "developer": "Christopher Johnston Consulting",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-03",
+      "source_url": "https://heyapps.dev/apps/shipguard-2"
+    },
+    {
+      "slug": "free-shipping-bar-29",
+      "name": "Shipping Bar A2Z",
+      "developer": "Md Shahinur Sarder",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2026-06-04",
+      "source_url": "https://heyapps.dev/apps/free-shipping-bar-29"
+    },
+    {
       "slug": "shippy-br",
       "name": "Shippy",
       "developer": "shippy",
@@ -3494,6 +4274,26 @@
       "recovered": null,
       "launched": "2023-04-19",
       "source_url": "https://heyapps.dev/apps/shippy-br"
+    },
+    {
+      "slug": "shipshop-logicom",
+      "name": "SHIPSHOP LOGICOM",
+      "developer": "SHIPSHOP LOGICOM SOLUTIONS PVT. LTD.",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2024-09-12",
+      "source_url": "https://heyapps.dev/apps/shipshop-logicom"
+    },
+    {
+      "slug": "ship-split",
+      "name": "ShipSplit",
+      "developer": "Unitedly Studio",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-07",
+      "source_url": "https://heyapps.dev/apps/ship-split"
     },
     {
       "slug": "shipsure-1",
@@ -3516,14 +4316,74 @@
       "source_url": "https://heyapps.dev/apps/shipvam"
     },
     {
-      "slug": "pickzen",
-      "name": "Shop Quiz: Product Recommender",
-      "developer": "PickZen",
+      "slug": "shipway-tracking-notification-and-order-reviews",
+      "name": "Shipway Order Tracking",
+      "developer": "Shipway",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2017-02-17",
-      "source_url": "https://heyapps.dev/apps/pickzen"
+      "launched": "2016-06-15",
+      "source_url": "https://heyapps.dev/apps/shipway-tracking-notification-and-order-reviews"
+    },
+    {
+      "slug": "shop-gauge",
+      "name": "Shop Gauge — Store Benchmark",
+      "developer": "GEM Global Ventures",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-26",
+      "source_url": "https://heyapps.dev/apps/shop-gauge"
+    },
+    {
+      "slug": "shop-op-custom-fonts",
+      "name": "Shop Op Custom Fonts",
+      "developer": "Shop Op",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-02-17",
+      "source_url": "https://heyapps.dev/apps/shop-op-custom-fonts"
+    },
+    {
+      "slug": "random-product-shuffler",
+      "name": "Shop Roulette",
+      "developer": "Damon Bolesta",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2025-12-24",
+      "source_url": "https://heyapps.dev/apps/random-product-shuffler"
+    },
+    {
+      "slug": "shopscore",
+      "name": "Shop Score ‑ Benchmark Report",
+      "developer": "AdScale",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2024-06-25",
+      "source_url": "https://heyapps.dev/apps/shopscore"
+    },
+    {
+      "slug": "shopsecure",
+      "name": "Shop Secure",
+      "developer": "ShopiShore",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-01-23",
+      "source_url": "https://heyapps.dev/apps/shopsecure"
+    },
+    {
+      "slug": "amp-google",
+      "name": "Shop Sheriff AMP Pages",
+      "developer": "Shop Sheriff",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2018-03-06",
+      "source_url": "https://heyapps.dev/apps/amp-google"
     },
     {
       "slug": "smart-try-on",
@@ -3536,14 +4396,14 @@
       "source_url": "https://heyapps.dev/apps/smart-try-on"
     },
     {
-      "slug": "custom-pricing-discounts-by-appikon",
-      "name": "Shopacado ‑ Volume Discounts",
-      "developer": "Shopacado",
+      "slug": "shopaw-product-builder",
+      "name": "Shopaw Product Options (POD)",
+      "developer": "Altgo Tech K.K.",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-27",
       "recovered": null,
-      "launched": "2019-09-17",
-      "source_url": "https://heyapps.dev/apps/custom-pricing-discounts-by-appikon"
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/shopaw-product-builder"
     },
     {
       "slug": "notificationapp",
@@ -3556,6 +4416,16 @@
       "source_url": "https://heyapps.dev/apps/notificationapp"
     },
     {
+      "slug": "buyerpix",
+      "name": "ShopETell",
+      "developer": "Varoom Ltd",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2023-01-19",
+      "source_url": "https://heyapps.dev/apps/buyerpix"
+    },
+    {
       "slug": "link-redirects-manager",
       "name": "ShopFlow Link Redirects",
       "developer": "ShopFlowTools",
@@ -3564,16 +4434,6 @@
       "recovered": null,
       "launched": "2026-07-07",
       "source_url": "https://heyapps.dev/apps/link-redirects-manager"
-    },
-    {
-      "slug": "shophire",
-      "name": "ShopHire Careers Page Builder",
-      "developer": "ShopHire",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2020-06-09",
-      "source_url": "https://heyapps.dev/apps/shophire"
     },
     {
       "slug": "product-network",
@@ -3604,6 +4464,16 @@
       "recovered": null,
       "launched": "2026-07-15",
       "source_url": "https://heyapps.dev/apps/shopos-beta"
+    },
+    {
+      "slug": "shopsmart-analytics-pro",
+      "name": "ShopSmart Analytics Pro",
+      "developer": "ShopSmart Analytics Pro",
+      "availability": "delisted",
+      "delisted": "2026-10-23",
+      "recovered": null,
+      "launched": "2026-04-20",
+      "source_url": "https://heyapps.dev/apps/shopsmart-analytics-pro"
     },
     {
       "slug": "oms-4",
@@ -3646,6 +4516,26 @@
       "source_url": "https://heyapps.dev/apps/shumbird"
     },
     {
+      "slug": "sidekick-ai",
+      "name": "Sidekick AI ‑ Automated Chat",
+      "developer": "Sidekick AI",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2022-12-14",
+      "source_url": "https://heyapps.dev/apps/sidekick-ai"
+    },
+    {
+      "slug": "simple-bin-locations",
+      "name": "Simple Bin Locations",
+      "developer": "mnurksr",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-05",
+      "source_url": "https://heyapps.dev/apps/simple-bin-locations"
+    },
+    {
       "slug": "simple-estimated-delivery-date",
       "name": "Simple Estimated Delivery Date",
       "developer": "Dexpats",
@@ -3664,6 +4554,16 @@
       "recovered": null,
       "launched": "2018-01-19",
       "source_url": "https://heyapps.dev/apps/simple-rfid"
+    },
+    {
+      "slug": "simple-wishlist-1",
+      "name": "Simple wishlist",
+      "developer": "Vitix Dev",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2021-09-06",
+      "source_url": "https://heyapps.dev/apps/simple-wishlist-1"
     },
     {
       "slug": "sitemap-page",
@@ -3766,16 +4666,6 @@
       "source_url": "https://heyapps.dev/apps/smooth-slider"
     },
     {
-      "slug": "sms-mobile-api",
-      "name": "SMSMobileAPI SMS & WhatsApp",
-      "developer": "Bintdev",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2024-08-29",
-      "source_url": "https://heyapps.dev/apps/sms-mobile-api"
-    },
-    {
       "slug": "social-click-insights",
       "name": "Social Click Insights",
       "developer": "happyDance",
@@ -3786,6 +4676,16 @@
       "source_url": "https://heyapps.dev/apps/social-click-insights"
     },
     {
+      "slug": "solviachat",
+      "name": "SolviaChat ‑ AI Chatbot",
+      "developer": "XEL",
+      "availability": "delisted",
+      "delisted": "2026-10-24",
+      "recovered": null,
+      "launched": "2026-05-22",
+      "source_url": "https://heyapps.dev/apps/solviachat"
+    },
+    {
       "slug": "sonarfulfill",
       "name": "SonarFulfill Easy Dropshipping",
       "developer": "Standhigher Inc",
@@ -3794,16 +4694,6 @@
       "recovered": null,
       "launched": "2026-05-15",
       "source_url": "https://heyapps.dev/apps/sonarfulfill"
-    },
-    {
-      "slug": "sortimize",
-      "name": "Sortimize Collection Sort",
-      "developer": "Podo Pals",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2021-04-12",
-      "source_url": "https://heyapps.dev/apps/sortimize"
     },
     {
       "slug": "sourceknowledge-shopping",
@@ -3846,6 +4736,26 @@
       "source_url": "https://heyapps.dev/apps/spendwize"
     },
     {
+      "slug": "squaredance",
+      "name": "Squaredance",
+      "developer": "Squaredance",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2022-12-16",
+      "source_url": "https://heyapps.dev/apps/squaredance"
+    },
+    {
+      "slug": "steadfast",
+      "name": "SteadFast",
+      "developer": "SteadFast Courier Limited",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2024-06-07",
+      "source_url": "https://heyapps.dev/apps/steadfast"
+    },
+    {
       "slug": "sticky-atc-pro",
       "name": "Sticky ATC Pro",
       "developer": "Polyglot",
@@ -3874,6 +4784,86 @@
       "recovered": null,
       "launched": "2016-03-10",
       "source_url": "https://heyapps.dev/apps/sticky-add-to-cart-bar"
+    },
+    {
+      "slug": "stock-inventory-manager",
+      "name": "Stocker",
+      "developer": "Magic Apps",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-14",
+      "source_url": "https://heyapps.dev/apps/stock-inventory-manager"
+    },
+    {
+      "slug": "stockkit",
+      "name": "StockKit",
+      "developer": "AppInfinite",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": "2026-06-24",
+      "source_url": "https://heyapps.dev/apps/stockkit"
+    },
+    {
+      "slug": "stockpilot-17",
+      "name": "StockPilot",
+      "developer": "Lunds Media",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-08-07",
+      "source_url": "https://heyapps.dev/apps/stockpilot-17"
+    },
+    {
+      "slug": "stockping-5",
+      "name": "StockPing",
+      "developer": "Gladio",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-16",
+      "source_url": "https://heyapps.dev/apps/stockping-5"
+    },
+    {
+      "slug": "stockpost",
+      "name": "Stockpost",
+      "developer": "CTRL SIGNAL SOFTWARE PTY LTD",
+      "availability": "delisted",
+      "delisted": "2026-10-23",
+      "recovered": null,
+      "launched": "2026-05-08",
+      "source_url": "https://heyapps.dev/apps/stockpost"
+    },
+    {
+      "slug": "stocksafe-bundles",
+      "name": "StockSafe Bundle Inventory",
+      "developer": "stocksafe",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-24",
+      "source_url": "https://heyapps.dev/apps/stocksafe-bundles"
+    },
+    {
+      "slug": "restockly-2",
+      "name": "StockSignal",
+      "developer": "Explified",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-30",
+      "source_url": "https://heyapps.dev/apps/restockly-2"
+    },
+    {
+      "slug": "stocky-escape-kit",
+      "name": "Stocky Escape Kit",
+      "developer": "Automated Solutions Group",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-07-23",
+      "source_url": "https://heyapps.dev/apps/stocky-escape-kit"
     },
     {
       "slug": "store-seo-optimizer",
@@ -3936,6 +4926,16 @@
       "source_url": "https://heyapps.dev/apps/sunrise-1"
     },
     {
+      "slug": "contlo-marketing",
+      "name": "SuperAGI Marketing (Contlo)",
+      "developer": "Contlo Inc",
+      "availability": "delisted",
+      "delisted": "2026-10-28",
+      "recovered": null,
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/contlo-marketing"
+    },
+    {
       "slug": "superskin-ai",
       "name": "superskin AI ‑ Skin Analysis",
       "developer": "droplogicx - Store Build & App Development Agency",
@@ -3964,6 +4964,16 @@
       "recovered": null,
       "launched": "2026-06-18",
       "source_url": "https://heyapps.dev/apps/supplier-quote-manager"
+    },
+    {
+      "slug": "swap-shipping-returns",
+      "name": "Swap Returns & Exchanges",
+      "developer": "Swap Commerce (Dev)",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2024-01-04",
+      "source_url": "https://heyapps.dev/apps/swap-shipping-returns"
     },
     {
       "slug": "swift-countdown-timer",
@@ -3996,6 +5006,16 @@
       "source_url": "https://heyapps.dev/apps/migrate-any-platform-data"
     },
     {
+      "slug": "neon",
+      "name": "syncX: Neon ‑ Up Confident",
+      "developer": "SyncX",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2018-08-15",
+      "source_url": "https://heyapps.dev/apps/neon"
+    },
+    {
       "slug": "tabs-description-reviews",
       "name": "Tabs Description & Reviews",
       "developer": "BrandCrock GmbH",
@@ -4016,14 +5036,14 @@
       "source_url": "https://heyapps.dev/apps/taffi-fashion-style-genie"
     },
     {
-      "slug": "tag-genie",
-      "name": "Tag Genie ‑ Edit & Automate",
-      "developer": "MMS Software Ltd.",
+      "slug": "tagpilot-2",
+      "name": "TagPilot",
+      "developer": "Terra Natural",
       "availability": "delisted",
-      "delisted": "2026-10-21",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2020-08-10",
-      "source_url": "https://heyapps.dev/apps/tag-genie"
+      "launched": "2026-05-11",
+      "source_url": "https://heyapps.dev/apps/tagpilot-2"
     },
     {
       "slug": "order-tagger-4",
@@ -4074,6 +5094,16 @@
       "recovered": null,
       "launched": "2025-05-19",
       "source_url": "https://heyapps.dev/apps/signal-a-b-price-testing-in"
+    },
+    {
+      "slug": "tiktok-live-bar",
+      "name": "TikTok Live Bar",
+      "developer": "PINKYPACT GmbH",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-16",
+      "source_url": "https://heyapps.dev/apps/tiktok-live-bar"
     },
     {
       "slug": "qwick",
@@ -4186,14 +5216,14 @@
       "source_url": "https://heyapps.dev/apps/trackinggenie"
     },
     {
-      "slug": "tree-nation",
-      "name": "Tree‑Nation: 1 Product 1 Tree",
-      "developer": "Tree-Nation",
+      "slug": "social-page-product-share-bar",
+      "name": "TRANH ‑ Social Media Share bar",
+      "developer": "TRANH",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-29",
       "recovered": null,
-      "launched": "2020-07-29",
-      "source_url": "https://heyapps.dev/apps/tree-nation"
+      "launched": "2023-01-26",
+      "source_url": "https://heyapps.dev/apps/social-page-product-share-bar"
     },
     {
       "slug": "trendblitz",
@@ -4216,34 +5246,14 @@
       "source_url": "https://heyapps.dev/apps/zinreloloyalty"
     },
     {
-      "slug": "txe-whatsapp-button",
-      "name": "TXE Wp Chat Button",
-      "developer": "Shopiexpert LLC",
+      "slug": "twitter-feed-ninja",
+      "name": "Twitter Feed Ninja",
+      "developer": "WebNinjaz Technologies Pvt Ltd",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-27",
       "recovered": null,
-      "launched": "2025-12-11",
-      "source_url": "https://heyapps.dev/apps/txe-whatsapp-button"
-    },
-    {
-      "slug": "txe-back-in-stock-alert",
-      "name": "TXE ‑ Back in Stock Alert",
-      "developer": "Shopiexpert LLC",
-      "availability": "delisted",
-      "delisted": "2026-10-21",
-      "recovered": null,
-      "launched": "2026-05-05",
-      "source_url": "https://heyapps.dev/apps/txe-back-in-stock-alert"
-    },
-    {
-      "slug": "txe-custom-code",
-      "name": "TXE ‑ Custom Code",
-      "developer": "Shopiexpert LLC",
-      "availability": "delisted",
-      "delisted": "2026-10-22",
-      "recovered": null,
-      "launched": "2026-07-28",
-      "source_url": "https://heyapps.dev/apps/txe-custom-code"
+      "launched": "2020-02-21",
+      "source_url": "https://heyapps.dev/apps/twitter-feed-ninja"
     },
     {
       "slug": "ultimo-bots",
@@ -4256,24 +5266,14 @@
       "source_url": "https://heyapps.dev/apps/ultimo-bots"
     },
     {
-      "slug": "upcart-cart-builder",
-      "name": "Upcart—Cart Drawer Cart Upsell",
-      "developer": "Rokt",
+      "slug": "umay-search-filter",
+      "name": "Umay AI Search & Filter",
+      "developer": "screets",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2021-07-19",
-      "source_url": "https://heyapps.dev/apps/upcart-cart-builder"
-    },
-    {
-      "slug": "uploado",
-      "name": "Uploado",
-      "developer": "Go Code",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2021-11-18",
-      "source_url": "https://heyapps.dev/apps/uploado"
+      "launched": "2025-12-03",
+      "source_url": "https://heyapps.dev/apps/umay-search-filter"
     },
     {
       "slug": "upload-sync",
@@ -4296,14 +5296,24 @@
       "source_url": "https://heyapps.dev/apps/upper-connector"
     },
     {
-      "slug": "upsell-cross-sell-kit-1",
-      "name": "Upsell & Cross Sell — Selleasy",
-      "developer": "Logbase",
+      "slug": "ups-global-checkout",
+      "name": "UPS Worldwide Economy",
+      "developer": "UPS Worldwide Economy",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2021-07-15",
-      "source_url": "https://heyapps.dev/apps/upsell-cross-sell-kit-1"
+      "launched": "2023-11-15",
+      "source_url": "https://heyapps.dev/apps/ups-global-checkout"
+    },
+    {
+      "slug": "upsellboost",
+      "name": "UpsellBoost",
+      "developer": "Ecomgorwthhack LLP",
+      "availability": "delisted",
+      "delisted": "2026-10-23",
+      "recovered": null,
+      "launched": "2026-06-03",
+      "source_url": "https://heyapps.dev/apps/upsellboost"
     },
     {
       "slug": "usefullapp-countdown-timer-bar",
@@ -4316,6 +5326,16 @@
       "source_url": "https://heyapps.dev/apps/usefullapp-countdown-timer-bar"
     },
     {
+      "slug": "valigara-online-jewelry-mngr",
+      "name": "Valigara Online Jewelry Mngr",
+      "developer": "Valigara Online Jewelry Manager",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2022-10-17",
+      "source_url": "https://heyapps.dev/apps/valigara-online-jewelry-mngr"
+    },
+    {
       "slug": "variantcue",
       "name": "VariantCue",
       "developer": "SKUcue",
@@ -4326,14 +5346,14 @@
       "source_url": "https://heyapps.dev/apps/variantcue"
     },
     {
-      "slug": "variantsync-by-rop-st-digital",
-      "name": "VariantSync",
-      "developer": "Rop St. DigitAll",
+      "slug": "vassoriaai",
+      "name": "Vassoria Chat de Soporte",
+      "developer": "Trevantis Partners",
       "availability": "delisted",
-      "delisted": "2026-10-20",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2026-05-26",
-      "source_url": "https://heyapps.dev/apps/variantsync-by-rop-st-digital"
+      "launched": "2026-01-20",
+      "source_url": "https://heyapps.dev/apps/vassoriaai"
     },
     {
       "slug": "velo-orders",
@@ -4396,6 +5416,16 @@
       "source_url": "https://heyapps.dev/apps/veymo"
     },
     {
+      "slug": "video-loop-hero",
+      "name": "Video Loop Hero",
+      "developer": "No Plans Studio LLC",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2021-09-24",
+      "source_url": "https://heyapps.dev/apps/video-loop-hero"
+    },
+    {
       "slug": "vimeo_product_video_maker",
       "name": "Vimeo Create ‑ Video Maker",
       "developer": "Vimeo, Inc.",
@@ -4426,6 +5456,16 @@
       "source_url": "https://heyapps.dev/apps/ai-voice-agent"
     },
     {
+      "slug": "vouch",
+      "name": "Vouch ‑ Ai Product Reviews",
+      "developer": "Spikecom group FZCO",
+      "availability": "delisted",
+      "delisted": "2026-10-30",
+      "recovered": null,
+      "launched": "2026-04-16",
+      "source_url": "https://heyapps.dev/apps/vouch"
+    },
+    {
       "slug": "smar7-bundle-upsell",
       "name": "Voyager Upsell & Cross‑Sell",
       "developer": "Skup",
@@ -4436,6 +5476,26 @@
       "source_url": "https://heyapps.dev/apps/smar7-bundle-upsell"
     },
     {
+      "slug": "om-whatsapp-order-button",
+      "name": "WA Product Notification",
+      "developer": "OrangeMantra",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-03-23",
+      "source_url": "https://heyapps.dev/apps/om-whatsapp-order-button"
+    },
+    {
+      "slug": "whatsapp-shopping-app",
+      "name": "WA Shopping",
+      "developer": "OrangeMantra",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-09-03",
+      "source_url": "https://heyapps.dev/apps/whatsapp-shopping-app"
+    },
+    {
       "slug": "wanbexpress",
       "name": "WanbExpress Shipping",
       "developer": "WanbExpress 万邦速达",
@@ -4444,6 +5504,16 @@
       "recovered": null,
       "launched": "2019-11-15",
       "source_url": "https://heyapps.dev/apps/wanbexpress"
+    },
+    {
+      "slug": "jumua-blocker",
+      "name": "Waqt ‑ Jumu'ah Blocker",
+      "developer": "Maymoun Studio",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-04-29",
+      "source_url": "https://heyapps.dev/apps/jumua-blocker"
     },
     {
       "slug": "3pl-planning",
@@ -4466,104 +5536,14 @@
       "source_url": "https://heyapps.dev/apps/warnify-product-warnings"
     },
     {
-      "slug": "wbl-ai-chatbot-pro",
-      "name": "WBL ‑ AI ChatBot Pro",
-      "developer": "Weblytic Labs",
+      "slug": "world-switch-1",
+      "name": "WASABI SWITCH",
+      "developer": "株式会社ワサビ",
       "availability": "delisted",
-      "delisted": "2026-10-20",
+      "delisted": "2026-10-30",
       "recovered": null,
-      "launched": "2025-09-25",
-      "source_url": "https://heyapps.dev/apps/wbl-ai-chatbot-pro"
-    },
-    {
-      "slug": "wbl-ai-product-desc-gemini",
-      "name": "WBL ‑ AI Product Desc Gemini",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-08-20",
-      "source_url": "https://heyapps.dev/apps/wbl-ai-product-desc-gemini"
-    },
-    {
-      "slug": "wbl-auto-add-pos",
-      "name": "WBL ‑ Auto Add (POS)",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-08-11",
-      "source_url": "https://heyapps.dev/apps/wbl-auto-add-pos"
-    },
-    {
-      "slug": "wbl-booking-calender",
-      "name": "WBL ‑ Booking Calender",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-03-06",
-      "source_url": "https://heyapps.dev/apps/wbl-booking-calender"
-    },
-    {
-      "slug": "wbl-bulk-delete",
-      "name": "WBL ‑ Bulk Delete",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-05-07",
-      "source_url": "https://heyapps.dev/apps/wbl-bulk-delete"
-    },
-    {
-      "slug": "wbl-bulk-discount",
-      "name": "WBL ‑ Bulk Discounts",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-01-30",
-      "source_url": "https://heyapps.dev/apps/wbl-bulk-discount"
-    },
-    {
-      "slug": "wbl-catalog-pdf",
-      "name": "WBL ‑ Catalog PDF",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-06-04",
-      "source_url": "https://heyapps.dev/apps/wbl-catalog-pdf"
-    },
-    {
-      "slug": "wbl-custom-fees-pos",
-      "name": "WBL ‑ Custom Fees (POS)",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-07-22",
-      "source_url": "https://heyapps.dev/apps/wbl-custom-fees-pos"
-    },
-    {
-      "slug": "wbl-extra-product-options",
-      "name": "WBL ‑ Extra Product Options",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-03-31",
-      "source_url": "https://heyapps.dev/apps/wbl-extra-product-options"
-    },
-    {
-      "slug": "wbl-file-uploader-pro",
-      "name": "WBL ‑ File Uploader Pro",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-06-25",
-      "source_url": "https://heyapps.dev/apps/wbl-file-uploader-pro"
+      "launched": "2025-04-08",
+      "source_url": "https://heyapps.dev/apps/world-switch-1"
     },
     {
       "slug": "wbl-magical-marquee",
@@ -4576,126 +5556,6 @@
       "source_url": "https://heyapps.dev/apps/wbl-magical-marquee"
     },
     {
-      "slug": "wbl-odoo-migrator-pro",
-      "name": "WBL ‑ Odoo Migrator Pro",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-09-16",
-      "source_url": "https://heyapps.dev/apps/wbl-odoo-migrator-pro"
-    },
-    {
-      "slug": "wbl-order-printify-pdf",
-      "name": "WBL ‑ Order Printify PDF",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-05-20",
-      "source_url": "https://heyapps.dev/apps/wbl-order-printify-pdf"
-    },
-    {
-      "slug": "wbl-prestashop-migrator-pro",
-      "name": "WBL ‑ PrestaShop Migrator Pro",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-08-29",
-      "source_url": "https://heyapps.dev/apps/wbl-prestashop-migrator-pro"
-    },
-    {
-      "slug": "wbl-price-drop-alert",
-      "name": "WBL ‑ Price Drop Alert",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-03-18",
-      "source_url": "https://heyapps.dev/apps/wbl-price-drop-alert"
-    },
-    {
-      "slug": "wbl-prime-membership-pro",
-      "name": "WBL ‑ Prime Membership Pro",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2025-05-08",
-      "source_url": "https://heyapps.dev/apps/wbl-prime-membership-pro"
-    },
-    {
-      "slug": "wbl-product-pdf",
-      "name": "WBL ‑ Product PDF",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-05-12",
-      "source_url": "https://heyapps.dev/apps/wbl-product-pdf"
-    },
-    {
-      "slug": "wbl-q-a-pro",
-      "name": "WBL ‑ Q&A Pro",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-04-17",
-      "source_url": "https://heyapps.dev/apps/wbl-q-a-pro"
-    },
-    {
-      "slug": "wbl-request-a-quote",
-      "name": "WBL ‑ Request a Quote",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-03-31",
-      "source_url": "https://heyapps.dev/apps/wbl-request-a-quote"
-    },
-    {
-      "slug": "wbl-restrict-order",
-      "name": "WBL ‑ Restrict Order PRO",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-02-13",
-      "source_url": "https://heyapps.dev/apps/wbl-restrict-order"
-    },
-    {
-      "slug": "wbl-time-based-discounts",
-      "name": "WBL ‑ Time Based Discounts",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-06-27",
-      "source_url": "https://heyapps.dev/apps/wbl-time-based-discounts"
-    },
-    {
-      "slug": "wbl-woocommerce-migrator",
-      "name": "WBL ‑ WooCommerce Migrator",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2026-05-07",
-      "source_url": "https://heyapps.dev/apps/wbl-woocommerce-migrator"
-    },
-    {
-      "slug": "wbl-ai-product-description",
-      "name": "WBL‑ AI Product Desc ChatGPT",
-      "developer": "Weblytic Labs",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-08-22",
-      "source_url": "https://heyapps.dev/apps/wbl-ai-product-description"
-    },
-    {
       "slug": "wbs-seo-aeo-audit",
       "name": "WBS SEO Audit",
       "developer": "WBS SpA",
@@ -4706,24 +5566,74 @@
       "source_url": "https://heyapps.dev/apps/wbs-seo-aeo-audit"
     },
     {
-      "slug": "announcement-header-bar",
-      "name": "Web Push Notifications + Bars",
-      "developer": "AAAeCommerce Inc",
+      "slug": "weatherhold",
+      "name": "WeatherHold",
+      "developer": "Zaroh",
       "availability": "delisted",
-      "delisted": "2026-10-21",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2016-12-13",
-      "source_url": "https://heyapps.dev/apps/announcement-header-bar"
+      "launched": "2026-06-11",
+      "source_url": "https://heyapps.dev/apps/weatherhold"
     },
     {
-      "slug": "webpixr",
-      "name": "WebPixr",
-      "developer": "Angry Digital Inc.",
+      "slug": "gtm-assistant",
+      "name": "Webgarh GTM Assistant: GA4/Ads",
+      "developer": "WebGarh Solutions",
       "availability": "delisted",
-      "delisted": "2026-10-20",
+      "delisted": "2026-10-26",
       "recovered": null,
-      "launched": "2025-11-10",
-      "source_url": "https://heyapps.dev/apps/webpixr"
+      "launched": "2023-02-24",
+      "source_url": "https://heyapps.dev/apps/gtm-assistant"
+    },
+    {
+      "slug": "whatsapp-order-button-1",
+      "name": "Whatsapp Button l Amisos3D",
+      "developer": "Amisos",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2026-06-01",
+      "source_url": "https://heyapps.dev/apps/whatsapp-order-button-1"
+    },
+    {
+      "slug": "whatsapp-chat-button-8",
+      "name": "Whatsapp Chat Button",
+      "developer": "ReWapp",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2026-05-25",
+      "source_url": "https://heyapps.dev/apps/whatsapp-chat-button-8"
+    },
+    {
+      "slug": "whatsapp-widget-and-button",
+      "name": "WhatsApp Chat Support",
+      "developer": "Better Convert",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2024-07-12",
+      "source_url": "https://heyapps.dev/apps/whatsapp-widget-and-button"
+    },
+    {
+      "slug": "whatsapp-by-rasayel",
+      "name": "WhatsApp for Teams by Rasayel",
+      "developer": "Rasayel",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2022-07-20",
+      "source_url": "https://heyapps.dev/apps/whatsapp-by-rasayel"
+    },
+    {
+      "slug": "purands-whatsapp-unlimited",
+      "name": "WhatsApp Multi‑agent",
+      "developer": "Purands",
+      "availability": "delisted",
+      "delisted": "2026-10-26",
+      "recovered": null,
+      "launched": "2024-11-27",
+      "source_url": "https://heyapps.dev/apps/purands-whatsapp-unlimited"
     },
     {
       "slug": "whatsapp-order-chat",
@@ -4736,14 +5646,14 @@
       "source_url": "https://heyapps.dev/apps/whatsapp-order-chat"
     },
     {
-      "slug": "winback",
-      "name": "Winback: SMS Marketing",
-      "developer": "Winback",
+      "slug": "win-back-engine",
+      "name": "WinBack",
+      "developer": "AlignLogic",
       "availability": "delisted",
-      "delisted": "2026-10-15",
+      "delisted": "2026-10-28",
       "recovered": null,
-      "launched": "2019-07-24",
-      "source_url": "https://heyapps.dev/apps/winback"
+      "launched": "2026-03-09",
+      "source_url": "https://heyapps.dev/apps/win-back-engine"
     },
     {
       "slug": "bundelo",
@@ -4836,6 +5746,16 @@
       "source_url": "https://heyapps.dev/apps/product-description-magic"
     },
     {
+      "slug": "youtube-sisi",
+      "name": "YouTube SiSi Video Gallery",
+      "developer": "T.M.",
+      "availability": "delisted",
+      "delisted": "2026-10-27",
+      "recovered": null,
+      "launched": "2021-08-09",
+      "source_url": "https://heyapps.dev/apps/youtube-sisi"
+    },
+    {
       "slug": "yoyoloyalty",
       "name": "YOYO: Loyalty & Memberships",
       "developer": "YoYo Loyalty",
@@ -4854,6 +5774,16 @@
       "recovered": null,
       "launched": "2023-11-30",
       "source_url": "https://heyapps.dev/apps/zeniva"
+    },
+    {
+      "slug": "product-personalizer",
+      "name": "Zepto Product Personalizer",
+      "developer": "Zepto Apps",
+      "availability": "delisted",
+      "delisted": "2026-10-29",
+      "recovered": null,
+      "launched": "2016-08-22",
+      "source_url": "https://heyapps.dev/apps/product-personalizer"
     },
     {
       "slug": "zigchat",
@@ -4936,6 +5866,136 @@
       "source_url": "https://heyapps.dev/apps/freeshipwidget"
     },
     {
+      "slug": "1688-ai-importer",
+      "name": "1688 AI Importer",
+      "developer": "深圳通晓网络科技有限公司",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/1688-ai-importer"
+    },
+    {
+      "slug": "17returns",
+      "name": "17RETURNS Returns & Exchanges",
+      "developer": "17RETURNS",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/17returns"
+    },
+    {
+      "slug": "17track",
+      "name": "17TRACK Order Tracking",
+      "developer": "17TRACK",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/17track"
+    },
+    {
+      "slug": "affiliate",
+      "name": "AAA Affiliate Marketing App",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/affiliate"
+    },
+    {
+      "slug": "image-gallery",
+      "name": "AAA Image + Video Gallery",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/image-gallery"
+    },
+    {
+      "slug": "popup-box",
+      "name": "AAA Product Options + Forms",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/popup-box"
+    },
+    {
+      "slug": "quick-view-product",
+      "name": "AAA Quick View & Color Swatch",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/quick-view-product"
+    },
+    {
+      "slug": "wishlist-product",
+      "name": "AAA Wishlist App",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wishlist-product"
+    },
+    {
+      "slug": "form-builder",
+      "name": "AAA ‑ Custom Form Builder",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/form-builder"
+    },
+    {
+      "slug": "referral-loyalty",
+      "name": "AAA ‑ Loyalty Rewards Program",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/referral-loyalty"
+    },
+    {
+      "slug": "advance-gift-registry",
+      "name": "AAA‑ Advance Gift Registry App",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/advance-gift-registry"
+    },
+    {
+      "slug": "ai-image-alt-text-generator",
+      "name": "AATG ‑ AI Alt Text Generator",
+      "developer": "WP Messiah",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/ai-image-alt-text-generator"
+    },
+    {
+      "slug": "adbreakers-reporting-connecto",
+      "name": "AdBreakers Reporting",
+      "developer": "AdBreakers",
+      "availability": "recovered",
+      "delisted": "2026-10-18",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/adbreakers-reporting-connecto"
+    },
+    {
       "slug": "afluencer",
       "name": "Afluencer Influencer Collabs",
       "developer": "Afluencer",
@@ -4956,6 +6016,26 @@
       "source_url": "https://heyapps.dev/apps/afs-analytics"
     },
     {
+      "slug": "aftersell",
+      "name": "Aftersell Post Purchase Upsell",
+      "developer": "Rokt",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-30",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/aftersell"
+    },
+    {
+      "slug": "restockly-6",
+      "name": "Againly back in stock alert",
+      "developer": "TrackWise",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/restockly-6"
+    },
+    {
       "slug": "ai-marketing-agent",
       "name": "AI Marketing Agent | Ads, SEO",
       "developer": "Enrich Labs",
@@ -4964,6 +6044,106 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/ai-marketing-agent"
+    },
+    {
+      "slug": "bestie",
+      "name": "AI Post‑Purchase Surveys",
+      "developer": "Bestie",
+      "availability": "recovered",
+      "delisted": "2026-10-29",
+      "recovered": "2026-10-30",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bestie"
+    },
+    {
+      "slug": "althemaxai-geo",
+      "name": "AlthemaxAI GEO",
+      "developer": "Althemax International Limited",
+      "availability": "recovered",
+      "delisted": "2026-10-23",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/althemaxai-geo"
+    },
+    {
+      "slug": "althemax-marketplace",
+      "name": "AlthemaxAI Marketplace",
+      "developer": "Althemax International Limited",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/althemax-marketplace"
+    },
+    {
+      "slug": "althemaxai-subscription",
+      "name": "AlthemaxAI Subscription",
+      "developer": "Althemax International Limited",
+      "availability": "recovered",
+      "delisted": "2026-10-24",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/althemaxai-subscription"
+    },
+    {
+      "slug": "animal-drop",
+      "name": "Animal Drop",
+      "developer": "ETM",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/animal-drop"
+    },
+    {
+      "slug": "trust-bundles",
+      "name": "Appfox Bundles & Upsells",
+      "developer": "Appfox",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/trust-bundles"
+    },
+    {
+      "slug": "appfox-order-editing-upsell",
+      "name": "Appfox Order Editing & Upsell",
+      "developer": "Appfox",
+      "availability": "recovered",
+      "delisted": "2026-10-28",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/appfox-order-editing-upsell"
+    },
+    {
+      "slug": "appfox-subscriptions",
+      "name": "Appfox Subscriptions App",
+      "developer": "Appfox",
+      "availability": "recovered",
+      "delisted": "2026-10-28",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/appfox-subscriptions"
+    },
+    {
+      "slug": "appfox-back-in-stock",
+      "name": "Appfox ‑ Back In Stock Alerts",
+      "developer": "Appfox",
+      "availability": "recovered",
+      "delisted": "2026-10-28",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/appfox-back-in-stock"
+    },
+    {
+      "slug": "dhlify",
+      "name": "Armonika Shipping Labels",
+      "developer": "ARMONİKA DİJİTAL",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/dhlify"
     },
     {
       "slug": "product-reviews-autoketing",
@@ -4976,6 +6156,16 @@
       "source_url": "https://heyapps.dev/apps/product-reviews-autoketing"
     },
     {
+      "slug": "axeptio-cookies",
+      "name": "Axeptio: GDPR/CCPA Compliance",
+      "developer": "Axeptio",
+      "availability": "recovered",
+      "delisted": "2026-10-23",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/axeptio-cookies"
+    },
+    {
       "slug": "login-to-view-app",
       "name": "B2B Essential Locks",
       "developer": "SolCoders",
@@ -4984,6 +6174,56 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/login-to-view-app"
+    },
+    {
+      "slug": "auto-product-by-bigblue",
+      "name": "Bigblue Automatic Free Gifts",
+      "developer": "Bigblue",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/auto-product-by-bigblue"
+    },
+    {
+      "slug": "bigblue",
+      "name": "Bigblue ‑ All in one logistics",
+      "developer": "Bigblue",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bigblue"
+    },
+    {
+      "slug": "bigbuy-synchronization-app",
+      "name": "BigBuy ‑ Dropshipping carriers",
+      "developer": "BigBuy",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bigbuy-synchronization-app"
+    },
+    {
+      "slug": "birds-ai-marketing",
+      "name": "BirdseyePost – Direct Mail",
+      "developer": "Birdseye Global",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/birds-ai-marketing"
+    },
+    {
+      "slug": "bulkboost-ai",
+      "name": "BundleKing | AI Bundle Offers",
+      "developer": "Outright Solutions Pvt Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bulkboost-ai"
     },
     {
       "slug": "bundlemax-bundles-upsells",
@@ -5006,6 +6246,36 @@
       "source_url": "https://heyapps.dev/apps/charge-me-later"
     },
     {
+      "slug": "chatarmin-whatsapp",
+      "name": "Chatarmin ‑ WhatsApp Marketing",
+      "developer": "chatarmin.com GmbH",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/chatarmin-whatsapp"
+    },
+    {
+      "slug": "checkout-flow",
+      "name": "Checkout | Flow",
+      "developer": "Nordic Apps",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/checkout-flow"
+    },
+    {
+      "slug": "cloth-ai",
+      "name": "Cloth AI: Metafields & Titles",
+      "developer": "Lonca",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/cloth-ai"
+    },
+    {
       "slug": "connectly-ai",
       "name": "Connectly.ai",
       "developer": "Connectly",
@@ -5014,6 +6284,156 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/connectly-ai"
+    },
+    {
+      "slug": "gdpr-backpack",
+      "name": "Consentmo GDPR Compliance",
+      "developer": "Consentmo",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/gdpr-backpack"
+    },
+    {
+      "slug": "currency-robo",
+      "name": "Currency Robo",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-23",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/currency-robo"
+    },
+    {
+      "slug": "customall",
+      "name": "Customall Product Personalizer",
+      "developer": "Ecomlux",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/customall"
+    },
+    {
+      "slug": "google-reviews-by-dragonapps",
+      "name": "DA: Google Reviews Widget",
+      "developer": "Dragon Apps",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/google-reviews-by-dragonapps"
+    },
+    {
+      "slug": "multi-seasonal-effects",
+      "name": "Dakaas AI 3D Seasonal Effects",
+      "developer": "Dakaas",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/multi-seasonal-effects"
+    },
+    {
+      "slug": "diginius-shopping",
+      "name": "Diginius: Microsoft Shopping",
+      "developer": "Diginius",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/diginius-shopping"
+    },
+    {
+      "slug": "custom-tiered-discount",
+      "name": "Discountly‑POS & Tier discount",
+      "developer": "Anncode Solutions",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/custom-tiered-discount"
+    },
+    {
+      "slug": "dropmagic-ai",
+      "name": "Dropmagic: AI Store Builder",
+      "developer": "Dropmagic",
+      "availability": "recovered",
+      "delisted": "2026-10-28",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/dropmagic-ai"
+    },
+    {
+      "slug": "dropship-india",
+      "name": "Dropship India",
+      "developer": "Dropship India",
+      "availability": "recovered",
+      "delisted": "2026-10-29",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/dropship-india"
+    },
+    {
+      "slug": "ecs-delivery-estimator",
+      "name": "ECS Delivery Estimator",
+      "developer": "EcodeSoft Solutions",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/ecs-delivery-estimator"
+    },
+    {
+      "slug": "google-sheets-sync-1",
+      "name": "E‑sellers Integration App",
+      "developer": "E-Sellers",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/google-sheets-sync-1"
+    },
+    {
+      "slug": "turkiye-eticaret-sozlesmeleri",
+      "name": "E‑Ticaret Sözleşmeleri & Onay",
+      "developer": "Shopiexpert LLC",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/turkiye-eticaret-sozlesmeleri"
+    },
+    {
+      "slug": "product-review-photo-review",
+      "name": "Fab Product Reviews & UGC",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/product-review-photo-review"
+    },
+    {
+      "slug": "fab-shoppable-insta-feed",
+      "name": "FAB Shoppable Insta Feed",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/fab-shoppable-insta-feed"
+    },
+    {
+      "slug": "feedops",
+      "name": "FeedOps Shopping Feed Services",
+      "developer": "FeedOps",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/feedops"
     },
     {
       "slug": "flashbird",
@@ -5036,6 +6456,36 @@
       "source_url": "https://heyapps.dev/apps/gameball"
     },
     {
+      "slug": "headshop-supplier",
+      "name": "Headshop Supplier",
+      "developer": "ETM",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/headshop-supplier"
+    },
+    {
+      "slug": "product-options-by-hulkapps-1",
+      "name": "Hulk Product Options",
+      "developer": "HulkApps",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/product-options-by-hulkapps-1"
+    },
+    {
+      "slug": "prosubfy-product-subscriptions",
+      "name": "iSubfy Product Subscriptions",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/prosubfy-product-subscriptions"
+    },
+    {
       "slug": "jebbit",
       "name": "Jebbit: Quizzes That Convert",
       "developer": "BlueConic",
@@ -5044,6 +6494,16 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/jebbit"
+    },
+    {
+      "slug": "diamond-filter-ring-builder",
+      "name": "Keyideas Jewelry Customizer",
+      "developer": "Keyideas Infotech Private Limited",
+      "availability": "recovered",
+      "delisted": "2026-10-14",
+      "recovered": "2026-10-24",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/diamond-filter-ring-builder"
     },
     {
       "slug": "contestio",
@@ -5066,6 +6526,46 @@
       "source_url": "https://heyapps.dev/apps/localiser"
     },
     {
+      "slug": "leat-loyalty-rewards",
+      "name": "Leat: Loyalty & Marketing",
+      "developer": "Leat",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/leat-loyalty-rewards"
+    },
+    {
+      "slug": "quickbooks-desktop-connector",
+      "name": "LinkToAny QuickBooks Desktop",
+      "developer": "LINK",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/quickbooks-desktop-connector"
+    },
+    {
+      "slug": "lowstock-1",
+      "name": "Low Stock FOMO badge",
+      "developer": "MakeIT",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/lowstock-1"
+    },
+    {
+      "slug": "bigblue-pickup-points",
+      "name": "Maple ‑ Pickup Points Selector",
+      "developer": "Bigblue",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bigblue-pickup-points"
+    },
+    {
       "slug": "mayzing",
       "name": "Mayzing Print‑on‑Demand",
       "developer": "Mayzing",
@@ -5076,6 +6576,16 @@
       "source_url": "https://heyapps.dev/apps/mayzing"
     },
     {
+      "slug": "customizable-dynamic-fields",
+      "name": "Metaflow ‑ Dynamic Metafields",
+      "developer": "NAVEGaid",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/customizable-dynamic-fields"
+    },
+    {
       "slug": "migrately-pro",
       "name": "Migrately Pro",
       "developer": "Eunoyaa Technology",
@@ -5084,6 +6594,76 @@
       "recovered": "2026-10-22",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/migrately-pro"
+    },
+    {
+      "slug": "i-wishlist",
+      "name": "Mst: Wishlist Prime",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-23",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/i-wishlist"
+    },
+    {
+      "slug": "nextel-sell-on-whatsapp",
+      "name": "Nextel : WhatsApp Commerce",
+      "developer": "Nextel.io",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/nextel-sell-on-whatsapp"
+    },
+    {
+      "slug": "nextel",
+      "name": "Nextel ‑ WhatsApp Connect",
+      "developer": "Nextel.io",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/nextel"
+    },
+    {
+      "slug": "whatsapp-button-by-obnold",
+      "name": "Obnold: WhatsApp Button",
+      "developer": "Obnold Pte Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/whatsapp-button-by-obnold"
+    },
+    {
+      "slug": "oneship",
+      "name": "OneShip",
+      "developer": "oneship",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/oneship"
+    },
+    {
+      "slug": "seo-meta-tag",
+      "name": "OptizenAI ‑ SEO & AI Tools",
+      "developer": "Optizenapp",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/seo-meta-tag"
+    },
+    {
+      "slug": "payfn-hide-payment-methods",
+      "name": "payFn: Payment Method Rules",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/payfn-hide-payment-methods"
     },
     {
       "slug": "peasy-1",
@@ -5106,6 +6686,36 @@
       "source_url": "https://heyapps.dev/apps/pickupp-production"
     },
     {
+      "slug": "ups-shipping",
+      "name": "Precii: UPS shipping Lithuania",
+      "developer": "UAB Precii",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/ups-shipping"
+    },
+    {
+      "slug": "printops",
+      "name": "PrintOps: Print on Demand",
+      "developer": "PrintOps, LLC",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/printops"
+    },
+    {
+      "slug": "air-waves-apparel",
+      "name": "ProdcutPro",
+      "developer": "ETM",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/air-waves-apparel"
+    },
+    {
       "slug": "xpansion-product-connector",
       "name": "Product connector",
       "developer": "Someone You Know",
@@ -5114,6 +6724,46 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/xpansion-product-connector"
+    },
+    {
+      "slug": "prodspin",
+      "name": "ProductSpin AI – 360º Showcase",
+      "developer": "NAVEGaid",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/prodspin"
+    },
+    {
+      "slug": "bulkboost",
+      "name": "Promora",
+      "developer": "BlueHorse Software Solutions Pvt Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bulkboost"
+    },
+    {
+      "slug": "ryve",
+      "name": "Pulse: AI SEO & LLM Visibility",
+      "developer": "Khadin Akbar Ventures",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/ryve"
+    },
+    {
+      "slug": "quik-quick-order-page",
+      "name": "Quik ‑ Quick / Bulk Order Page",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-23",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/quik-quick-order-page"
     },
     {
       "slug": "razorpay-checkout",
@@ -5126,6 +6776,36 @@
       "source_url": "https://heyapps.dev/apps/razorpay-checkout"
     },
     {
+      "slug": "reconcilely",
+      "name": "Reconcilely: Xero & QBO Sync",
+      "developer": "MicroAngel",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/reconcilely"
+    },
+    {
+      "slug": "reconvert-upsell-cross-sell",
+      "name": "ReConvert Post Purchase Upsell",
+      "developer": "Upsell.com ex ReConvert",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/reconvert-upsell-cross-sell"
+    },
+    {
+      "slug": "revenue-intelligence",
+      "name": "Revenue Intelligence",
+      "developer": "GalWeb",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/revenue-intelligence"
+    },
+    {
       "slug": "roundly-xoegan",
       "name": "Roundly – Currency Converter",
       "developer": "XOEGAN",
@@ -5134,6 +6814,26 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/roundly-xoegan"
+    },
+    {
+      "slug": "flowport",
+      "name": "Rowquay: Bulk Import Export",
+      "developer": "Metalsoft",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/flowport"
+    },
+    {
+      "slug": "google-tracking-dev",
+      "name": "S2S Tracking for Google Ads",
+      "developer": "StopAdWaste",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/google-tracking-dev"
     },
     {
       "slug": "custom-order-status-app",
@@ -5147,13 +6847,113 @@
     },
     {
       "slug": "scarcity-ai-low-stock-counter",
-      "name": "Scarcity.AI: Low Stock Counter",
+      "name": "Scarcity+Urgency Stock Counter",
       "developer": "Effective Apps",
       "availability": "recovered",
       "delisted": "2026-10-20",
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/scarcity-ai-low-stock-counter"
+    },
+    {
+      "slug": "sg-shoppable-lookbook-gallery-1",
+      "name": "SG: Shoppable Lookbook Gallery",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-23",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/sg-shoppable-lookbook-gallery-1"
+    },
+    {
+      "slug": "sharepack",
+      "name": "SharePack: Product Packs",
+      "developer": "深圳通晓网络科技有限公司",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/sharepack"
+    },
+    {
+      "slug": "shipfn-hide-shipping-method",
+      "name": "Shipfn: Hide shipping method",
+      "developer": "Mascot Software Technologies Pvt. Ltd",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/shipfn-hide-shipping-method"
+    },
+    {
+      "slug": "shipprime-1",
+      "name": "ShipPrime",
+      "developer": "ShipPrime",
+      "availability": "recovered",
+      "delisted": "2026-10-28",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/shipprime-1"
+    },
+    {
+      "slug": "pickzen",
+      "name": "Shop Quiz: Product Recommender",
+      "developer": "PickZen",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/pickzen"
+    },
+    {
+      "slug": "custom-pricing-discounts-by-appikon",
+      "name": "Shopacado ‑ Volume Discounts",
+      "developer": "Shopacado",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/custom-pricing-discounts-by-appikon"
+    },
+    {
+      "slug": "shophire",
+      "name": "ShopHire Careers Page Builder",
+      "developer": "ShopHire",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/shophire"
+    },
+    {
+      "slug": "smile",
+      "name": "ShopPad Smile: Product reviews",
+      "developer": "ShopPad Inc.",
+      "availability": "recovered",
+      "delisted": "2026-10-26",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/smile"
+    },
+    {
+      "slug": "smoke-drop",
+      "name": "SmokeDrop",
+      "developer": "ETM",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/smoke-drop"
+    },
+    {
+      "slug": "sms-mobile-api",
+      "name": "SMSMobileAPI SMS & WhatsApp",
+      "developer": "Bintdev",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/sms-mobile-api"
     },
     {
       "slug": "snapshyp",
@@ -5166,6 +6966,16 @@
       "source_url": "https://heyapps.dev/apps/snapshyp"
     },
     {
+      "slug": "sortimize",
+      "name": "Sortimize Collection Sort",
+      "developer": "Podo Pals",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/sortimize"
+    },
+    {
       "slug": "speedsize",
       "name": "SpeedSize AI Image & Video",
       "developer": "SpeedSize",
@@ -5174,6 +6984,36 @@
       "recovered": "2026-10-22",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/speedsize"
+    },
+    {
+      "slug": "storebuildai",
+      "name": "Storebuild.ai  AI StoreBuilder",
+      "developer": "Storebuild.ai",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-30",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/storebuildai"
+    },
+    {
+      "slug": "shopmate-3",
+      "name": "Storemate Smart Shopping AI",
+      "developer": "WebSpero Solutions",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/shopmate-3"
+    },
+    {
+      "slug": "supercycle",
+      "name": "Supercycle",
+      "developer": "Supercycle",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/supercycle"
     },
     {
       "slug": "syncio",
@@ -5196,6 +7036,116 @@
       "source_url": "https://heyapps.dev/apps/advance-product-table"
     },
     {
+      "slug": "tag-genie",
+      "name": "Tag Genie ‑ Edit & Automate",
+      "developer": "MMS Software Ltd.",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-23",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/tag-genie"
+    },
+    {
+      "slug": "tree-nation",
+      "name": "Tree‑Nation: 1 Product 1 Tree",
+      "developer": "Tree-Nation",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/tree-nation"
+    },
+    {
+      "slug": "redflag-1",
+      "name": "TrustIssues",
+      "developer": "Redflag Ltd.",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/redflag-1"
+    },
+    {
+      "slug": "txe-whatsapp-button",
+      "name": "TXE Wp Chat Button",
+      "developer": "Shopiexpert LLC",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/txe-whatsapp-button"
+    },
+    {
+      "slug": "txe-back-in-stock-alert",
+      "name": "TXE ‑ Back in Stock Alert",
+      "developer": "Shopiexpert LLC",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/txe-back-in-stock-alert"
+    },
+    {
+      "slug": "txe-custom-code",
+      "name": "TXE ‑ Custom Code",
+      "developer": "Shopiexpert LLC",
+      "availability": "recovered",
+      "delisted": "2026-10-22",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/txe-custom-code"
+    },
+    {
+      "slug": "upcart-cart-builder",
+      "name": "Upcart—Cart Drawer Cart Upsell",
+      "developer": "Rokt",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-30",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/upcart-cart-builder"
+    },
+    {
+      "slug": "uploado",
+      "name": "Uploado",
+      "developer": "Go Code",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-28",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/uploado"
+    },
+    {
+      "slug": "upsell-cross-sell-kit-1",
+      "name": "Upsell & Cross Sell — Selleasy",
+      "developer": "Logbase",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/upsell-cross-sell-kit-1"
+    },
+    {
+      "slug": "tryon-7",
+      "name": "Var: Show Variants Collection",
+      "developer": "MakeIT",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/tryon-7"
+    },
+    {
+      "slug": "variantsync-by-rop-st-digital",
+      "name": "VariantSync",
+      "developer": "Rop St. DigitAll",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/variantsync-by-rop-st-digital"
+    },
+    {
       "slug": "wall-art-viewer-ar",
       "name": "Wall Art Viewer AR",
       "developer": "WallArtViewer AR",
@@ -5206,6 +7156,256 @@
       "source_url": "https://heyapps.dev/apps/wall-art-viewer-ar"
     },
     {
+      "slug": "shoplist",
+      "name": "Waytoapps: Etsy listing Orders",
+      "developer": "Waytoapps",
+      "availability": "recovered",
+      "delisted": "2026-10-27",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/shoplist"
+    },
+    {
+      "slug": "wbl-ai-chatbot-pro",
+      "name": "WBL ‑ AI ChatBot Pro",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-ai-chatbot-pro"
+    },
+    {
+      "slug": "wbl-ai-product-desc-gemini",
+      "name": "WBL ‑ AI Product Desc Gemini",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-ai-product-desc-gemini"
+    },
+    {
+      "slug": "wbl-auto-add-pos",
+      "name": "WBL ‑ Auto Add (POS)",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-auto-add-pos"
+    },
+    {
+      "slug": "wbl-booking-calender",
+      "name": "WBL ‑ Booking Calender",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-booking-calender"
+    },
+    {
+      "slug": "wbl-bulk-delete",
+      "name": "WBL ‑ Bulk Delete",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-bulk-delete"
+    },
+    {
+      "slug": "wbl-bulk-discount",
+      "name": "WBL ‑ Bulk Discounts",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-bulk-discount"
+    },
+    {
+      "slug": "wbl-catalog-pdf",
+      "name": "WBL ‑ Catalog PDF",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-catalog-pdf"
+    },
+    {
+      "slug": "wbl-custom-fees-pos",
+      "name": "WBL ‑ Custom Fees (POS)",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-custom-fees-pos"
+    },
+    {
+      "slug": "wbl-extra-product-options",
+      "name": "WBL ‑ Extra Product Options",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-extra-product-options"
+    },
+    {
+      "slug": "wbl-file-uploader-pro",
+      "name": "WBL ‑ File Uploader Pro",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-file-uploader-pro"
+    },
+    {
+      "slug": "wbl-odoo-migrator-pro",
+      "name": "WBL ‑ Odoo Migrator Pro",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-odoo-migrator-pro"
+    },
+    {
+      "slug": "wbl-order-printify-pdf",
+      "name": "WBL ‑ Order Printify PDF",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-order-printify-pdf"
+    },
+    {
+      "slug": "wbl-prestashop-migrator-pro",
+      "name": "WBL ‑ PrestaShop Migrator Pro",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-prestashop-migrator-pro"
+    },
+    {
+      "slug": "wbl-price-drop-alert",
+      "name": "WBL ‑ Price Drop Alert",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-price-drop-alert"
+    },
+    {
+      "slug": "wbl-prime-membership-pro",
+      "name": "WBL ‑ Prime Membership Pro",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-prime-membership-pro"
+    },
+    {
+      "slug": "wbl-product-pdf",
+      "name": "WBL ‑ Product PDF",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-product-pdf"
+    },
+    {
+      "slug": "wbl-q-a-pro",
+      "name": "WBL ‑ Q&A Pro",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-q-a-pro"
+    },
+    {
+      "slug": "wbl-request-a-quote",
+      "name": "WBL ‑ Request a Quote",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-request-a-quote"
+    },
+    {
+      "slug": "wbl-restrict-order",
+      "name": "WBL ‑ Restrict Order PRO",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-restrict-order"
+    },
+    {
+      "slug": "wbl-time-based-discounts",
+      "name": "WBL ‑ Time Based Discounts",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-time-based-discounts"
+    },
+    {
+      "slug": "wbl-woocommerce-migrator",
+      "name": "WBL ‑ WooCommerce Migrator",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-woocommerce-migrator"
+    },
+    {
+      "slug": "wbl-ai-product-description",
+      "name": "WBL‑ AI Product Desc ChatGPT",
+      "developer": "Weblytic Labs",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-26",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/wbl-ai-product-description"
+    },
+    {
+      "slug": "announcement-header-bar",
+      "name": "Web Push Notifications + Bars",
+      "developer": "AAAeCommerce Inc",
+      "availability": "recovered",
+      "delisted": "2026-10-21",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/announcement-header-bar"
+    },
+    {
+      "slug": "webpixr",
+      "name": "WebPixr",
+      "developer": "Angry Digital Inc.",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-10-29",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/webpixr"
+    },
+    {
       "slug": "wholesale-discount-solution",
       "name": "Wholesale Discount Pricing B2B",
       "developer": "Wholesale Solutions",
@@ -5214,6 +7414,16 @@
       "recovered": "2026-10-21",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/wholesale-discount-solution"
+    },
+    {
+      "slug": "winback",
+      "name": "Winback: SMS Marketing",
+      "developer": "Winback",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-10-27",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/winback"
     },
     {
       "slug": "xpansion-bulk-product-upsell",

@@ -62,7 +62,7 @@ A delisting on its own proves nothing. [HeyApps lists {{ site.data.heyapps.count
 <details markdown="1">
 <summary>Should I uninstall the app just in case?</summary>
 
-Check with the vendor first. Swym's 20 Oct FAQ says pausing access does not delete wishlist data. Its 21 Oct status reports restoration in batches. Boost asks merchants not to uninstall and reinstall. Temporarily turn off a suspicious app embed in the theme editor while you investigate. Sources: [Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq), [Swym status](https://status.getswym.com/), [Boost status](https://status.boostcommerce.net).
+Check with the vendor first. Swym's 20 Oct FAQ says pausing access does not delete wishlist data. On 27 Oct at 14:41 UTC, Swym reported access open to all merchant stores and a third-party audit in progress. Boost asks merchants not to uninstall and reinstall. Temporarily turn off a suspicious app embed in the theme editor while you investigate. Sources: [Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq), [Swym status](https://status.getswym.com/), [Boost status](https://status.boostcommerce.net).
 
 </details>
 
@@ -75,9 +75,9 @@ On 15 Oct it released a security check for app developers. On 20 Oct it publishe
 <details markdown="1">
 <summary>My store asks "Are you sure you want to leave?" on an external link. Was my store hacked?</summary>
 
-Not by itself. Shopify announced this confirmation on 20 Oct 2026. It names the other website and does not open for the store's domains and their subdomains listed in Shopify admin, its checkout, Shopify pages or popular social networks. The message does not mean the other website is unsafe. As checked on 22 Oct, it cannot be turned off, and merchants cannot choose websites that skip it.
+Not by itself. Shopify’s 23 Oct update says links to sites it identifies as malicious are blocked, suspicious sites may trigger confirmation, and other sites open directly. The message alone does not establish a hack or prove the destination is safe. Store domains and their subdomains in Shopify admin, its checkout, Shopify pages and popular social networks are excluded.
 
-Investigate when it names an unfamiliar website or appears on a button that should keep shoppers on your store, such as Add to cart or Checkout. Review recently installed or updated apps and your theme code. Contact Shopify Support with the page, the destination and a screenshot. All-store coverage and any link to the checkout incident remain unverified. The changelog does not mention the incident. Sources: [Shopify changelog, 20 Oct](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects), [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation), [Developer community](https://community.shopify.dev/t/shopify-exit-interstitial-popup-modal/38776).
+Investigate when it names an unfamiliar website or appears on a button that should keep shoppers on your store, such as Add to cart or Checkout. Review recently installed or updated apps and your theme code. Contact Shopify Support with the page, the destination and a screenshot. Shopify says link protection is on for all online stores; independent coverage and any link to the checkout incident remain unverified. Sources: [Shopify changelog](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects), [Shopify Help Center](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
 
 </details>
 

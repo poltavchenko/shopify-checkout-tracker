@@ -22,7 +22,7 @@ alt: /checklist/
 
 Дві примітки до цього тесту:
 
-- Shopify оголосив підтвердження «Are you sure you want to leave …?» 20.10.2026. Саме вікно не доводить злам і не означає, що інший сайт небезпечний. Якщо названо незнайомий сайт або вікно з’являється на «Додати в кошик» чи Checkout, поверніться, перевірте свіжі застосунки й код теми та напишіть у Shopify Support. За перевіркою 22.10 його не можна вимкнути чи вибрати сайти-винятки. Охоплення всіх магазинів і зв’язок з інцидентом не перевірені. [Shopify changelog](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects), [довідка Shopify](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
+- За оновленням Shopify від 23.10, посилання на визначені ним шкідливі сайти блокуються, а підозрілі можуть викликати підтвердження. Саме вікно не доводить злам або безпеку сайту призначення. Якщо названо незнайомий сайт або вікно з’являється на «Додати в кошик» чи Checkout, поверніться, перевірте свіжі застосунки й код теми та напишіть у Shopify Support. Shopify каже, що захист увімкнено для всіх онлайн-магазинів; незалежно охоплення і зв’язок з інцидентом не перевірені. [Shopify changelog](https://changelog.shopify.com/posts/new-protection-against-unexpected-redirects), [довідка Shopify](https://help.shopify.com/en/manual/online-store/menus-and-links/leave-store-confirmation).
 - Перевіряйте у справжньому браузері. Завантаження HTML не виконує JavaScript вітрини і не перевіряє клік на Checkout. Чистий HTML не замінює перевірку роботи checkout.
 
 ## 2. Застосунки (5 хв)

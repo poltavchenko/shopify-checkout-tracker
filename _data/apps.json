@@ -41,6 +41,12 @@
      "en": "Delisted from the App Store (per HeyApps).",
      "uk": "Знято з App Store (за HeyApps).",
      "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-28",
+     "en": "HeyApps reports the app listed again on 28 Oct. This does not establish security.",
+     "uk": "HeyApps повідомляє про повернення застосунку 28.10. Це не є доказом безпеки.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "hulk-product-options"
@@ -85,6 +91,12 @@
      "en": "Vendor incident page updated: Selleasy is safe to use, audit pending.",
      "uk": "Вендор оновив сторінку інциденту: Selleasy безпечний, аудит триває.",
      "source": "https://www.logbase.io/selleasy/updates/incident-20261013"
+    },
+    {
+     "date": "2026-10-26",
+     "en": "HeyApps reports the app listed again on 26 Oct. This does not establish security.",
+     "uk": "HeyApps повідомляє про повернення застосунку 26.10. Це не є доказом безпеки.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "selleasy"
@@ -146,6 +158,12 @@
      "date": "2026-10-23",
      "en": "Vendor status at 05:55 UTC: merchants are being re-enabled; patching is holding for degraded services and service upgrades are in progress.",
      "uk": "Статус вендора о 05:55 UTC: застосунок знову вмикають мерчантам; виправлення для сервісів зі збоями працюють, оновлення сервісів тривають.",
+     "source": "https://status.getswym.com/"
+    },
+    {
+     "date": "2026-10-27",
+     "en": "At 14:41 UTC, the vendor reported security patches applied, access open to all merchant stores and a third-party audit in progress.",
+     "uk": "О 14:41 UTC вендор повідомив про застосовані патчі, відкритий доступ для всіх магазинів мерчантів і аудит третьою стороною.",
      "source": "https://status.getswym.com/"
     }
    ],
@@ -411,6 +429,12 @@
      "en": "Delisted from the App Store (per HeyApps).",
      "uk": "Знято з App Store (за HeyApps).",
      "source": "https://heyapps.dev/apps/delisted?sort=reviews"
+    },
+    {
+     "date": "2026-10-28",
+     "en": "HeyApps reports the app listed again on 28 Oct. Incident attribution remains unconfirmed.",
+     "uk": "HeyApps повідомляє про повернення застосунку 28.10. Причетність до інциденту не підтверджена.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "consentmo"
@@ -455,6 +479,12 @@
      "en": "Roman Zipp lists it as \"unconfirmed but de-listed\". Urban Alcove's comments say it \"maybe compromised\" and name cartassure[.]top. The domain has two public mentions, including the Reddit report; whether they concern different stores is unverified.",
      "uk": "Roman Zipp позначає його як \"unconfirmed but de-listed\". Urban Alcove у коментарях пише \"maybe compromised\" і називає cartassure[.]top. Домен має дві публічні згадки, включно зі звітом у Reddit; чи це різні магазини, не перевірено.",
      "source": "https://romanzipp.com/blog/shopify-hit-with-phishing-attack"
+    },
+    {
+     "date": "2026-10-27",
+     "en": "HeyApps reports the app listed again on 27 Oct. Incident attribution remains unconfirmed.",
+     "uk": "HeyApps повідомляє про повернення застосунку 27.10. Причетність до інциденту не підтверджена.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "17track"
@@ -656,9 +686,15 @@
    "timeline": [
     {
      "date": "2026-10-21",
-     "en": "Aftersell (part of Rokt) reports unauthorized access to some merchant upsell configurations, staff email addresses and discount codes. The vendor says no shopper personal data was compromised, no malware or phishing was involved, and this incident is separate from the phishing attacks elsewhere in the Shopify ecosystem. It says the vulnerability was patched; its app remains functional for existing merchants but is temporarily unavailable on the Shopify App Store during a security review with Shopify. Vendor statement, not an independent audit.",
-     "uk": "Aftersell (входить до Rokt) повідомляє про несанкціонований доступ до частини налаштувань апсейлу, email співробітників і кодів знижок мерчантів. За заявою вендора, персональні дані покупців не зачеплено, malware і фішингу не було, а цей інцидент окремий від фішингових атак в екосистемі Shopify. Вендор повідомляє, що вразливість виправлено; застосунок працює для наявних мерчантів, але тимчасово недоступний у Shopify App Store на час перевірки безпеки разом із Shopify. Це заява вендора, не незалежний аудит.",
+     "en": "Aftersell (part of Rokt) reports unauthorized access to some merchant upsell configurations, staff email addresses and discount codes. The vendor says no shopper personal data was compromised, no malware or phishing was involved, and this incident is separate from the phishing attacks elsewhere in the Shopify ecosystem. It says the vulnerability was patched; its app remained functional for existing merchants but was temporarily unavailable on the Shopify App Store during a security review with Shopify. Vendor statement, not an independent audit.",
+     "uk": "Aftersell (входить до Rokt) повідомляє про несанкціонований доступ до частини налаштувань апсейлу, email співробітників і кодів знижок мерчантів. За заявою вендора, персональні дані покупців не зачеплено, malware і фішингу не було, а цей інцидент окремий від фішингових атак в екосистемі Shopify. Вендор повідомляє, що вразливість виправлено; застосунок працював для наявних мерчантів, але був тимчасово недоступний у Shopify App Store на час перевірки безпеки разом із Shopify. Це заява вендора, не незалежний аудит.",
      "source": "https://www.aftersell.com/blog/incident-disclosure-protecting-our-merchants-and-their-customers"
+    },
+    {
+     "date": "2026-10-30",
+     "en": "HeyApps reports the app listed again on 30 Oct. This does not establish security.",
+     "uk": "HeyApps повідомляє про повернення застосунку 30.10. Це не є доказом безпеки.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "aftersell"

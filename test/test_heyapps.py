@@ -37,6 +37,18 @@ def capture(apps, count, view="delisted", sort="reviews", minute="24"):
     }
 
 
+def detail_capture(slug):
+    return {
+        "kind": "detail",
+        "view": "delisted",
+        "source": "https://heyapps.dev/apps/" + slug,
+        "captured_at": "2026-10-21T08:28:00.000Z",
+        "observed_status": "Delisted",
+        "history": [{"date": "2026-10-20", "event": "Delisted from the Shopify App Store"}],
+        "apps": [app(slug)],
+    }
+
+
 class ImportHeyAppsTests(unittest.TestCase):
     def setUp(self):
         if not IMPORTER.is_file():
@@ -82,6 +94,31 @@ class ImportHeyAppsTests(unittest.TestCase):
     def test_partial_400_of_430_capture_is_rejected(self):
         self.captures[:2] = [capture([app("app-" + str(i)) for i in range(400)], 430)]
         with self.assertRaisesRegex(ValueError, "delisted.*400.*430"):
+            self.build()
+
+    def test_detail_page_can_complete_a_list_without_changing_its_reported_count(self):
+        self.captures[0]["reported_count"] = self.captures[1]["reported_count"] = 4
+        self.captures.append(detail_capture("fourth"))
+        data = self.build()
+        self.assertEqual(data["counts"], {"delisted": 4, "recovered": 1, "total": 5})
+        source = next(s for s in data["sources"] if s.get("kind") == "detail")
+        self.assertEqual(source["url"], "https://heyapps.dev/apps/fourth")
+        self.assertNotIn("reported_count", source)
+
+    def test_detail_page_requires_matching_status_source_and_history(self):
+        self.captures[0]["reported_count"] = self.captures[1]["reported_count"] = 4
+        self.captures.append(detail_capture("fourth"))
+        for field, value in [("observed_status", "Listed again"), ("source", "https://heyapps.dev/apps/other"), ("history", [])]:
+            with self.subTest(field=field):
+                detail = detail_capture("fourth")
+                detail[field] = value
+                self.captures[-1:] = [detail]
+                with self.assertRaisesRegex(ValueError, "detail"):
+                    self.build()
+        detail = detail_capture("fourth")
+        detail["apps"][0]["launched"] = "Oct 1, 2026"
+        self.captures[-1:] = [detail]
+        with self.assertRaisesRegex(ValueError, "detail"):
             self.build()
 
     def test_changed_record_across_sorts_is_rejected(self):
@@ -177,13 +214,13 @@ class ImportHeyAppsTests(unittest.TestCase):
 
 
 class PublishedSnapshotTests(unittest.TestCase):
-    def test_full_snapshot_has_517_unique_apps_and_only_explicit_incident_matches(self):
+    def test_full_snapshot_has_734_unique_apps_and_only_explicit_incident_matches(self):
         path = ROOT / "_data/heyapps.json"
         self.assertTrue(path.is_file(), "Full HeyApps snapshot is not generated")
         data = json.loads(path.read_text(encoding="utf-8"))
-        self.assertEqual(data["counts"], {"delisted": 488, "recovered": 29, "total": 517})
-        self.assertEqual(len(data["apps"]), 517)
-        self.assertEqual(len({a["slug"] for a in data["apps"]}), 517)
+        self.assertEqual(data["counts"], {"delisted": 577, "recovered": 157, "total": 734})
+        self.assertEqual(len(data["apps"]), 734)
+        self.assertEqual(len({a["slug"] for a in data["apps"]}), 734)
         self.assertEqual(data["incident_ids"], {
             "product-options-by-hulkapps-1": "hulk-product-options", "upsell-cross-sell-kit-1": "selleasy",
             "swym-relay": "swym-wishlist-plus", "product-filter-search": "boost", "privy": "privy",
@@ -192,7 +229,8 @@ class PublishedSnapshotTests(unittest.TestCase):
         })
         curated = json.loads((ROOT / "_data/apps.json").read_text(encoding="utf-8"))["apps"]
         self.assertLessEqual(set(data["incident_ids"].values()), set(curated))
-        self.assertEqual(len(data["sources"]), 4)
+        self.assertEqual(len(data["sources"]), 9)
+        self.assertEqual(sum(s.get("kind") == "detail" for s in data["sources"]), 4)
         self.assertTrue(all(set(a) == {"slug", "name", "developer", "availability", "delisted", "recovered", "launched", "source_url"} for a in data["apps"]))
 
 

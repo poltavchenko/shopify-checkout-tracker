@@ -99,29 +99,49 @@ def build_snapshot(paths):
         if not isinstance(raw, dict) or raw.get("view") not in ("delisted", "recovered"):
             raise ValueError("capture view must be delisted or recovered")
         view = raw["view"]
+        kind = raw.get("kind", "list")
+        if kind not in ("list", "detail"):
+            raise ValueError("capture kind must be list or detail")
         source = raw.get("source")
         if not isinstance(source, str) or any(char.isspace() for char in source):
             raise ValueError("invalid capture source")
         url = urlsplit(source)
-        if (url.scheme, url.netloc, url.path) != ("https", "heyapps.dev", "/apps/delisted") or url.fragment:
-            raise ValueError("invalid capture source: " + source)
-        if parse_qs(url.query, keep_blank_values=True).get("view", ["delisted"]) != [view]:
-            raise ValueError("capture source does not match its view")
-        count = raw.get("reported_count")
-        if type(count) is not int or count < 1:
-            raise ValueError("reported count must be a positive integer")
-        if view in counts and counts[view] != count:
-            raise ValueError("conflicting reported counts for " + view)
-        counts[view] = count
+        if kind == "detail":
+            if view != "delisted" or (url.scheme, url.netloc) != ("https", "heyapps.dev") or url.query or url.fragment:
+                raise ValueError("invalid detail capture source: " + source)
+            if raw.get("observed_status") != "Delisted":
+                raise ValueError("detail capture must show Delisted")
+        else:
+            if (url.scheme, url.netloc, url.path) != ("https", "heyapps.dev", "/apps/delisted") or url.fragment:
+                raise ValueError("invalid capture source: " + source)
+            if parse_qs(url.query, keep_blank_values=True).get("view", ["delisted"]) != [view]:
+                raise ValueError("capture source does not match its view")
+            count = raw.get("reported_count")
+            if type(count) is not int or count < 1:
+                raise ValueError("reported count must be a positive integer")
+            if view in counts and counts[view] != count:
+                raise ValueError("conflicting reported counts for " + view)
+            counts[view] = count
         records = raw.get("apps")
         if not isinstance(records, list) or not records:
             raise ValueError("capture apps must be a nonempty array")
+        if kind == "detail" and len(records) != 1:
+            raise ValueError("detail capture must contain one app")
         stamp = utc_timestamp(raw.get("captured_at"))
         stamps.append(stamp)
         seen = set()
         for record in records:
             item = normalize_app(record, view)
             slug = item["slug"]
+            if kind == "detail":
+                history = raw.get("history")
+                if source != item["source_url"] or item["launched"] is not None:
+                    raise ValueError("invalid detail app source or launch date: " + slug)
+                if not isinstance(history, list) or not any(
+                    isinstance(event, dict) and event.get("date") == item["delisted"]
+                    and event.get("event") == "Delisted from the Shopify App Store" for event in history
+                ):
+                    raise ValueError("detail capture lacks matching delisted history: " + slug)
             if slug in seen:
                 raise ValueError("duplicate app within capture: " + slug)
             seen.add(slug)
@@ -131,14 +151,18 @@ def build_snapshot(paths):
                 if apps[slug] != item:
                     raise ValueError("conflicting app records: " + slug)
             apps[slug] = item
-        sources.append({
+        source_record = {
             "url": source,
             "captured_at": format_timestamp(stamp),
             "view": view,
-            "reported_count": count,
             "captured_count": len(records),
             "sha256": hashlib.sha256(content).hexdigest(),
-        })
+        }
+        if kind == "detail":
+            source_record["kind"] = "detail"
+        else:
+            source_record["reported_count"] = count
+        sources.append(source_record)
     for view in ("delisted", "recovered"):
         if view not in counts:
             raise ValueError("missing " + view + " capture")

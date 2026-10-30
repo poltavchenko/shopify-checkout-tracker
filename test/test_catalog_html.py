@@ -72,6 +72,8 @@ class CatalogRenderingTests(unittest.TestCase):
         if not snapshot.is_file():
             raise AssertionError("HeyApps snapshot and catalog are not implemented")
         data = json.loads(snapshot.read_text(encoding="utf-8"))
+        cls.expected_count = len(data["apps"])
+        cls.captured_local = data["captured_local"]
         data["counts"]["delisted"] = 530
         cls.name = '<script id="injected">alert("name")</script> & App'
         cls.developer = '<img src=x onerror="alert(1)"> & Developer'
@@ -91,7 +93,8 @@ class CatalogRenderingTests(unittest.TestCase):
                 path = self.destination / language / "apps/index.html"
                 self.assertTrue(path.is_file(), "Localized catalog page is missing")
                 page = CatalogHTML(path.read_text(encoding="utf-8"))
-                self.assertEqual(len(page.rows), 517)
+                self.assertEqual(len(page.rows), self.expected_count)
+                self.assertIn("окрема сторінка застосунку" if language else "individual app page", page.text)
                 row = page.rows["heyapps-scarcity-ai-low-stock-counter"]
                 self.assertIn(self.name, row["cells"][0])
                 self.assertIn(self.developer, row["cells"][0])
@@ -134,7 +137,7 @@ class CatalogRenderingTests(unittest.TestCase):
             with self.subTest(language=language):
                 page = CatalogHTML((self.destination / language / "faq/index.html").read_text(encoding="utf-8"))
                 self.assertIn(sentence, page.text)
-                self.assertIn("2026-10-23 10:12:05", page.text)
+                self.assertIn(self.captured_local, page.text)
                 self.assertNotIn("429", page.text)
 
 
