@@ -4,8 +4,8 @@ lang: en
 repo: "poltavchenko/shopify-checkout-tracker"
 baseurl: "/shopify-checkout-tracker"
 issues_url: "https://github.com/poltavchenko/shopify-checkout-tracker/issues"
-updated_en: "30 Oct 2026, 11:25 (Europe/Bratislava, UTC+1)"
-updated_uk: "30.10.2026, 11:25 (Europe/Bratislava, UTC+1)"
+updated_en: "31 Oct 2026, 10:18 (Europe/Bratislava, UTC+1)"
+updated_uk: "31.10.2026, 10:18 (Europe/Bratislava, UTC+1)"
 markdown: kramdown
 kramdown:
   input: GFM

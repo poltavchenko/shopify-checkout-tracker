@@ -58,7 +58,7 @@ A delisting does not mean an app was compromised, and it does not remove the app
 
 The separate [HeyApps catalog]({{ '/apps/' | relative_url }}) contains {{ site.data.heyapps.counts.delisted }} delisted and {{ site.data.heyapps.counts.recovered }} listed-again apps in the snapshot captured at {{ site.data.heyapps.captured_local }}. Being delisted does not by itself mean an app was compromised. Being listed again does not establish safety. See [Roman Zipp's 22 Oct update](https://romanzipp.com/blog/shopify-hit-with-phishing-attack) on the limits of delisting evidence.
 
-All apps in this snapshot were delisted between 14 and 30 Oct 2026. [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) gives no reasons for the individual delistings.
+All apps in this snapshot were delisted between 14 and 31 Oct 2026. [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) gives no reasons for the individual delistings.
 
 ## Platform observations
 
