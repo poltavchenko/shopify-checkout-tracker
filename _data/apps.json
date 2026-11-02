@@ -76,9 +76,9 @@
    "timeline": [
     {
      "date": "2026-10-13",
-     "en": "07:47-15:00 UTC: an unauthorized party used an internal tool to add a script to some stores' settings.",
-     "uk": "07:47-15:00 UTC: сторонній через внутрішній інструмент додав скрипт у налаштування частини магазинів.",
-     "source": "https://romanzipp.com/blog/statements-from-companies-involved-in-shopify-checkout-hijack"
+     "en": "Vendor: unauthorized script added through a legacy support tool. Redirects stopped at 12:22 UTC; affected stores were cleaned by 15:58 UTC.",
+     "uk": "Вендор: сторонній додав скрипт через старий інструмент підтримки. Перенаправлення зупинили о 12:22 UTC; уражені магазини очистили до 15:58 UTC.",
+     "source": "https://www.logbase.io/selleasy/updates/incident-20261013"
     },
     {
      "date": "2026-10-15",
@@ -87,16 +87,22 @@
      "source": "https://heyapps.dev/apps/delisted?sort=reviews"
     },
     {
-     "date": "2026-10-16",
-     "en": "Vendor incident page updated: Selleasy is safe to use, audit pending.",
-     "uk": "Вендор оновив сторінку інциденту: Selleasy безпечний, аудит триває.",
-     "source": "https://www.logbase.io/selleasy/updates/incident-20261013"
-    },
-    {
      "date": "2026-10-26",
      "en": "HeyApps reports the app listed again on 26 Oct. This does not establish security.",
      "uk": "HeyApps повідомляє про повернення застосунку 26.10. Це не є доказом безпеки.",
      "source": "https://heyapps.dev/apps/delisted?view=recovered"
+    },
+    {
+     "date": "2026-10-27",
+     "en": "Logbase reports the app was re-listed on 27 Oct after Shopify review; HeyApps reports 26 Oct.",
+     "uk": "Logbase повідомляє про повернення застосунку 27.10 після перевірки Shopify; HeyApps вказує 26.10.",
+     "source": "https://www.logbase.io/selleasy/updates/incident-20261013"
+    },
+    {
+     "date": "2026-10-28",
+     "en": "Logbase reports an independent security assessment on 16–20 Oct and calls the incident resolved.",
+     "uk": "Logbase повідомляє про незалежну перевірку безпеки 16–20.10 і називає інцидент вирішеним.",
+     "source": "https://www.logbase.io/selleasy/updates/incident-20261013"
     }
    ],
    "id": "selleasy"
