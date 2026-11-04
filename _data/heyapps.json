@@ -1,92 +1,100 @@
 {
   "checked": "2026-11-04",
-  "captured_at": "2026-11-04T07:00:30.559Z",
-  "capture_started_at": "2026-11-04T06:58:46.709Z",
-  "captured_local": "2026-11-04 08:00:30 (Europe/Bratislava, UTC+01:00)",
+  "captured_at": "2026-11-04T17:54:06.797Z",
+  "capture_started_at": "2026-11-04T17:52:36.162Z",
+  "captured_local": "2026-11-04 18:54:06 (Europe/Bratislava, UTC+01:00)",
   "counts": {
     "delisted": 591,
-    "recovered": 204,
-    "total": 795
+    "recovered": 209,
+    "total": 800
   },
   "sources": [
     {
       "url": "https://heyapps.dev/apps/delisted",
-      "captured_at": "2026-11-04T06:58:46.709Z",
+      "captured_at": "2026-11-04T17:52:36.162Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "8fb5a3a82974c7d6ab25de355d36d601ccc6e82ff5875c09126b43f4d6d2002b",
+      "sha256": "1316dd42bbb8e6955ab3832a1c01027be2e18f71c15f329c944bf55ac1754727",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-11-04T06:59:04.923Z",
+      "captured_at": "2026-11-04T17:52:44.176Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "94527f7da19d3f9176c4cb915c16a225377a356a15d7419601760e497a8b6d61",
+      "sha256": "d243a33a9163133899043c236721da893febce7a89b0f1f82b25f938ede612a3",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched_asc",
-      "captured_at": "2026-11-04T06:59:12.710Z",
+      "captured_at": "2026-11-04T17:52:51.076Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "22092032abc3e16940c5be4b508ceb7978809771d9ea187609f79026913c75f0",
+      "sha256": "9b618bdad132050e07f4d3e89daac05a888a6c42f2cd9242a2d3f3438a1f2294",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=delisted",
-      "captured_at": "2026-11-04T06:59:20.576Z",
+      "captured_at": "2026-11-04T17:52:58.763Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "121bd5e1eb9d08674e82fb15cc53747d7cf074a44da78de0964ea75c1f041104",
+      "sha256": "619beed6b777e3369fc8a60f4e98df85e8c1d0b3ee0d589810e15bf6912b1a17",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-11-04T06:59:39.943Z",
+      "captured_at": "2026-11-04T17:53:11.021Z",
       "view": "recovered",
-      "captured_count": 204,
-      "sha256": "4d5bd37fdecc141fae21a9340eea61ecc32514beea6a890c4ed52a2fd70d2d61",
-      "reported_count": 204
+      "captured_count": 209,
+      "sha256": "860a82d8784e80b0b93c3447933c2044e01665ed991af5b46f8fb16de9266e71",
+      "reported_count": 209
     },
     {
       "url": "https://heyapps.dev/apps/bind-1",
-      "captured_at": "2026-11-04T07:00:06.198Z",
+      "captured_at": "2026-11-04T17:53:30.257Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "2c2a4f50b4a1ef61bcb3aff7787a0eb87aff91269cac95874c5a3c71251b89e4",
+      "sha256": "3b7956dcc59bb91b0bc44ea415a8e260b13a7cbd51bcd24d64a30002f0443611",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/decode-products-organizer",
-      "captured_at": "2026-11-04T07:00:12.271Z",
+      "captured_at": "2026-11-04T17:53:36.376Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "9706216d9ab8a0899d915c3a388e6dafbbc92bd120ee747036aa87f83ddf61a4",
+      "sha256": "89eff418ecdef893d318875ea65a7a4895fb6f16792540095c8f6eb3b6a0ad34",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/replyma",
-      "captured_at": "2026-11-04T07:00:18.409Z",
+      "captured_at": "2026-11-04T17:53:43.299Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "f27920aa2c48127d30663284ae8392c03d5fe5cc12796c54e142888899b12ba5",
+      "sha256": "663ac7fadf741d92dfa8aef5cc69fddf80a94f660a4d0340965ddf1642a767c1",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/reviewsjet",
-      "captured_at": "2026-11-04T07:00:24.944Z",
+      "captured_at": "2026-11-04T17:53:48.554Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "0d95bc21cdb3a6d93493deed89b540cf92141a7d698cd38bda68347ffdf8be8b",
+      "sha256": "1e9506faa44687f98b814d64eaea56a98a6407423126bce698fb92c03870402a",
+      "kind": "detail"
+    },
+    {
+      "url": "https://heyapps.dev/apps/tds-geo",
+      "captured_at": "2026-11-04T17:53:59.702Z",
+      "view": "delisted",
+      "captured_count": 1,
+      "sha256": "3cea411c6378d86f7b6cd4e08efb11f3fb1160089c1fbda79d10269f07c7f3e3",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/top-trust-badge",
-      "captured_at": "2026-11-04T07:00:30.559Z",
+      "captured_at": "2026-11-04T17:54:06.797Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "f19bdb69a78e2881ac1a7861fe96ec8514a81a4c5fc46899fd1b6e4f34371d62",
+      "sha256": "d111530e9dce6fc74eff3262d16dde0458ddf79f4c7a2a590ee9ee94b834efd4",
       "kind": "detail"
     }
   ],
@@ -665,6 +673,16 @@
       "source_url": "https://heyapps.dev/apps/b2b-customer-gate"
     },
     {
+      "slug": "not-another-popup-upsell",
+      "name": "BA Popup Upsell & Cross Sell",
+      "developer": "BetterApps",
+      "availability": "delisted",
+      "delisted": "2026-11-04",
+      "recovered": null,
+      "launched": "2025-06-23",
+      "source_url": "https://heyapps.dev/apps/not-another-popup-upsell"
+    },
+    {
       "slug": "back-in-stock-by-taa",
       "name": "Back In Stock by TAA",
       "developer": "TheAbstractApps",
@@ -1095,6 +1113,16 @@
       "source_url": "https://heyapps.dev/apps/mca-optimizer"
     },
     {
+      "slug": "chargeback-shield",
+      "name": "Chargeback Shield Blocker",
+      "developer": "Frogbit.dev",
+      "availability": "delisted",
+      "delisted": "2026-11-04",
+      "recovered": null,
+      "launched": "2025-11-04",
+      "source_url": "https://heyapps.dev/apps/chargeback-shield"
+    },
+    {
       "slug": "chatbee",
       "name": "chatbee",
       "developer": "Galileo Robotics",
@@ -1523,16 +1551,6 @@
       "recovered": null,
       "launched": "2023-10-02",
       "source_url": "https://heyapps.dev/apps/customerplus"
-    },
-    {
-      "slug": "dash-drop-delivery",
-      "name": "Dash Drop Delivery",
-      "developer": "rajatweb.com",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2025-04-07",
-      "source_url": "https://heyapps.dev/apps/dash-drop-delivery"
     },
     {
       "slug": "datavio",
@@ -2373,6 +2391,16 @@
       "recovered": null,
       "launched": "2026-06-02",
       "source_url": "https://heyapps.dev/apps/ibuy"
+    },
+    {
+      "slug": "indexnow-2",
+      "name": "IndexNow | SEO & AI Indexing",
+      "developer": "MakkPress Technologies Private limited",
+      "availability": "delisted",
+      "delisted": "2026-11-04",
+      "recovered": null,
+      "launched": "2026-08-28",
+      "source_url": "https://heyapps.dev/apps/indexnow-2"
     },
     {
       "slug": "influence-io",
@@ -3245,16 +3273,6 @@
       "source_url": "https://heyapps.dev/apps/ship-3"
     },
     {
-      "slug": "parcellab-engage",
-      "name": "parcelLab Order Tracking",
-      "developer": "parcelLab Inc.",
-      "availability": "delisted",
-      "delisted": "2026-10-20",
-      "recovered": null,
-      "launched": "2024-04-18",
-      "source_url": "https://heyapps.dev/apps/parcellab-engage"
-    },
-    {
       "slug": "pavo-volume-discount",
       "name": "Pavo",
       "developer": "soyAkil",
@@ -3535,16 +3553,6 @@
       "source_url": "https://heyapps.dev/apps/pretty-sales-popup"
     },
     {
-      "slug": "bulk-products-order",
-      "name": "Prezen Wholesale Order",
-      "developer": "Prezen Apps",
-      "availability": "delisted",
-      "delisted": "2026-10-30",
-      "recovered": null,
-      "launched": "2018-09-26",
-      "source_url": "https://heyapps.dev/apps/bulk-products-order"
-    },
-    {
       "slug": "price-engine",
       "name": "Price Engine",
       "developer": "Price Engine",
@@ -3623,16 +3631,6 @@
       "recovered": null,
       "launched": "2026-08-07",
       "source_url": "https://heyapps.dev/apps/custom-product-options-1"
-    },
-    {
-      "slug": "product-variants",
-      "name": "Productify Groups",
-      "developer": "rajatweb.com",
-      "availability": "delisted",
-      "delisted": "2026-10-15",
-      "recovered": null,
-      "launched": "2025-04-15",
-      "source_url": "https://heyapps.dev/apps/product-variants"
     },
     {
       "slug": "profit-panel",
@@ -4243,6 +4241,16 @@
       "recovered": null,
       "launched": "2024-12-19",
       "source_url": "https://heyapps.dev/apps/savvycommerce"
+    },
+    {
+      "slug": "chiibi-scan",
+      "name": "Scan documents to orders",
+      "developer": "Linkcious",
+      "availability": "delisted",
+      "delisted": "2026-11-04",
+      "recovered": null,
+      "launched": "2020-11-10",
+      "source_url": "https://heyapps.dev/apps/chiibi-scan"
     },
     {
       "slug": "scheduler-bar",
@@ -6585,6 +6593,16 @@
       "source_url": "https://heyapps.dev/apps/multi-seasonal-effects"
     },
     {
+      "slug": "dash-drop-delivery",
+      "name": "Dash Drop Delivery",
+      "developer": "rajatweb.com",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-11-04",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/dash-drop-delivery"
+    },
+    {
       "slug": "diginius-shopping",
       "name": "Diginius: Microsoft Shopping",
       "developer": "Diginius",
@@ -7065,6 +7083,16 @@
       "source_url": "https://heyapps.dev/apps/whatsapp-shopping-app"
     },
     {
+      "slug": "parcellab-engage",
+      "name": "parcelLab Order Tracking",
+      "developer": "parcelLab Inc.",
+      "availability": "recovered",
+      "delisted": "2026-10-20",
+      "recovered": "2026-11-04",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/parcellab-engage"
+    },
+    {
       "slug": "payfn-hide-payment-methods",
       "name": "payFn: Payment Method Rules",
       "developer": "Mascot Software Technologies Pvt. Ltd",
@@ -7103,6 +7131,16 @@
       "recovered": "2026-10-29",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/ups-shipping"
+    },
+    {
+      "slug": "bulk-products-order",
+      "name": "Prezen Wholesale Order",
+      "developer": "Prezen Apps",
+      "availability": "recovered",
+      "delisted": "2026-10-30",
+      "recovered": "2026-11-04",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/bulk-products-order"
     },
     {
       "slug": "printops",
@@ -7153,6 +7191,16 @@
       "recovered": "2026-11-03",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/product-pulse-ia"
+    },
+    {
+      "slug": "product-variants",
+      "name": "Productify Groups",
+      "developer": "rajatweb.com",
+      "availability": "recovered",
+      "delisted": "2026-10-15",
+      "recovered": "2026-11-04",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/product-variants"
     },
     {
       "slug": "prodspin",
@@ -8053,6 +8101,16 @@
       "recovered": "2026-10-20",
       "launched": null,
       "source_url": "https://heyapps.dev/apps/xpansion-bulk-product-upsell"
+    },
+    {
+      "slug": "zotasell-ai-smart-upsell-cross-sell",
+      "name": "Zotasell: AI Upsell & Bundles",
+      "developer": "Zotasell",
+      "availability": "recovered",
+      "delisted": "2026-11-04",
+      "recovered": "2026-11-04",
+      "launched": null,
+      "source_url": "https://heyapps.dev/apps/zotasell-ai-smart-upsell-cross-sell"
     }
   ]
 }
