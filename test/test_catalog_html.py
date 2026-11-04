@@ -108,8 +108,11 @@ class CatalogRenderingTests(unittest.TestCase):
                 known = page.rows["heyapps-17track"]
                 self.assertTrue(any("badge-warn" in badge for badge in known["badges"]))
                 self.assertEqual([b.get("data-app") for b in known["buttons"]], ["17track"])
+                triple = page.rows["heyapps-triplewhale-1"]
+                self.assertTrue(any("badge-warn" in badge for badge in triple["badges"]))
+                self.assertEqual([b.get("data-app") for b in triple["buttons"]], ["triple-whale"])
                 buttons = [b["data-app"] for r in page.rows.values() for b in r["buttons"]]
-                self.assertEqual(len(buttons), 10)
+                self.assertEqual(len(buttons), 11)
 
     def test_favicon_uses_baseurl_on_every_page_and_development_files_are_excluded(self):
         pages = ["index.html", "tracker/index.html", "apps/index.html", "faq/index.html", "checklist/index.html"]

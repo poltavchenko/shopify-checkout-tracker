@@ -16,6 +16,7 @@ INCIDENT_IDS = {
     "product-options-by-hulkapps-1": "hulk-product-options",
     "upsell-cross-sell-kit-1": "selleasy",
     "swym-relay": "swym-wishlist-plus",
+    "triplewhale-1": "triple-whale",
     "product-filter-search": "boost",
     "privy": "privy",
     "gdpr-backpack": "consentmo",

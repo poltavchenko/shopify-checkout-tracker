@@ -704,6 +704,56 @@
     }
    ],
    "id": "aftersell"
+  },
+  "triple-whale": {
+   "name": "Triple Whale",
+   "status": "warn",
+   "developer": {
+    "value": "Triple Whale",
+    "source": "https://heyapps.dev/apps/triplewhale-1",
+    "checked": "2026-11-04",
+    "verified": true
+   },
+   "email": {
+    "value": null,
+    "source": null,
+    "checked": "2026-11-04",
+    "verified": null
+   },
+   "description": {
+    "en": "An ecommerce analytics and attribution platform with a tracking pixel.",
+    "uk": "Платформа аналітики й атрибуції для ecommerce з пікселем відстеження.",
+    "source": "https://www.triplewhale.com/",
+    "checked": "2026-11-04",
+    "verified": true
+   },
+   "timeline": [
+    {
+     "date": "2026-11-02",
+     "en": "HeyApps reports that the app was delisted on 2 Nov. Delisting alone does not establish a compromise or its cause.",
+     "uk": "HeyApps повідомляє про зняття застосунку 02.11. Саме зняття не доводить зламу та не пояснює його причину.",
+     "source": "https://heyapps.dev/apps/triplewhale-1"
+    },
+    {
+     "date": "2026-11-03",
+     "en": "A merchant reports that code captured on 19 Oct and 3 Nov showed no redirects or known indicators, and the checked checkout stayed on the store domain. No US storefront code was captured between those dates. A branch able to load a remote module from whale.camera was disabled in the captures; no request to it was observed. These observations do not establish what happened between captures or on other stores.",
+     "uk": "За повідомленням мерчанта, у коді, знятому 19.10 і 03.11, не знайшли редиректів чи відомих індикаторів, а перевірений checkout вів на домен магазину. Код американської вітрини між цими датами не знімали. У знятих версіях гілка, що могла завантажити віддалений модуль з whale.camera, була вимкнена; запитів до нього не спостерігали. Це не показує, що відбувалося між знімками чи в інших магазинах.",
+     "source": null
+    },
+    {
+     "date": "2026-11-04",
+     "en": "A merchant reports receiving a letter attributed to Triple Whale and says Gil David of Run DMG shared a second letter. According to the merchant, both mention access limited to customer contact information and total amount purchased. We have not independently reviewed the letters or found a public vendor incident statement. It is unclear whether customer means merchant contacts or shoppers, and whether any shopper data was exposed. The incident date, cause and any link to checkout hijacking are unverified.",
+     "uk": "Мерчант повідомляє про отриманий лист від імені Triple Whale та про інший лист, яким поділився Gil David із Run DMG. За словами мерчанта, в обох згадано доступ, обмежений контактними даними клієнтів і загальною сумою покупок. Ми незалежно не перевірили листи та не знайшли публічної заяви вендора про інцидент. Неясно, чи означає «клієнти» контакти мерчантів або їхніх покупців і чи зачеплено дані покупців. Дата, причина інциденту та зв’язок із перехопленням checkout не перевірені.",
+     "source": null
+    },
+    {
+     "date": "2026-11-04",
+     "en": "In the merchant’s site-specific analysis, the checkout pixel sent email, phone, name, city, postal code and order details with amounts in readable form. The US storefront loader collected email addresses and phone numbers from all input fields; no consent check was found in the inspected loader. The merchant reports that card numbers were not collected in this analysis. These observations were not independently verified and do not prove exposure.",
+     "uk": "За аналізом мерчанта на конкретному сайті, checkout-піксель передавав у читабельному вигляді email, телефон, ім’я, місто, індекс і дані замовлення із сумами. Завантажувач на американській вітрині збирав email і телефони з усіх полів вводу; у перевіреному завантажувачі перевірки згоди не знайшли. За повідомленням мерчанта, номери карток у цьому аналізі не збиралися. Ці спостереження незалежно не перевірено; вони не доводять витоку.",
+     "source": null
+    }
+   ],
+   "id": "triple-whale"
   }
  }
 }

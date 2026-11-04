@@ -30,7 +30,7 @@ jekyll serve --baseurl ""
 
 ## Rules for edits
 
-- Every fact needs a public source and a date.
+- Every fact needs a public source and a date. The 4 November Triple Whale merchant submission is an explicitly labeled, unverified exception based on nonpublic material.
 - App statuses use exactly three values: confirmed by vendor / unconfirmed / removed without report (UA: підтверджено вендором / не підтверджено / знято без звіту). Use the badge markup: `<span class="badge badge-ok">`, `badge-warn`, `badge-off`.
 - Do not name a vendor as compromised without a vendor statement.
 - Update `updated_en` and `updated_uk` in `_config.yml` when content changes.

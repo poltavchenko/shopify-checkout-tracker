@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Трекер"
-lede: "Публічні повідомлення про перехоплення checkout у жовтні 2026 та окремі попередні інциденти: статус, дата і джерело в кожному рядку, а також документовані оновлення платформи."
+lede: "Публічні повідомлення та позначені матеріали мерчантів про перехоплення checkout та інші інциденти, а також документовані оновлення платформи."
 lang: uk
 slug: tracker
 permalink: /uk/tracker/
@@ -13,7 +13,7 @@ alt: /tracker/
 ## Що це за статуси
 
 - <span class="badge badge-ok">підтверджено вендором</span> розробник застосунку публічно визнав інцидент.
-- <span class="badge badge-warn">не підтверджено</span> є повідомлення мерчантів чи дослідників, але вендор інцидент не визнав (або ми не знайшли заяви).
+- <span class="badge badge-warn">не підтверджено</span> є повідомлення мерчантів чи дослідників, але перевіреної публічної заяви вендора немає.
 - <span class="badge badge-off">знято без звіту</span> застосунок зник з Shopify App Store, але ні вендор, ні мерчанти не пов'язують його з цим інцидентом.
 {: .legend}
 
@@ -33,7 +33,7 @@ alt: /tracker/
 <p class="search-count" id="search-count" aria-live="polite"></p>
 <div class="search-empty" id="search-empty" hidden>
 <p><strong>Нічого не знайдено.</strong></p>
-<p>Відсутність у трекері не означає, що застосунок безпечний. Тут лише випадки з публічними повідомленнями. <a href="{{ '/uk/checklist/' | relative_url }}">Пройдіть самоперевірку свого магазину.</a></p>
+<p>Відсутність у трекері не означає, що застосунок безпечний. Повідомлення та межі їхніх джерел позначено в кожному рядку. <a href="{{ '/uk/checklist/' | relative_url }}">Пройдіть самоперевірку свого магазину.</a></p>
 </div>
 
 | Застосунок або епізод | Статус | Дата події | Що відомо | Джерело |
@@ -54,6 +54,7 @@ alt: /tracker/
 | <button type="button" class="app-open" data-app="rebuy">Rebuy Personalization Engine</button> | <span class="badge badge-off">знято без звіту</span> | 18.10.2026 | Знято з App Store. Taylor Page пише, що скрипти Rebuy чисті на магазинах його клієнтів | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21.10); [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) (20.10) |
 | <button type="button" class="app-open" data-app="shopify-product-network">Shopify Product Network (застосунок самого Shopify)</button> | <span class="badge badge-off">знято без звіту</span> | 15.10.2026 | Знято з App Store | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21.10) |
 | <button type="button" class="app-open" data-app="aftersell">Aftersell (Rokt)</button> | <span class="badge badge-ok">підтверджено вендором</span> | 21.10.2026 | Aftersell (входить до Rokt) повідомляє про несанкціонований доступ до частини налаштувань апсейлу, email співробітників і кодів знижок мерчантів. За заявою вендора, персональні дані покупців не зачеплено, malware і фішингу не було, а цей інцидент окремий від фішингових атак в екосистемі Shopify. Вендор повідомляє, що вразливість виправлено; застосунок працював для наявних мерчантів, але був тимчасово недоступний у Shopify App Store на час перевірки безпеки разом із Shopify. Це заява вендора, не незалежний аудит. [HeyApps](https://heyapps.dev/apps/delisted?view=recovered) повідомляє про повернення 30.10; це не доводить безпеку. | [Aftersell](https://www.aftersell.com/blog/incident-disclosure-protecting-our-merchants-and-their-customers) |
+| <button type="button" class="app-open" data-app="triple-whale">Triple Whale</button> | <span class="badge badge-warn">не підтверджено</span> | Дата невідома; повідомлено 04.11.2026 | Мерчант повідомляє про два листи від імені Triple Whale, у яких згадано контактні дані клієнтів і загальну суму покупок. Ми незалежно не перевірили листи та не знайшли публічної заяви вендора про інцидент. Чи означає «клієнти» мерчантів або їхніх покупців і чи зачеплено дані покупців, невідомо. Спостереження щодо коду конкретних магазинів наведено в деталях; зв'язок із перехопленням checkout не перевірено. HeyApps повідомляє про зняття застосунку 02.11; це не доводить зламу | Повідомлення мерчанта від 04.11 (листи й код незалежно не перевірено); [HeyApps](https://heyapps.dev/apps/triplewhale-1) (лише доступність) |
 {: #apps-table}
 
 Окремий [каталог HeyApps]({{ '/uk/apps/' | relative_url }}) містить {{ site.data.heyapps.counts.delisted }} знятих і {{ site.data.heyapps.counts.recovered }} повернених застосунків у знімку від {{ site.data.heyapps.captured_local }}. Саме по собі зняття не означає, що застосунок зламано. Повернення не є доказом безпеки. Межі висновків за зняттям також пояснює [Roman Zipp в оновленні від 22.10](https://romanzipp.com/blog/shopify-hit-with-phishing-attack).

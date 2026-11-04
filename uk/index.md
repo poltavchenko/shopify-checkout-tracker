@@ -15,7 +15,7 @@ alt: /
 ## Статуси
 
 - <span class="badge badge-ok">підтверджено вендором</span> розробник застосунку публічно визнав інцидент.
-- <span class="badge badge-warn">не підтверджено</span> повідомляють мерчанти чи дослідники, вендор не визнав.
+- <span class="badge badge-warn">не підтверджено</span> повідомляють мерчанти чи дослідники, перевіреної публічної заяви вендора немає.
 - <span class="badge badge-off">знято без звіту</span> знято з App Store, ніхто не пов'язує з інцидентом.
 {: .legend}
 
@@ -23,4 +23,4 @@ alt: /
 
 ## Першоджерела
 
-[Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) і вендори, які опублікували заяви. Цей сайт лише зводить їх і посилається на них.
+[Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) і вендори, які опублікували заяви. Трекер також позначає непублічні повідомлення мерчантів та межі їхньої перевірки.

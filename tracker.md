@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tracker"
-lede: "Public reports about the October 2026 checkout hijack and separate earlier incidents, each with a status, a date and a source, plus documented platform updates."
+lede: "Public reports and labeled merchant submissions about checkout hijacking and other incidents, with documented platform updates."
 lang: en
 slug: tracker
 permalink: /tracker/
@@ -13,7 +13,7 @@ Incident times are in UTC, as in the original sources.
 ## What the statuses mean
 
 - <span class="badge badge-ok">confirmed by vendor</span> the app developer has publicly acknowledged an incident.
-- <span class="badge badge-warn">unconfirmed</span> merchants or researchers report it, but the vendor has not acknowledged it (or we have not found a statement).
+- <span class="badge badge-warn">unconfirmed</span> merchants or researchers report it, but we have not verified a public vendor statement.
 - <span class="badge badge-off">removed without report</span> the app is no longer listed on the Shopify App Store, and neither the vendor nor merchants link it to this incident.
 {: .legend}
 
@@ -33,7 +33,7 @@ A delisting does not mean an app was compromised, and it does not remove the app
 <p class="search-count" id="search-count" aria-live="polite"></p>
 <div class="search-empty" id="search-empty" hidden>
 <p><strong>No apps match your search.</strong></p>
-<p>Not being in this tracker does not mean an app is safe. Only incidents with public reports are listed. <a href="{{ '/checklist/' | relative_url }}">Run the self-check on your store.</a></p>
+<p>Not being in this tracker does not mean an app is safe. Reports and their source limits are labeled in each row. <a href="{{ '/checklist/' | relative_url }}">Run the self-check on your store.</a></p>
 </div>
 
 | App or episode | Status | Event date | What is known | Source |
@@ -54,6 +54,7 @@ A delisting does not mean an app was compromised, and it does not remove the app
 | <button type="button" class="app-open" data-app="rebuy">Rebuy Personalization Engine</button> | <span class="badge badge-off">removed without report</span> | 18 Oct 2026 | Delisted. Taylor Page says Rebuy's scripts came back clean on his client stores | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21 Oct); [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) (20 Oct) |
 | <button type="button" class="app-open" data-app="shopify-product-network">Shopify Product Network (Shopify's own app)</button> | <span class="badge badge-off">removed without report</span> | 15 Oct 2026 | Delisted | [HeyApps](https://heyapps.dev/apps/delisted?sort=reviews) (21 Oct) |
 | <button type="button" class="app-open" data-app="aftersell">Aftersell (Rokt)</button> | <span class="badge badge-ok">confirmed by vendor</span> | 21 Oct 2026 | Aftersell (part of Rokt) reports unauthorized access to some merchant upsell configurations, staff email addresses and discount codes. The vendor says no shopper personal data was compromised, no malware or phishing was involved, and this incident is separate from the phishing attacks elsewhere in the Shopify ecosystem. It says the vulnerability was patched; its app remained functional for existing merchants but was temporarily unavailable on the Shopify App Store during a security review with Shopify. Vendor statement, not an independent audit. [HeyApps](https://heyapps.dev/apps/delisted?view=recovered) reports it listed again on 30 Oct; that does not establish security. | [Aftersell](https://www.aftersell.com/blog/incident-disclosure-protecting-our-merchants-and-their-customers) |
+| <button type="button" class="app-open" data-app="triple-whale">Triple Whale</button> | <span class="badge badge-warn">unconfirmed</span> | Date unknown; reported 4 Nov 2026 | A merchant reports two letters attributed to Triple Whale mentioning customer contact information and total purchase amounts. We have not independently reviewed the letters or found a public vendor incident statement. Whether “customer” means merchant contacts or shoppers, and whether shoppers' data was exposed, is unknown. The merchant's site-specific code observations are in Details; a link to the checkout hijack is unverified. HeyApps reports the app was delisted on 2 Nov; that does not establish a compromise | Merchant submission, 4 Nov (letters and code not independently reviewed); [HeyApps](https://heyapps.dev/apps/triplewhale-1) (listing only) |
 {: #apps-table}
 
 The separate [HeyApps catalog]({{ '/apps/' | relative_url }}) contains {{ site.data.heyapps.counts.delisted }} delisted and {{ site.data.heyapps.counts.recovered }} listed-again apps in the snapshot captured at {{ site.data.heyapps.captured_local }}. Being delisted does not by itself mean an app was compromised. Being listed again does not establish safety. See [Roman Zipp's 22 Oct update](https://romanzipp.com/blog/shopify-hit-with-phishing-attack) on the limits of delisting evidence.

@@ -226,6 +226,7 @@ class PublishedSnapshotTests(unittest.TestCase):
             "swym-relay": "swym-wishlist-plus", "product-filter-search": "boost", "privy": "privy",
             "gdpr-backpack": "consentmo", "17track": "17track", "variant-swatch-king": "color-swatch-king",
             "rebuy": "rebuy", "product-network": "shopify-product-network",
+            "triplewhale-1": "triple-whale",
         })
         curated = json.loads((ROOT / "_data/apps.json").read_text(encoding="utf-8"))["apps"]
         self.assertLessEqual(set(data["incident_ids"].values()), set(curated))

@@ -15,7 +15,7 @@ alt: /uk/
 ## Statuses
 
 - <span class="badge badge-ok">confirmed by vendor</span> the app developer has publicly acknowledged an incident.
-- <span class="badge badge-warn">unconfirmed</span> reported by merchants or researchers, not acknowledged by the vendor.
+- <span class="badge badge-warn">unconfirmed</span> reported by merchants or researchers, without a verified public vendor statement.
 - <span class="badge badge-off">removed without report</span> delisted from the App Store, not linked to this incident by anyone.
 {: .legend}
 
@@ -23,4 +23,4 @@ A documented Shopify platform update is not an app incident status.
 
 ## Original research
 
-[Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) and the vendors who published statements. This site summarizes and links to them.
+[Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) and the vendors who published statements. The tracker also labels nonpublic merchant submissions and their verification limits.
