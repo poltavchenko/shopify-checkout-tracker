@@ -20,7 +20,7 @@ Since about 10 Oct 2026, on some Shopify stores, shoppers who clicked Checkout w
 <details markdown="1">
 <summary>Was Shopify hacked?</summary>
 
-No, according to independent researchers. Shopify's own checkout was not broken. The malicious code ran on the storefront, before the Checkout button, through third-party apps. Sources: [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG). We have not found a separate statement from Shopify to merchants about this checkout incident.
+The reported attacks ran on storefronts through third-party apps and redirected shoppers before the genuine Shopify checkout. That does not establish whether Shopify's infrastructure was compromised. We have not independently assessed it or found a separate merchant statement from Shopify about this checkout incident. Sources: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Swym](https://www.getswym.com/resources/security-response).
 
 </details>
 
@@ -34,14 +34,14 @@ In confirmed cases, through an app's settings: a field like "custom JS" that the
 <details markdown="1">
 <summary>Which apps have confirmed an incident?</summary>
 
-For October 2026: Hulk Product Options, Selleasy and Swym Wishlist Plus. Qikify (July) and Orichi (September) published separate earlier incident reports. See the [tracker]({{ '/tracker/' | relative_url }}) for the full list and statuses.
+For the October checkout redirects: Hulk Product Options, Selleasy and Swym Wishlist Plus. Qikify (July) and Orichi (September) published separate earlier incident reports. Aftersell reported a separate October incident and said it did not involve phishing. See the [tracker]({{ '/tracker/' | relative_url }}) for the full list and statuses.
 
 </details>
 
 <details markdown="1">
 <summary>Why does my own test show nothing?</summary>
 
-The script fires once per visitor. After the first redirect it sets a flag in the browser and leaves that tab alone. A second test in the same tab shows nothing. Test in a new private window every time. Sources: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/).
+The script analyzed by Zipp sets a browser-session flag after redirecting a visitor, so a repeat test in the same session may show nothing. Test in a new private window every time. Other scripts may behave differently. Source: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack).
 
 </details>
 

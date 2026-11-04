@@ -15,7 +15,7 @@ Before you start: do not visit the phishing domains, do not enter real card deta
 - [ ] Open a **new private (incognito) window**.
 - [ ] Open your store, add a product to the cart, click Checkout.
 - [ ] Look at the address bar. It should show your domain or a Shopify domain (shopify.com, myshopify.com, shop.app). Do not type anything on the page.
-- [ ] Close the window and repeat **2 more times**, each in a new private window. The script fires once per visitor. ([Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
+- [ ] Close the window and repeat **2 more times**, each in a new private window. The script analyzed by Zipp avoids a second redirect in the same browser session. ([Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack))
 - [ ] Try different paths: cart page, cart drawer, quick-buy buttons, phone and desktop. ([Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG), [Flagship](https://flagship.inc/en/columns/shopify-checkout-redirect-third-party-app-security))
 
 Limits: a clean test does not prove past shoppers were safe, and it cannot rule out an attack that targets certain countries, devices or times. ([Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))

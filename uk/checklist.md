@@ -15,7 +15,7 @@ alt: /checklist/
 - [ ] Відкрийте **нове приватне вікно** (інкогніто).
 - [ ] Відкрийте свій магазин, додайте товар у кошик, натисніть Checkout.
 - [ ] Подивіться на адресний рядок. Має бути ваш домен або домен Shopify (shopify.com, myshopify.com, shop.app). Нічого не вводьте на сторінці.
-- [ ] Закрийте вікно і повторіть ще **2 рази**, щоразу в новому приватному вікні. Скрипт спрацьовує один раз на відвідувача. ([Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
+- [ ] Закрийте вікно і повторіть ще **2 рази**, щоразу в новому приватному вікні. Скрипт, який дослідив Zipp, уникає повторного перенаправлення в тій самій сесії браузера. ([Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack))
 - [ ] Перевірте різні шляхи: сторінка кошика, бічний кошик (cart drawer), кнопки швидкої покупки, телефон і комп'ютер. ([Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG), [Flagship](https://flagship.inc/en/columns/shopify-checkout-redirect-third-party-app-security))
 
 Обмеження: чистий тест не гарантує, що минулі покупці не постраждали, і не виключає атаку, яка вмикається за країною, пристроєм чи часом. ([Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))

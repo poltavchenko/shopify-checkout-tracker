@@ -17,6 +17,7 @@ INCIDENT_IDS = {
     "upsell-cross-sell-kit-1": "selleasy",
     "swym-relay": "swym-wishlist-plus",
     "triplewhale-1": "triple-whale",
+    "aftersell": "aftersell",
     "product-filter-search": "boost",
     "privy": "privy",
     "gdpr-backpack": "consentmo",

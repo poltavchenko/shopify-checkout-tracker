@@ -1,8 +1,8 @@
 {
   "checked": "2026-11-04",
-  "captured_at": "2026-11-04T17:54:06.797Z",
-  "capture_started_at": "2026-11-04T17:52:36.162Z",
-  "captured_local": "2026-11-04 18:54:06 (Europe/Bratislava, UTC+01:00)",
+  "captured_at": "2026-11-04T18:07:47.731Z",
+  "capture_started_at": "2026-11-04T18:06:29.945Z",
+  "captured_local": "2026-11-04 19:07:47 (Europe/Bratislava, UTC+01:00)",
   "counts": {
     "delisted": 591,
     "recovered": 209,
@@ -11,95 +11,96 @@
   "sources": [
     {
       "url": "https://heyapps.dev/apps/delisted",
-      "captured_at": "2026-11-04T17:52:36.162Z",
+      "captured_at": "2026-11-04T18:06:29.945Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "1316dd42bbb8e6955ab3832a1c01027be2e18f71c15f329c944bf55ac1754727",
+      "sha256": "69a5f1954872910d571e71211ed45c28d301dcacb8eb367bae01aacb328bd51f",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-11-04T17:52:44.176Z",
+      "captured_at": "2026-11-04T18:06:37.242Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "d243a33a9163133899043c236721da893febce7a89b0f1f82b25f938ede612a3",
+      "sha256": "80cf3b5a4a509190a1faba1afa7d5dbf8145d521d8c9d9af4cc4650112d1430d",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=launched_asc",
-      "captured_at": "2026-11-04T17:52:51.076Z",
+      "captured_at": "2026-11-04T18:06:44.143Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "9b618bdad132050e07f4d3e89daac05a888a6c42f2cd9242a2d3f3438a1f2294",
+      "sha256": "672ceb94613a4d7fa014e4afa1fa1fe385869d6106c46a7ed62a442f7e4e740d",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=delisted",
-      "captured_at": "2026-11-04T17:52:58.763Z",
+      "captured_at": "2026-11-04T18:06:50.660Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "619beed6b777e3369fc8a60f4e98df85e8c1d0b3ee0d589810e15bf6912b1a17",
+      "sha256": "cafcbcf46fab1800cf1cdb0e7ac1e36bba15c465e59d3ee16d2b143c8b70464e",
       "reported_count": 591
     },
     {
       "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-11-04T17:53:11.021Z",
+      "captured_at": "2026-11-04T18:07:03.130Z",
       "view": "recovered",
       "captured_count": 209,
-      "sha256": "860a82d8784e80b0b93c3447933c2044e01665ed991af5b46f8fb16de9266e71",
+      "sha256": "d25c74ad4276065c687f38f5efc0b44d3cb921500c8e88335ee3c26c936657d5",
       "reported_count": 209
     },
     {
       "url": "https://heyapps.dev/apps/bind-1",
-      "captured_at": "2026-11-04T17:53:30.257Z",
+      "captured_at": "2026-11-04T18:07:18.176Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "3b7956dcc59bb91b0bc44ea415a8e260b13a7cbd51bcd24d64a30002f0443611",
+      "sha256": "c4c9b9ad4894d966fdd824491a437742da99ab52072495686c95c87ad92c0d45",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/decode-products-organizer",
-      "captured_at": "2026-11-04T17:53:36.376Z",
+      "captured_at": "2026-11-04T18:07:24.265Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "89eff418ecdef893d318875ea65a7a4895fb6f16792540095c8f6eb3b6a0ad34",
+      "sha256": "60489c37b13d987e39af114db258a592f593f22b61b6519961b057a2ab217524",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/replyma",
-      "captured_at": "2026-11-04T17:53:43.299Z",
+      "captured_at": "2026-11-04T18:07:30.247Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "663ac7fadf741d92dfa8aef5cc69fddf80a94f660a4d0340965ddf1642a767c1",
+      "sha256": "00e155d2dc792d78538687b25376ff9401afa00ce510b494d7b5d22dc3ffe8ed",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/reviewsjet",
-      "captured_at": "2026-11-04T17:53:48.554Z",
+      "captured_at": "2026-11-04T18:07:35.850Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "1e9506faa44687f98b814d64eaea56a98a6407423126bce698fb92c03870402a",
+      "sha256": "e8fa12feea46ab69846a3b913e84d823fd426e761a2c79e09f8f30fd2f3fac04",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/tds-geo",
-      "captured_at": "2026-11-04T17:53:59.702Z",
+      "captured_at": "2026-11-04T18:07:41.581Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "3cea411c6378d86f7b6cd4e08efb11f3fb1160089c1fbda79d10269f07c7f3e3",
+      "sha256": "ae5bc008a3e9359dc29b619d9a076c32e1aaea8278e6bebe09ce87185c343f61",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/top-trust-badge",
-      "captured_at": "2026-11-04T17:54:06.797Z",
+      "captured_at": "2026-11-04T18:07:47.731Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "d111530e9dce6fc74eff3262d16dde0458ddf79f4c7a2a590ee9ee94b834efd4",
+      "sha256": "4758fdc2834622b747126f792dfa17b63d624932d1a10f3cff4ee2407717cb38",
       "kind": "detail"
     }
   ],
   "incident_ids": {
     "17track": "17track",
+    "aftersell": "aftersell",
     "gdpr-backpack": "consentmo",
     "privy": "privy",
     "product-filter-search": "boost",

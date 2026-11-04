@@ -96,6 +96,10 @@ class ImportHeyAppsTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "delisted.*400.*430"):
             self.build()
 
+    def test_recovered_aftersell_has_a_curated_incident_link(self):
+        self.captures[2]["apps"] = [app("aftersell", recovered="Oct 21, 2026")]
+        self.assertEqual(self.build()["incident_ids"]["aftersell"], "aftersell")
+
     def test_detail_page_can_complete_a_list_without_changing_its_reported_count(self):
         self.captures[0]["reported_count"] = self.captures[1]["reported_count"] = 4
         self.captures.append(detail_capture("fourth"))
@@ -226,7 +230,7 @@ class PublishedSnapshotTests(unittest.TestCase):
             "swym-relay": "swym-wishlist-plus", "product-filter-search": "boost", "privy": "privy",
             "gdpr-backpack": "consentmo", "17track": "17track", "variant-swatch-king": "color-swatch-king",
             "rebuy": "rebuy", "product-network": "shopify-product-network",
-            "triplewhale-1": "triple-whale",
+            "triplewhale-1": "triple-whale", "aftersell": "aftersell",
         })
         curated = json.loads((ROOT / "_data/apps.json").read_text(encoding="utf-8"))["apps"]
         self.assertLessEqual(set(data["incident_ids"].values()), set(curated))

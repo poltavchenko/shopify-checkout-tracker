@@ -20,7 +20,7 @@ alt: /faq/
 <details markdown="1">
 <summary>Shopify зламали?</summary>
 
-Ні, за даними незалежних дослідників. Власний checkout Shopify не зламаний. Шкідливий код працював на вітрині, до кнопки Checkout, через сторонні застосунки. Джерела: [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG). Окремої заяви Shopify для мерчантів про цей інцидент підміни checkout ми не знайшли.
+Описані атаки працювали на вітринах через сторонні застосунки і перенаправляли покупців на сторонні сторінки замість справжнього checkout Shopify. Це не встановлює, чи була скомпрометована інфраструктура Shopify. Ми не перевіряли її незалежно і не знайшли окремої заяви Shopify для мерчантів про цей інцидент підміни checkout. Джерела: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Swym](https://www.getswym.com/resources/security-response).
 
 </details>
 
@@ -34,14 +34,14 @@ alt: /faq/
 <details markdown="1">
 <summary>Які застосунки підтвердили інцидент?</summary>
 
-За жовтень 2026: Hulk Product Options, Selleasy і Swym Wishlist Plus. Qikify (липень) та Orichi (вересень) опублікували звіти про окремі попередні інциденти. Повний список зі статусами дивіться в [трекері]({{ '/uk/tracker/' | relative_url }}).
+Щодо жовтневих перенаправлень на фальшивий checkout: Hulk Product Options, Selleasy і Swym Wishlist Plus. Qikify (липень) та Orichi (вересень) опублікували звіти про окремі попередні інциденти. Aftersell повідомив про окремий жовтневий інцидент і заявив, що фішингу не було. Повний список зі статусами дивіться в [трекері]({{ '/uk/tracker/' | relative_url }}).
 
 </details>
 
 <details markdown="1">
 <summary>Чому я тестую і нічого не бачу?</summary>
 
-Скрипт спрацьовує один раз на відвідувача: після першого перенаправлення він ставить позначку в браузері і більше не чіпає цю вкладку. Тому тест у тій самій вкладці нічого не покаже. Тестуйте щоразу в новому приватному вікні. Джерела: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/).
+Скрипт, який дослідив Zipp, після перенаправлення ставить позначку в сесії браузера, тому повторний тест у тій самій сесії може нічого не показати. Тестуйте щоразу в новому приватному вікні. Інші скрипти можуть поводитися інакше. Джерело: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack).
 
 </details>
 

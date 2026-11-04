@@ -111,8 +111,11 @@ class CatalogRenderingTests(unittest.TestCase):
                 triple = page.rows["heyapps-triplewhale-1"]
                 self.assertTrue(any("badge-warn" in badge for badge in triple["badges"]))
                 self.assertEqual([b.get("data-app") for b in triple["buttons"]], ["triple-whale"])
+                aftersell = page.rows["heyapps-aftersell"]
+                self.assertTrue(any("badge-ok" in badge for badge in aftersell["badges"]))
+                self.assertEqual([b.get("data-app") for b in aftersell["buttons"]], ["aftersell"])
                 buttons = [b["data-app"] for r in page.rows.values() for b in r["buttons"]]
-                self.assertEqual(len(buttons), 11)
+                self.assertEqual(len(buttons), 12)
 
     def test_triple_whale_is_first_tracker_row_in_both_languages(self):
         for language in ["", "uk/"]:
