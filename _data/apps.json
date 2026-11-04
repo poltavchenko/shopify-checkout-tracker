@@ -729,6 +729,12 @@
    },
    "timeline": [
     {
+     "date": "2026-07-26",
+     "en": "Triple Whale documentation for custom and headless sites illustrates pixel events containing contact details and purchase data. The examples do not prove what any particular store sent or whether an incident occurred.",
+     "uk": "Документація Triple Whale для власних і headless сайтів показує приклади подій пікселя з контактними даними та даними покупки. Приклади не доводять, що передавав конкретний магазин або чи стався інцидент.",
+     "source": "https://kb.triplewhale.com/en/articles/6266255-how-to-add-the-triple-pixel-to-a-headless-business-or-custom-website"
+    },
+    {
      "date": "2026-11-02",
      "en": "HeyApps reports that the app was delisted on 2 Nov. Delisting alone does not establish a compromise or its cause.",
      "uk": "HeyApps повідомляє про зняття застосунку 02.11. Саме зняття не доводить зламу та не пояснює його причину.",
@@ -742,8 +748,14 @@
     },
     {
      "date": "2026-11-04",
-     "en": "A merchant reports receiving a letter attributed to Triple Whale and says Gil David of Run DMG shared a second letter. According to the merchant, both mention access limited to customer contact information and total amount purchased. We have not independently reviewed the letters or found a public vendor incident statement. It is unclear whether customer means merchant contacts or shoppers, and whether any shopper data was exposed. The incident date, cause and any link to checkout hijacking are unverified.",
-     "uk": "Мерчант повідомляє про отриманий лист від імені Triple Whale та про інший лист, яким поділився Gil David із Run DMG. За словами мерчанта, в обох згадано доступ, обмежений контактними даними клієнтів і загальною сумою покупок. Ми незалежно не перевірили листи та не знайшли публічної заяви вендора про інцидент. Неясно, чи означає «клієнти» контакти мерчантів або їхніх покупців і чи зачеплено дані покупців. Дата, причина інциденту та зв’язок із перехопленням checkout не перевірені.",
+     "en": "A merchant provided a screenshot of an email signed as Triple Whale’s CEO. It reports that unauthorized access to internal systems was detected and contained, and says the recipient store’s data was not affected and its connection was secure. The screenshot does not authenticate the sender or independently verify those claims.",
+     "uk": "Мерчант надав скріншот листа, підписаного від імені CEO Triple Whale. У листі повідомляють про виявлений і стриманий несанкціонований доступ до внутрішніх систем та стверджують, що дані магазину-одержувача не постраждали, а його з’єднання захищене. Скріншот не підтверджує автентичність відправника чи правдивість цих тверджень.",
+     "source": null
+    },
+    {
+     "date": "2026-11-04",
+     "en": "A merchant also reports that their correspondence and a letter shared by Gil David of Run DMG use the same wording about access to customer contact information and total amount purchased. The supplied screenshot does not show that wording, and we have not independently reviewed the letter shared by Gil David. It is unclear whether customer means merchant contacts or shoppers, and whether any shopper data was exposed. The incident date, cause and any link to checkout hijacking are unverified.",
+     "uk": "Мерчант також повідомляє, що в його листуванні та в листі, яким поділився Gil David із Run DMG, є однакове формулювання про доступ до контактних даних клієнтів і загальної суми покупок. На наданому скріншоті цього формулювання не видно; лист Gil David ми незалежно не переглядали. Неясно, чи означає «клієнти» контакти мерчантів або їхніх покупців і чи зачеплено дані покупців. Дата, причина інциденту та зв’язок із перехопленням checkout не перевірені.",
      "source": null
     },
     {

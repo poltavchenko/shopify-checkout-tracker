@@ -114,6 +114,14 @@ class CatalogRenderingTests(unittest.TestCase):
                 buttons = [b["data-app"] for r in page.rows.values() for b in r["buttons"]]
                 self.assertEqual(len(buttons), 11)
 
+    def test_triple_whale_is_first_tracker_row_in_both_languages(self):
+        for language in ["", "uk/"]:
+            with self.subTest(language=language):
+                html = (self.destination / language / "tracker/index.html").read_text(encoding="utf-8")
+                first = html.split('<table id="apps-table">', 1)[1].split('<tbody>', 1)[1].split('</tr>', 1)[0]
+                self.assertIn('data-app="triple-whale"', first)
+                self.assertIn('badge-warn', first)
+
     def test_favicon_uses_baseurl_on_every_page_and_development_files_are_excluded(self):
         pages = ["index.html", "tracker/index.html", "apps/index.html", "faq/index.html", "checklist/index.html"]
         for language in ["", "uk/"]:
