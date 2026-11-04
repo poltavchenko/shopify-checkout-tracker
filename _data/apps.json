@@ -748,6 +748,12 @@
     },
     {
      "date": "2026-11-04",
+     "en": "The Shopify App Store says the app is not currently available (checked 4 Nov). It does not state why; this does not establish a compromise.",
+     "uk": "Shopify App Store повідомляє, що застосунок зараз недоступний (перевірено 04.11). Причину не вказано; це не доводить зламу.",
+     "source": "https://apps.shopify.com/triplewhale-1"
+    },
+    {
+     "date": "2026-11-04",
      "en": "A merchant provided a screenshot of an email signed as Triple Whale’s CEO. It reports that unauthorized access to internal systems was detected and contained, and says the recipient store’s data was not affected and its connection was secure. The screenshot does not authenticate the sender or independently verify those claims.",
      "uk": "Мерчант надав скріншот листа, підписаного від імені CEO Triple Whale. У листі повідомляють про виявлений і стриманий несанкціонований доступ до внутрішніх систем та стверджують, що дані магазину-одержувача не постраждали, а його з’єднання захищене. Скріншот не підтверджує автентичність відправника чи правдивість цих тверджень.",
      "source": null
