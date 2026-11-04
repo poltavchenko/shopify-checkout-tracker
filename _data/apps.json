@@ -760,14 +760,20 @@
     },
     {
      "date": "2026-11-04",
-     "en": "A merchant also reports that their correspondence and a letter shared by Gil David of Run DMG use the same wording about access to customer contact information and total amount purchased. The supplied screenshot does not show that wording, and we have not independently reviewed the letter shared by Gil David. It is unclear whether customer means merchant contacts or shoppers, and whether any shopper data was exposed. The incident date, cause and any link to checkout hijacking are unverified.",
-     "uk": "Мерчант також повідомляє, що в його листуванні та в листі, яким поділився Gil David із Run DMG, є однакове формулювання про доступ до контактних даних клієнтів і загальної суми покупок. На наданому скріншоті цього формулювання не видно; лист Gil David ми незалежно не переглядали. Неясно, чи означає «клієнти» контакти мерчантів або їхніх покупців і чи зачеплено дані покупців. Дата, причина інциденту та зв’язок із перехопленням checkout не перевірені.",
+     "en": "Earlier 4 Nov submission: a merchant reported correspondence about access to customer contact information, but whether this referred to shoppers was unclear in the material reviewed then. This earlier assessment is superseded by the later merchant-reported vendor response below, whose original correspondence has not been authenticated.",
+     "uk": "Попереднє повідомлення 04.11: мерчант повідомив про листування щодо доступу до контактних даних клієнтів, але з переглянутих тоді матеріалів було неясно, чи йшлося про покупців. Цю попередню оцінку замінює наведене нижче пізніше повідомлення мерчанта про відповідь вендора; автентичність оригіналу листування не перевірено.",
      "source": null
     },
     {
      "date": "2026-11-04",
      "en": "In the merchant’s site-specific analysis, the checkout pixel sent email, phone, name, city, postal code and order details with amounts in readable form. The US storefront loader collected email addresses and phone numbers from all input fields; no consent check was found in the inspected loader. The merchant reports that card numbers were not collected in this analysis. These observations were not independently verified and do not prove exposure.",
      "uk": "За аналізом мерчанта на конкретному сайті, checkout-піксель передавав у читабельному вигляді email, телефон, ім’я, місто, індекс і дані замовлення із сумами. Завантажувач на американській вітрині збирав email і телефони з усіх полів вводу; у перевіреному завантажувачі перевірки згоди не знайшли. За повідомленням мерчанта, номери карток у цьому аналізі не збиралися. Ці спостереження незалежно не перевірено; вони не доводять витоку.",
+     "source": null
+    },
+    {
+     "date": "2026-11-04",
+     "en": "Vendor confirmation reported by merchant (4 Nov). A merchant reports receiving a direct response from Triple Whale confirming unauthorized access to internal systems and customer-data exfiltration. We reviewed the merchant-supplied text, but have not authenticated the original correspondence. This updates the earlier merchant submission; it is not an independently verified public vendor statement. A link to checkout hijacking or malicious storefront code has not been established. HeyApps reports delisting on 2 Nov; Shopify said the app was unavailable when checked on 4 Nov. Availability alone is not evidence of compromise",
+     "uk": "Мерчант повідомляє про підтвердження вендора (04.11). За повідомленням мерчанта, у прямій відповіді Triple Whale підтверджено несанкціонований доступ до внутрішніх систем і викрадення даних покупців. Ми переглянули наданий мерчантом текст, але не перевірили автентичність оригіналу листування. Це оновлює попереднє повідомлення мерчанта, а не є незалежно перевіреною публічною заявою вендора. Зв’язок із перехопленням checkout чи шкідливим кодом вітрини не встановлено. HeyApps повідомляє про зняття 02.11; під час перевірки 04.11 Shopify показував недоступність застосунку. Сама доступність не є доказом зламу",
      "source": null
     }
    ],
