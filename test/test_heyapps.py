@@ -214,13 +214,13 @@ class ImportHeyAppsTests(unittest.TestCase):
 
 
 class PublishedSnapshotTests(unittest.TestCase):
-    def test_full_snapshot_has_777_unique_apps_and_only_explicit_incident_matches(self):
+    def test_full_snapshot_has_795_unique_apps_and_only_explicit_incident_matches(self):
         path = ROOT / "_data/heyapps.json"
         self.assertTrue(path.is_file(), "Full HeyApps snapshot is not generated")
         data = json.loads(path.read_text(encoding="utf-8"))
-        self.assertEqual(data["counts"], {"delisted": 597, "recovered": 180, "total": 777})
-        self.assertEqual(len(data["apps"]), 777)
-        self.assertEqual(len({a["slug"] for a in data["apps"]}), 777)
+        self.assertEqual(data["counts"], {"delisted": 591, "recovered": 204, "total": 795})
+        self.assertEqual(len(data["apps"]), 795)
+        self.assertEqual(len({a["slug"] for a in data["apps"]}), 795)
         self.assertEqual(data["incident_ids"], {
             "product-options-by-hulkapps-1": "hulk-product-options", "upsell-cross-sell-kit-1": "selleasy",
             "swym-relay": "swym-wishlist-plus", "product-filter-search": "boost", "privy": "privy",
