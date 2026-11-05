@@ -775,6 +775,12 @@
      "en": "Vendor confirmation reported by merchant (4 Nov). A merchant reports receiving a direct response from Triple Whale confirming unauthorized access to internal systems and customer-data exfiltration. We reviewed the merchant-supplied text, but have not authenticated the original correspondence. This updates the earlier merchant submission; it is not an independently verified public vendor statement. A link to checkout hijacking or malicious storefront code has not been established. HeyApps reports delisting on 2 Nov; Shopify said the app was unavailable when checked on 4 Nov. Availability alone is not evidence of compromise",
      "uk": "Мерчант повідомляє про підтвердження вендора (04.11). За повідомленням мерчанта, у прямій відповіді Triple Whale підтверджено несанкціонований доступ до внутрішніх систем і викрадення даних покупців. Ми переглянули наданий мерчантом текст, але не перевірили автентичність оригіналу листування. Це оновлює попереднє повідомлення мерчанта, а не є незалежно перевіреною публічною заявою вендора. Зв’язок із перехопленням checkout чи шкідливим кодом вітрини не встановлено. HeyApps повідомляє про зняття 02.11; під час перевірки 04.11 Shopify показував недоступність застосунку. Сама доступність не є доказом зламу",
      "source": null
+    },
+    {
+     "date": "2026-11-05",
+     "en": "Shopify App Store still says the app is not currently available (checked 5 Nov). It does not give a reason; this does not establish a compromise.",
+     "uk": "Shopify App Store досі повідомляє, що застосунок недоступний (перевірено 05.11). Причину не вказано; це не доводить зламу.",
+     "source": "https://apps.shopify.com/triplewhale-1"
     }
    ],
    "id": "triple-whale"
