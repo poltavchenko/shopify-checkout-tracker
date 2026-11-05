@@ -1,100 +1,100 @@
 {
   "checked": "2026-11-05",
-  "captured_at": "2026-11-05T09:52:02.560Z",
-  "capture_started_at": "2026-11-05T09:49:22.364Z",
-  "captured_local": "2026-11-05 10:52:02 (Europe/Bratislava, UTC+01:00)",
+  "captured_at": "2026-11-05T10:06:04.038Z",
+  "capture_started_at": "2026-11-05T10:03:58.953Z",
+  "captured_local": "2026-11-05 11:06:04 (Europe/Bratislava, UTC+01:00)",
   "counts": {
-    "delisted": 607,
+    "delisted": 608,
     "recovered": 213,
-    "total": 820
+    "total": 821
   },
   "sources": [
     {
-      "url": "https://heyapps.dev/apps/delisted",
-      "captured_at": "2026-11-05T09:49:22.364Z",
-      "view": "delisted",
-      "captured_count": 400,
-      "sha256": "8287748d5b0e8f763dcd1f204927c183fdcc07ff5a35f298f70769e371d4177b",
-      "reported_count": 607
-    },
-    {
-      "url": "https://heyapps.dev/apps/delisted?sort=launched",
-      "captured_at": "2026-11-05T09:49:43.013Z",
-      "view": "delisted",
-      "captured_count": 400,
-      "sha256": "48c962904bc7204809be2aca64f3c4e1dd952a7762e87df6e5bab8f3ecde96bb",
-      "reported_count": 607
-    },
-    {
       "url": "https://heyapps.dev/apps/delisted?sort=launched_asc",
-      "captured_at": "2026-11-05T09:49:59.895Z",
+      "captured_at": "2026-11-05T10:03:58.953Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "c845d997416112c93331990b743498047ef9616bea7fc740a85065cab238b1b7",
-      "reported_count": 607
+      "sha256": "3af5c915635da2ed8325b4192b282d8f1eef5861957378e7c871f43aa28502f1",
+      "reported_count": 608
     },
     {
       "url": "https://heyapps.dev/apps/delisted?sort=delisted",
-      "captured_at": "2026-11-05T09:50:18.448Z",
+      "captured_at": "2026-11-05T10:04:10.639Z",
       "view": "delisted",
       "captured_count": 400,
-      "sha256": "3aa255ac1e7686bf1657f97a2234af1bcf90961adfc94533d52f9c3010fcf5e7",
-      "reported_count": 607
+      "sha256": "0ff9010696a580d0745bc530e903b0e1bb21f6164babca7630a3348b81b6a2dc",
+      "reported_count": 608
     },
     {
       "url": "https://heyapps.dev/apps/delisted?view=recovered",
-      "captured_at": "2026-11-05T09:50:43.444Z",
+      "captured_at": "2026-11-05T10:04:29.973Z",
       "view": "recovered",
       "captured_count": 213,
-      "sha256": "a6f83a7545ebffc02a936592d926de80ed3fbea5d5fa0ba2bf999c834780505b",
+      "sha256": "8aa30035697a5b6a81377344e40b9a263482c19cedfcc496d6836197e7ca9639",
       "reported_count": 213
     },
     {
+      "url": "https://heyapps.dev/apps/delisted",
+      "captured_at": "2026-11-05T10:05:00.141Z",
+      "view": "delisted",
+      "captured_count": 400,
+      "sha256": "7a3a229d5980f8563c30dd1dff01f5f5e08eee4e208e8ac67b6ca4c7001ff4e6",
+      "reported_count": 608
+    },
+    {
+      "url": "https://heyapps.dev/apps/delisted?sort=launched",
+      "captured_at": "2026-11-05T10:05:11.248Z",
+      "view": "delisted",
+      "captured_count": 400,
+      "sha256": "2939ba1fc27f1734bd8315e10d29fdcdde66633ad797d885a4b82d94a85f6cfe",
+      "reported_count": 608
+    },
+    {
       "url": "https://heyapps.dev/apps/bind-1",
-      "captured_at": "2026-11-05T09:51:26.058Z",
+      "captured_at": "2026-11-05T10:05:25.207Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "69ae8122cb8f51e4c3f2a9c436f5cdd6ab23fa72143c2c0f15fe955bfda79654",
+      "sha256": "2cf266e2c351493de1f7f37c1f8b052ef4a7b63e1f7b7b523c308e8f857862be",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/decode-products-organizer",
-      "captured_at": "2026-11-05T09:51:32.276Z",
+      "captured_at": "2026-11-05T10:05:31.431Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "c77f19aec959b787b9c305f0a217d1b8a9beba5e91f71cbc65ca5e154c5354f9",
+      "sha256": "d3c8f54c3308917484eb8905b55dccb997a23838fba151d08ffae35236b31443",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/replyma",
-      "captured_at": "2026-11-05T09:51:38.778Z",
+      "captured_at": "2026-11-05T10:05:39.427Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "dc5ebd36c9d9cb5fc8c83d77c99f8eb2a4a9655a71eaf0fa1a2040cadeac23cf",
+      "sha256": "211a030e0960bb166974d88d604823e8ded37df2256b9f03123fa8dc2cb07a40",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/reviewsjet",
-      "captured_at": "2026-11-05T09:51:48.948Z",
+      "captured_at": "2026-11-05T10:05:49.241Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "c63fb8ac797bf93565d63f4c77cc8bf34c779530017b93e7a10c246643f63359",
+      "sha256": "2e85adc45102889d56a299aa89abe93e06190bc2e4610d57e47ed9f0d0de397f",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/tds-geo",
-      "captured_at": "2026-11-05T09:51:55.513Z",
+      "captured_at": "2026-11-05T10:05:56.174Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "56cbf9982621414a542ce52388e8dff32b6c0f3c1f328829e00e2a247b1f18b3",
+      "sha256": "4cd141eda6b2cd10e5797e8eb498d78b1eeb083941c34b1977d13de1a97b225f",
       "kind": "detail"
     },
     {
       "url": "https://heyapps.dev/apps/top-trust-badge",
-      "captured_at": "2026-11-05T09:52:02.560Z",
+      "captured_at": "2026-11-05T10:06:04.038Z",
       "view": "delisted",
       "captured_count": 1,
-      "sha256": "a3e8515090e2e0ed320091504df03a04827924b8b34661df3a469fbf183cd30d",
+      "sha256": "49f6b8f46aba5efc838ee3a90b5e464bf5baf2315fd8689eee733877609ecad0",
       "kind": "detail"
     }
   ],
@@ -4682,6 +4682,16 @@
       "recovered": null,
       "launched": "2026-07-15",
       "source_url": "https://heyapps.dev/apps/shopos-beta"
+    },
+    {
+      "slug": "shoppingfeed-ai",
+      "name": "ShoppingFeed.Ai",
+      "developer": "Great White Capital LLC",
+      "availability": "delisted",
+      "delisted": "2026-11-05",
+      "recovered": null,
+      "launched": "2026-03-06",
+      "source_url": "https://heyapps.dev/apps/shoppingfeed-ai"
     },
     {
       "slug": "shopsmart-analytics-pro",
