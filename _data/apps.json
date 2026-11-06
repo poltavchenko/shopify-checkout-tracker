@@ -171,6 +171,12 @@
      "en": "At 14:41 UTC, the vendor reported security patches applied, access open to all merchant stores and a third-party audit in progress.",
      "uk": "О 14:41 UTC вендор повідомив про застосовані патчі, відкритий доступ для всіх магазинів мерчантів і аудит третьою стороною.",
      "source": "https://status.getswym.com/"
+    },
+    {
+     "date": "2026-11-06",
+     "en": "HeyApps reports the app listed again; Shopify's listing offers installation. Listing again does not establish security.",
+     "uk": "HeyApps повідомляє про повернення застосунку до каталогу; сторінка Shopify пропонує встановлення. Повернення до каталогу не підтверджує безпеку.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "swym-wishlist-plus"
@@ -777,9 +783,9 @@
      "source": null
     },
     {
-     "date": "2026-11-05",
-     "en": "Shopify App Store still says the app is not currently available (checked 5 Nov). It does not give a reason; this does not establish a compromise.",
-     "uk": "Shopify App Store досі повідомляє, що застосунок недоступний (перевірено 05.11). Причину не вказано; це не доводить зламу.",
+     "date": "2026-11-06",
+     "en": "Shopify App Store still says the app is not currently available (checked 6 Nov). It does not give a reason; this does not establish a compromise.",
+     "uk": "Shopify App Store досі повідомляє, що застосунок недоступний (перевірено 06.11). Причину не вказано; це не доводить зламу.",
      "source": "https://apps.shopify.com/triplewhale-1"
     }
    ],
