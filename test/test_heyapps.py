@@ -218,13 +218,13 @@ class ImportHeyAppsTests(unittest.TestCase):
 
 
 class PublishedSnapshotTests(unittest.TestCase):
-    def test_full_snapshot_has_841_unique_apps_and_only_explicit_incident_matches(self):
+    def test_full_snapshot_has_873_unique_apps_and_only_explicit_incident_matches(self):
         path = ROOT / "_data/heyapps.json"
         self.assertTrue(path.is_file(), "Full HeyApps snapshot is not generated")
         data = json.loads(path.read_text(encoding="utf-8"))
-        self.assertEqual(data["counts"], {"delisted": 619, "recovered": 222, "total": 841})
-        self.assertEqual(len(data["apps"]), 841)
-        self.assertEqual(len({a["slug"] for a in data["apps"]}), 841)
+        self.assertEqual(data["counts"], {"delisted": 637, "recovered": 236, "total": 873})
+        self.assertEqual(len(data["apps"]), 873)
+        self.assertEqual(len({a["slug"] for a in data["apps"]}), 873)
         self.assertEqual(data["incident_ids"], {
             "product-options-by-hulkapps-1": "hulk-product-options", "upsell-cross-sell-kit-1": "selleasy",
             "swym-relay": "swym-wishlist-plus", "product-filter-search": "boost", "privy": "privy",
@@ -237,6 +237,10 @@ class PublishedSnapshotTests(unittest.TestCase):
         swym = next(app for app in data["apps"] if app["slug"] == "swym-relay")
         self.assertEqual((swym["availability"], swym["recovered"]), ("recovered", "2026-11-06"))
         self.assertTrue(any(event["date"] == swym["recovered"] and "listed again" in event["en"] for event in curated["swym-wishlist-plus"]["timeline"]))
+        color = next(app for app in data["apps"] if app["slug"] == "variant-swatch-king")
+        self.assertEqual((color["availability"], color["recovered"]), ("recovered", "2026-11-06"))
+        self.assertEqual(curated["color-swatch-king"]["status"], "warn")
+        self.assertTrue(any(event["date"] == color["recovered"] and "identity" in event["en"] for event in curated["color-swatch-king"]["timeline"]))
         self.assertEqual(len(data["sources"]), 11)
         self.assertEqual(sum(s.get("kind") == "detail" for s in data["sources"]), 6)
         self.assertTrue(all(set(a) == {"slug", "name", "developer", "availability", "delisted", "recovered", "launched", "source_url"} for a in data["apps"]))

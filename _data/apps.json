@@ -2,7 +2,7 @@
  "checked": "2026-10-21",
  "apps": {
   "hulk-product-options": {
-   "name": "Hulk Product Options",
+   "name": "Hulk Product Options, Variants",
    "status": "ok",
    "developer": {
     "value": "HulkApps",
@@ -535,6 +535,12 @@
      "en": "At 23:24 UTC a merchant called the app \"swathe king\" and said the redirect code was inside it. The app identity and incident attribution are unconfirmed.",
      "uk": "О 23:24 UTC мерчант назвав застосунок \"swathe king\" і написав, що код редиректу був у ньому. Ідентичність застосунку та причетність до інциденту не підтверджені.",
      "source": "https://www.reddit.com/r/shopify/comments/1x8m5d8/comment/phlefr5/"
+    },
+    {
+     "date": "2026-11-06",
+     "en": "HeyApps reports Color Swatch King listed again; Shopify offers installation. Relisting does not establish security or the app identity in the merchant report.",
+     "uk": "HeyApps повідомляє про повернення Color Swatch King; Shopify пропонує встановлення. Повернення не підтверджує безпеку чи ідентичність застосунку в повідомленні мерчанта.",
+     "source": "https://heyapps.dev/apps/delisted?view=recovered"
     }
    ],
    "id": "color-swatch-king"
@@ -783,9 +789,9 @@
      "source": null
     },
     {
-     "date": "2026-11-06",
-     "en": "Shopify App Store still says the app is not currently available (checked 6 Nov). It does not give a reason; this does not establish a compromise.",
-     "uk": "Shopify App Store досі повідомляє, що застосунок недоступний (перевірено 06.11). Причину не вказано; це не доводить зламу.",
+     "date": "2026-11-09",
+     "en": "Shopify App Store still says the app is not currently available (checked 9 Nov). It does not give a reason; this does not establish a compromise.",
+     "uk": "Shopify App Store досі повідомляє, що застосунок недоступний (перевірено 09.11). Причину не вказано; це не доводить зламу.",
      "source": "https://apps.shopify.com/triplewhale-1"
     }
    ],

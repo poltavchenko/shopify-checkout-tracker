@@ -52,7 +52,7 @@ Please do not post store names, customer data or passwords in issues.
 
 `/apps/` and `/uk/apps/` contain one record per HeyApps slug, including both delisted and listed-again apps. Delisting does not establish a compromise. A return does not establish safety. The incident tracker remains a separate curated list of apps and episodes.
 
-The snapshot records capture times, source URLs, each capture's counts and SHA-256 hashes. The 6 November 2026 snapshot contains 619 delisted and 222 listed-again apps. Four delisted sorts exposed up to 400 entries each; six additional apps were verified on their individual HeyApps pages. The importer rejects a partial union or conflicting records. The list does not update in the browser.
+The snapshot records capture times, source URLs, each capture's counts and SHA-256 hashes. The 9 November 2026 snapshot contains 637 delisted and 236 listed-again apps. Four delisted sorts exposed up to 400 entries each; six additional apps were verified on their individual HeyApps pages. The importer rejects a partial union or conflicting records. The list does not update in the browser.
 
 Save public DOM captures as JSON objects with `source`, `captured_at` (ISO timestamp with time zone), `reported_count`, `view` (`delisted` or `recovered`) and a nonempty `apps` array. Each app needs `slug`, `name`, `developer` (string or null), `source_url` and `delisted`; `recovered` is required for the recovered view, and `launched` is optional. Dates accept `YYYY-MM-DD` or English dates such as `Oct 20, 2026`. Capture both availability states. Add sorts until each state's unique count equals its reported count.
 
