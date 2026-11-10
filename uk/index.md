@@ -24,3 +24,7 @@ alt: /
 ## Першоджерела
 
 [Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) і вендори, які опублікували заяви. Трекер також позначає непублічні повідомлення мерчантів та межі їхньої перевірки.
+
+## Інші дослідження
+
+9 листопада 2026 року [Guardio Labs](https://site.guard.io/labs/cartjacked---one-in-195-online-shops-we-scanned-was-hijacked) оцінила, що в жовтневій вибірці Common Crawl близько 12 200 із 2,38 млн магазинів на різних платформах містили шкідливий код або вміст. Для магазинів Shopify у цій вибірці автори оцінили 0,75–2,2 на 1000. Оцінки охоплюють різні типи атак, не лише перехоплення checkout; вони не описують усі онлайн-магазини і не встановлюють зв’язку із застосунками цього трекера.

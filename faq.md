@@ -43,6 +43,8 @@ For the October checkout redirects: Hulk Product Options, Selleasy and Swym Wish
 
 The script analyzed by Zipp sets a browser-session flag after redirecting a visitor, so a repeat test in the same session may show nothing. Test in a new private window every time. Other scripts may behave differently. Source: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack).
 
+In a separate study across multiple platforms, [Guardio Labs](https://site.guard.io/labs/cartjacked---one-in-195-online-shops-we-scanned-was-hijacked) found that some attacks appeared only for particular visitor profiles. One clean visit cannot rule out an attack. The study does not link those cases to the apps in this tracker.
+
 </details>
 
 <details markdown="1">

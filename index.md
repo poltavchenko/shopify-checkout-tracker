@@ -24,3 +24,7 @@ A documented Shopify platform update is not an app incident status.
 ## Original research
 
 [Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/), [Taylor Page](https://www.linkedin.com/posts/tr-page_ive-been-slow-to-say-much-about-the-shopify-activity-7518335672353726464-7KxG) and the vendors who published statements. The tracker also labels nonpublic merchant submissions and their verification limits.
+
+## Other research
+
+On 9 Nov 2026, [Guardio Labs](https://site.guard.io/labs/cartjacked---one-in-195-online-shops-we-scanned-was-hijacked) estimated that about 12,200 of 2.38 million stores across multiple platforms in an October Common Crawl sample carried malicious code or content. For Shopify stores in that sample, its estimate was 0.75–2.2 per 1,000. These estimates cover different types of attacks, not just checkout hijacks; they do not describe every online store or establish a connection to the apps in this tracker.
