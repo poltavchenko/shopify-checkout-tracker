@@ -40,7 +40,7 @@ Two notes for this test:
 - [ ] **Online Store > Themes > ... > Edit code**: search all files for `__ctf_`, `checkout-guard`, `.top/check-out`, the domains from the [tracker]({{ '/tracker/' | relative_url }}), and `onerror=`. ([Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
 - [ ] Look for theme file edits made by an app that you do not recognize. Shopify keeps older versions of each file, so you can revert them with your developer. ([Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq))
 - [ ] Remember: code that an app fetches from its own server when the page loads is **not visible** in theme files. That is why steps 1 and 2 matter more than a code search. ([Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
-- [ ] **Online Store > Navigation**: check menu item labels for HTML or code. One merchant reported code inside menu labels (unverified). ([r/shopifyDev](https://www.reddit.com/r/shopifyDev/comments/1xau8w6/))
+- [ ] **Online Store > Navigation**: check menu item labels for HTML or code. Sansec reported malicious code in one store’s menu; how access was obtained is unconfirmed. ([Sansec](https://sansec.io/research/shopify-app-supply-chain-attack))
 
 ## 4. Custom pixels and app pixels (2 min)
 

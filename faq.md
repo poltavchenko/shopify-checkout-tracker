@@ -13,14 +13,14 @@ alt: /uk/faq/
 <details markdown="1">
 <summary>What happened?</summary>
 
-Since about 10 Oct 2026, on some Shopify stores, shoppers who clicked Checkout were sent to a fake payment page on another domain. Card details were collected there, then the shopper was sent back to the real checkout. Sources: [Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/).
+In October 2026, on some Shopify stores, shoppers who clicked Checkout were sent to a fake payment page on another domain. Card details were collected there, then the shopper was sent back to the real checkout. Sources: [Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/).
 
 </details>
 
 <details markdown="1">
 <summary>Was Shopify hacked?</summary>
 
-The reported attacks ran on storefronts through third-party apps and redirected shoppers before the genuine Shopify checkout. That does not establish whether Shopify's infrastructure was compromised. We have not independently assessed it or found a separate merchant statement from Shopify about this checkout incident. Sources: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Swym](https://www.getswym.com/resources/security-response).
+The reported attacks ran on storefronts through third-party apps and redirected shoppers before the genuine Shopify checkout. That does not establish whether Shopify's infrastructure was compromised. We have not independently assessed it; as of 21 Oct 2026 we had not found a separate merchant statement from Shopify about this checkout incident. Sources: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Swym](https://www.getswym.com/resources/security-response).
 
 </details>
 
@@ -71,7 +71,7 @@ Check with the vendor first. Swym's 20 Oct FAQ says pausing access does not dele
 <details markdown="1">
 <summary>What has Shopify done?</summary>
 
-On 15 Oct it released a security check for app developers. On 20 Oct it published "Securing your app, together" for developers, marked Action required. It also says Shopify will tighten the boundaries for storefront app code and raise App Store security requirements. Sources: [15 Oct](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check), [20 Oct](https://shopify.dev/changelog/blog/securing-your-app-together).
+On 15 Oct it released a security check for app developers. On 20 Oct it published "Securing your app, together" for developers, marked Action required. It also says Shopify will tighten the boundaries for storefront app code and raise App Store security requirements. On 14 Nov Shopify said public apps calling the Admin API must enable an IP allowlist by 20 Nov at 11:59 PM ET; otherwise new installs are blocked and the app is delisted, while existing installs keep working. This rule alone does not establish an incident. Sources: [15 Oct](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check), [20 Oct](https://shopify.dev/changelog/blog/securing-your-app-together), [14 Nov](https://shopify.dev/changelog/blog/app-security-updates-thank-you-plus-what-s-required-next).
 
 </details>
 <details markdown="1">

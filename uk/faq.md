@@ -13,14 +13,14 @@ alt: /faq/
 <details markdown="1">
 <summary>Що сталося?</summary>
 
-Приблизно з 10.10.2026 у частині магазинів Shopify покупця після кліку на Checkout перенаправляли на підроблену сторінку оплати на іншому домені. Там збирали дані картки, а потім повертали покупця на справжній checkout. Джерела: [Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/).
+У жовтні 2026 року в частині магазинів Shopify покупця після кліку на Checkout перенаправляли на підроблену сторінку оплати на іншому домені. Там збирали дані картки, а потім повертали покупця на справжній checkout. Джерела: [Roman Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/).
 
 </details>
 
 <details markdown="1">
 <summary>Shopify зламали?</summary>
 
-Описані атаки працювали на вітринах через сторонні застосунки і перенаправляли покупців на сторонні сторінки замість справжнього checkout Shopify. Це не встановлює, чи була скомпрометована інфраструктура Shopify. Ми не перевіряли її незалежно і не знайшли окремої заяви Shopify для мерчантів про цей інцидент підміни checkout. Джерела: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Swym](https://www.getswym.com/resources/security-response).
+Описані атаки працювали на вітринах через сторонні застосунки і перенаправляли покупців на сторонні сторінки замість справжнього checkout Shopify. Це не встановлює, чи була скомпрометована інфраструктура Shopify. Ми не перевіряли її незалежно; станом на 21.10.2026 не знайшли окремої заяви Shopify для мерчантів про цей інцидент підміни checkout. Джерела: [Zipp](https://romanzipp.com/blog/shopify-hit-with-phishing-attack), [Swym](https://www.getswym.com/resources/security-response).
 
 </details>
 
@@ -71,7 +71,7 @@ alt: /faq/
 <details markdown="1">
 <summary>Що зробив Shopify?</summary>
 
-15.10 випустив перевірку безпеки для розробників застосунків, 20.10 опублікував для них "Securing your app, together" з позначкою Action required. Там також сказано, що Shopify звузить межі коду застосунків на вітрині і підніме вимоги App Store. Джерела: [15.10](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check), [20.10](https://shopify.dev/changelog/blog/securing-your-app-together).
+15.10 випустив перевірку безпеки для розробників застосунків, 20.10 опублікував для них "Securing your app, together" з позначкою Action required. Там також сказано, що Shopify звузить межі коду застосунків на вітрині і підніме вимоги App Store. 14.11 Shopify повідомив, що публічні застосунки з Admin API мають увімкнути список дозволених IP до 20.11 о 23:59 ET; інакше нові встановлення заблокують, а застосунок знімуть з App Store, хоча наявні встановлення працюватимуть. Саме правило не доводить інцидент. Джерела: [15.10](https://shopify.dev/changelog/blog/build-more-secure-apps-with-shopify-s-ai-toolkit-security-check), [20.10](https://shopify.dev/changelog/blog/securing-your-app-together), [14.11](https://shopify.dev/changelog/blog/app-security-updates-thank-you-plus-what-s-required-next).
 
 </details>
 <details markdown="1">

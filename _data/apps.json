@@ -353,6 +353,12 @@
      "en": "Vendor status at 15:53 UTC: storefront search, filters and collections have worked normally since 18 October, 18:48 UTC. This is an operational update, not a security finding.",
      "uk": "Статус вендора о 15:53 UTC: пошук, фільтри й колекції працюють нормально з 18 жовтня, 18:48 UTC. Це операційне оновлення, а не висновок про безпеку.",
      "source": "https://status.boostcommerce.net"
+    },
+    {
+     "date": "2026-11-09",
+     "en": "HeyApps reports the app listed again on 9 Nov. Shopify offers installation (checked 18 Nov). Relisting does not establish safety or incident attribution.",
+     "uk": "HeyApps повідомляє про повернення 09.11. Shopify пропонує встановлення (перевірено 18.11). Повернення не доводить безпеку або причетність до інциденту.",
+     "source": "https://heyapps.dev/apps/product-filter-search"
     }
    ],
    "id": "boost"
@@ -487,6 +493,12 @@
      "source": "https://heyapps.dev/apps/delisted?sort=reviews"
     },
     {
+     "date": "2026-10-20",
+     "en": "Sansec reports malicious code in a recorded store menu item linking to 17TRACK. The researchers say use of the app's access is unconfirmed.",
+     "uk": "Sansec повідомляє про шкідливий код у записаному пункті меню магазину з посиланням на 17TRACK. Дослідники не підтвердили використання доступу застосунку.",
+     "source": "https://sansec.io/research/shopify-app-supply-chain-attack"
+    },
+    {
      "date": "2026-10-21",
      "en": "Roman Zipp lists it as \"unconfirmed but de-listed\". Urban Alcove's comments say it \"maybe compromised\" and name cartassure[.]top. The domain has two public mentions, including the Reddit report; whether they concern different stores is unverified.",
      "uk": "Roman Zipp позначає його як \"unconfirmed but de-listed\". Urban Alcove у коментарях пише \"maybe compromised\" і називає cartassure[.]top. Домен має дві публічні згадки, включно зі звітом у Reddit; чи це різні магазини, не перевірено.",
@@ -524,6 +536,12 @@
     "verified": true
    },
    "timeline": [
+    {
+     "date": "2026-10-17",
+     "en": "Sansec reports malicious scripts in this app's settings on 44 observed stores. We have not independently verified the findings or found a public vendor statement.",
+     "uk": "Sansec повідомляє про шкідливі скрипти в налаштуваннях застосунку на 44 помічених магазинах. Ми незалежно не перевіряли висновки і не знайшли публічної заяви вендора.",
+     "source": "https://sansec.io/research/shopify-app-supply-chain-attack"
+    },
     {
      "date": "2026-10-18",
      "en": "Delisted from the App Store (per HeyApps).",
@@ -792,6 +810,18 @@
      "date": "2026-11-09",
      "en": "Shopify App Store still says the app is not currently available (checked 9 Nov). It does not give a reason; this does not establish a compromise.",
      "uk": "Shopify App Store досі повідомляє, що застосунок недоступний (перевірено 09.11). Причину не вказано; це не доводить зламу.",
+     "source": "https://apps.shopify.com/triplewhale-1"
+    },
+    {
+     "date": "2026-11-12",
+     "en": "Geek Native reports that Sneak Energy notified customers of access to contact details and total spend in Triple Whale systems between 30 Oct and 1 Nov; the merchant did not know if data was copied. This is a report of a customer notice, not a public vendor statement.",
+     "uk": "Geek Native повідомляє, що Sneak Energy сповістив покупців про доступ до контактних даних і загальної суми витрат у системах Triple Whale з 30.10 до 01.11; мерчант не знав, чи скопіювали дані. Це переказ повідомлення покупцям, а не публічна заява вендора.",
+     "source": "https://www.geeknative.com/244332/dungeons-dragons-partner-sneak-energy-reports-customer-data-breach-starting-on-launch-day/"
+    },
+    {
+     "date": "2026-11-18",
+     "en": "Shopify App Store says the app is not currently available (checked 18 Nov). It does not give a reason; availability does not establish a compromise.",
+     "uk": "Shopify App Store показує, що застосунок недоступний (перевірено 18.11). Причину не вказано; доступність не доводить зламу.",
      "source": "https://apps.shopify.com/triplewhale-1"
     }
    ],

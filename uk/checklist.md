@@ -40,7 +40,7 @@ alt: /checklist/
 - [ ] **Online Store > Themes > ... > Edit code**: у пошуку по файлах шукайте `__ctf_`, `checkout-guard`, `.top/check-out`, назви доменів з [трекера]({{ '/uk/tracker/' | relative_url }}) і `onerror=`. ([Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq), [Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
 - [ ] Подивіться, чи є правки файлів теми, зроблені застосунком, які ви не впізнаєте. Shopify зберігає старі версії кожного файлу, тож їх можна повернути разом з розробником. ([Swym FAQ](https://www.getswym.com/resources/wishlist-plus-incident-faq))
 - [ ] Пам'ятайте: код, який застосунок отримує зі свого сервера під час відкриття сторінки, у файлах теми **не видно**. Тому пункти 1 і 2 важливіші за пошук у коді. ([Very Bad Panda](https://verybadpanda.dev/blog/fake-register-shopify-checkout-hijack/))
-- [ ] **Online Store > Navigation**: перегляньте назви пунктів меню на предмет HTML чи коду. Один мерчант повідомив про код у назвах пунктів меню (не перевірено). ([r/shopifyDev](https://www.reddit.com/r/shopifyDev/comments/1xau8w6/))
+- [ ] **Online Store > Navigation**: перегляньте назви пунктів меню на предмет HTML чи коду. Sansec повідомляє про шкідливий код у меню одного магазину; спосіб отримання доступу не підтверджено. ([Sansec](https://sansec.io/research/shopify-app-supply-chain-attack))
 
 ## 4. Custom pixels і пікселі застосунків (2 хв)
 
